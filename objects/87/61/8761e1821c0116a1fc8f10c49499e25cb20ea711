@@ -1,0 +1,211 @@
+onEvent('recipes', event => {
+
+  // Copper Nugget
+  event.replaceOutput({}, 'oreberriesreplanted:copper_nugget', 'immersiveengineering:nugget_copper')
+  event.replaceInput({}, 'oreberriesreplanted:copper_nugget', 'immersiveengineering:nugget_copper')
+  event.replaceOutput({}, 'oreberriesreplanted:copper_nugget', 'immersiveengineering:nugget_copper')
+  event.replaceInput({}, 'oreberriesreplanted:copper_nugget', 'immersiveengineering:nugget_copper')
+  event.replaceOutput({}, 'cyclic:copper_nugget', 'immersiveengineering:nugget_copper')
+  event.replaceInput({}, 'cyclic:copper_nugget', 'immersiveengineering:nugget_copper')
+  event.replaceOutput({}, 'everythingcopper:copper_nugget', 'immersiveengineering:nugget_copper')
+  event.replaceInput({}, 'everythingcopper:copper_nugget', 'immersiveengineering:nugget_copper')
+  event.replaceOutput({}, 'tconstruct:copper_nugget', 'immersiveengineering:nugget_copper')
+  event.replaceInput({}, 'tconstruct:copper_nugget', 'immersiveengineering:nugget_copper')
+
+
+  // Mekanism Lead
+  event.replaceOutput({}, 'mekanism:nugget_lead', 'immersiveengineering:nugget_lead')
+  event.replaceInput({}, 'mekanism:nugget_lead', 'immersiveengineering:nugget_lead')
+  event.replaceOutput({}, 'mekanism:ingot_lead', 'immersiveengineering:ingot_lead')
+  event.replaceInput({}, 'mekanism:ingot_lead', 'immersiveengineering:ingot_lead')
+  event.replaceOutput({}, 'mekanism:block_lead', 'immersiveengineering:storage_lead')
+  event.replaceInput({}, 'mekanism:block_lead', 'immersiveengineering:storage_lead')
+  event.replaceOutput({}, 'mekanism:raw_lead', 'immersiveengineering:raw_lead')
+  event.replaceInput({}, 'mekanism:raw_lead', 'immersiveengineering:raw_lead')
+  event.replaceOutput({}, 'mekanism:lead_ore', 'immersiveengineering:lead_ore')
+  event.replaceInput({}, 'mekanism:lead_ore', 'immersiveengineering:lead_ore')
+  event.replaceOutput({}, 'mekanism:deepslate_lead_ore', 'immersiveengineering:deepslate_ore_lead')
+  event.replaceInput({}, 'mekanism:deepslate_lead_ore', 'immersiveengineering:deepslate_ore_lead')
+  event.replaceOutput({}, 'mekanism:block_raw_lead', 'immersiveengineering:raw_block_lead')
+  event.replaceInput({}, 'mekanism:block_raw_lead', 'immersiveengineering:raw_block_lead')
+
+  // Mekanism Uranium
+  event.replaceOutput({}, 'mekanism:nugget_uranium', 'immersiveengineering:nugget_uranium')
+  event.replaceInput({}, 'mekanism:nugget_uranium', 'immersiveengineering:nugget_uranium')
+  event.replaceOutput({}, 'mekanism:ingot_uranium', 'immersiveengineering:ingot_uranium')
+  event.replaceInput({}, 'mekanism:ingot_uranium', 'immersiveengineering:ingot_uranium')
+  event.replaceOutput({}, 'mekanism:block_uranium', 'immersiveengineering:storage_uranium')
+  event.replaceInput({}, 'mekanism:block_uranium', 'immersiveengineering:storage_uranium')
+  event.replaceOutput({}, 'mekanism:raw_uranium', 'immersiveengineering:raw_uranium')
+  event.replaceInput({}, 'mekanism:raw_uranium', 'immersiveengineering:raw_uranium')
+  event.replaceOutput({}, 'mekanism:uranium_ore', 'immersiveengineering:uranium_ore')
+  event.replaceInput({}, 'mekanism:uranium_ore', 'immersiveengineering:uranium_ore')
+  event.replaceOutput({}, 'mekanism:deepslate_uranium_ore', 'immersiveengineering:deepslate_ore_uranium')
+  event.replaceInput({}, 'mekanism:deepslate_uranium_ore', 'immersiveengineering:deepslate_ore_uranium')
+  event.replaceOutput({}, 'mekanism:block_raw_uranium', 'immersiveengineering:raw_block_uranium')
+  event.replaceInput({}, 'mekanism:block_raw_uranium', 'immersiveengineering:raw_block_uranium')
+
+  // Mekanism Steel
+  event.replaceInput({}, 'mekanism:ingot_steel', 'immersiveengineering:ingot_steel')
+  event.replaceOutput({}, 'mekanism:ingot_steel', 'immersiveengineering:ingot_steel')
+  event.replaceInput({}, 'mekanism:nugget_steel', 'immersiveengineering:nugget_steel')
+  event.replaceOutput({}, 'mekanism:nugget_steel', 'immersiveengineering:nugget_steel')
+  event.replaceInput({}, 'mekanism:dust_steel', 'immersiveengineering:dust_steel')
+  event.replaceOutput({}, 'mekanism:dust_steel', 'immersiveengineering:dust_steel')
+  event.replaceInput({}, 'mekanism:block_steel', 'immersiveengineering:storage_steel')
+  event.replaceOutput({}, 'mekanism:block_steel', 'immersiveengineering:storage_steel')
+
+  // Mekanism Gold & Iron
+  event.replaceOutput({}, 'mekanism:dust_gold', 'immersiveengineering:dust_gold')
+  event.replaceOutput({}, 'mekanism:dust_iron', 'immersiveengineering:dust_iron')
+  event.replaceInput({}, 'mekanism:dust_gold', 'immersiveengineering:dust_gold')
+  event.replaceInput({}, 'mekanism:dust_iron', 'immersiveengineering:dust_iron')
+
+  // Uranium
+  event.replaceOutput({}, 'biggerreactors:uranium_ingot', 'immersiveengineering:ingot_uranium')
+  event.replaceOutput({}, 'biggerreactors:uranium_dust', 'immersiveengineering:dust_uranium')
+  event.replaceOutput({}, 'biggerreactors:uranium_block', 'immersiveengineering:storage_uranium')
+
+  event.replaceInput({}, 'biggerreactors:uranium_ingot', 'immersiveengineering:ingot_uranium')
+  event.replaceInput({}, 'biggerreactors:uranium_dust', 'immersiveengineering:dust_uranium')
+  event.replaceInput({}, 'biggerreactors:uranium_block', 'immersiveengineering:storage_uranium')
+
+  // Iron Rods
+  event.replaceOutput({}, 'silentgear:iron_rod', 'immersiveengineering:stick_iron')
+  event.replaceInput({}, 'silentgear:iron_rod', 'immersiveengineering:stick_iron')
+
+  // Gold Bars
+  event.replaceInput({}, 'cyclic:gold_bars', 'quark:gold_bars')
+
+  // Storage Racks Fix
+  event.replaceInput({id: "storageracks:jungle_emerald_rack"}, 'minecraft:diamond', 'minecraft:emerald')
+
+  // Obsidian Pressure Plate
+  event.replaceInput({}, 'cyclic:obsidian_pressure_plate', 'quark:obsidian_pressure_plate')
+
+  // Silent Gems - Silver
+  event.replaceOutput({}, 'silentgems:silver_ingot', 'immersiveengineering:ingot_silver')
+  event.replaceOutput({}, 'silentgems:silver_nugget', 'immersiveengineering:nugget_silver')
+  event.replaceOutput({}, 'silentgems:silver_block', 'immersiveengineering:storage_silver')
+  event.replaceOutput({}, 'silentgems:raw_silver', 'immersiveengineering:raw_silver')
+
+  event.replaceInput({}, 'silentgems:silver_ingot', 'immersiveengineering:ingot_silver')
+  event.replaceInput({}, 'silentgems:silver_nugget', 'immersiveengineering:nugget_silver')
+  event.replaceInput({}, 'silentgems:silver_block', 'immersiveengineering:storage_silver')
+  event.replaceInput({}, 'silentgems:raw_silver', 'immersiveengineering:raw_silver')
+
+  // Occultism - Silver
+  event.replaceOutput({}, 'occultism:silver_block', 'immersiveengineering:storage_silver')
+  event.replaceOutput({}, 'occultism:silver_ore', 'immersiveengineering:ore_silver')
+  event.replaceOutput({}, 'occultism:deepslate_silver_ore', 'immersiveengineering:ore_silver')
+  event.replaceOutput({}, 'occultism:silver_nugget', 'immersiveengineering:nugget_silver')
+  event.replaceOutput({}, 'occultism:silver_ingot', 'immersiveengineering:ingot_silver')
+  event.replaceOutput({}, 'occultism:raw_silver', 'immersiveengineering:raw_silver')
+
+  event.replaceInput({}, 'occultism:silver_block', 'immersiveengineering:storage_silver')
+  event.replaceInput({}, 'occultism:silver_ore', 'immersiveengineering:ore_silver')
+  event.replaceInput({}, 'occultism:deepslate_silver_ore', 'immersiveengineering:ore_silver')
+  event.replaceInput({}, 'occultism:silver_nugget', 'immersiveengineering:nugget_silver')
+  event.replaceInput({}, 'occultism:silver_ingot', 'immersiveengineering:ingot_silver')
+  event.replaceInput({}, 'occultism:raw_silver', 'immersiveengineering:raw_silver')
+
+  // Occultism - Dusts
+  event.replaceOutput({}, 'occultism:gold_dust', 'immersiveengineering:dust_gold')
+  event.replaceOutput({}, 'occultism:iron_dust', 'immersiveengineering:dust_iron')
+  event.replaceOutput({}, 'occultism:copper_dust', 'immersiveengineering:dust_copper')
+  event.replaceOutput({}, 'occultism:silver_dust', 'immersiveengineering:dust_silver')
+
+  event.replaceInput({}, 'occultism:gold_dust', 'immersiveengineering:dust_gold')
+  event.replaceInput({}, 'occultism:iron_dust', 'immersiveengineering:dust_iron')
+  event.replaceInput({}, 'occultism:copper_dust', 'immersiveengineering:dust_copper')
+  event.replaceInput({}, 'occultism:silver_dust', 'immersiveengineering:dust_silver')
+
+  // Beyond Earth - Plates
+  event.replaceInput({}, 'beyond_earth:iron_plate', 'immersiveengineering:plate_iron')
+  event.replaceOutput({}, 'beyond_earth:iron_plate', 'immersiveengineering:plate_iron')
+
+  // Create Nuggets
+  event.replaceOutput({}, 'create:copper_nugget', 'immersiveengineering:nugget_copper')
+  event.replaceInput({}, 'create:copper_nugget', 'immersiveengineering:nugget_copper')
+
+  // Create - Plates
+  event.replaceInput({}, 'create:iron_sheet', 'immersiveengineering:plate_iron')
+  event.replaceInput({}, 'create:copper_sheet', 'immersiveengineering:plate_copper')
+  event.replaceInput({}, 'create:gold_sheet', 'immersiveengineering:plate_gold')
+
+  event.replaceOutput({}, 'create:iron_sheet', 'immersiveengineering:plate_iron')
+  event.replaceOutput({}, 'create:copper_sheet', 'immersiveengineering:plate_copper')
+  event.replaceOutput({}, 'create:golden_sheet', 'immersiveengineering:plate_gold')
+
+  // Croptopia - Tomato to FD
+  event.replaceOutput({}, 'croptopia:tomato', 'farmersdelight:tomato')
+  event.replaceInput({}, 'croptopia:tomato', 'farmersdelight:tomato')
+
+  // Croptopia - Onion to FD
+  event.replaceOutput({}, 'croptopia:onion', 'farmersdelight:onion')
+  event.replaceInput({}, 'croptopia:onion', 'farmersdelight:onion')
+
+  event.replaceInput({}, '#forge:fruits', '#diet:fruits')
+
+  event.replaceOutput({}, 'moremekanismprocessing:silver_ingot', 'immersiveengineering:ingot_silver')
+  event.replaceInput({}, 'moremekanismprocessing:silver_ingot', 'immersiveengineering:ingot_silver')
+  event.replaceOutput({}, 'moremekanismprocessing:silver_nugget', 'immersiveengineering:nugget_silver')
+  event.replaceInput({}, 'moremekanismprocessing:silver_nugget', 'immersiveengineering:nugget_silver')
+
+  event.replaceInput({}, 'refinedstorage:silicon', '#forge:silicon')
+
+  event.replaceOutput({}, 'crossroads:ruby_gem', 'silentgems:ruby')
+
+  event.replaceOutput({}, 'crossroads:dust_gold', 'immersiveengineering:dust_gold')
+  event.replaceOutput({}, 'crossroads:dust_iron', 'immersiveengineering:dust_iron')
+  event.replaceOutput({}, 'crossroads:dust_copper', 'immersiveengineering:dust_copper')
+
+  event.replaceInput({}, 'thermal:sulfur_dust', 'mekanism:dust_sulfur')
+  event.replaceOutput({}, 'thermal:sulfur_dust', 'mekanism:dust_sulfur')
+
+  event.replaceInput({}, 'beyond_earth:compressed_steel', 'immersiveengineering:plate_steel')
+
+  event.replaceInput({}, 'ftbic:copper_rod', 'createaddition:copper_rod')
+  event.replaceInput({}, 'ftbic:gold_rod', 'createaddition:gold_rod')
+  event.replaceInput({}, 'ftbic:iron_rod', 'immersiveengineering:stick_iron')
+  event.replaceInput({}, 'ftbic:aluminum_rod', 'immersiveengineering:stick_aluminum')
+
+  event.replaceOutput({}, 'ftbic:copper_rod', 'createaddition:copper_rod')
+  event.replaceOutput({}, 'ftbic:gold_rod', 'createaddition:gold_rod')
+  event.replaceOutput({}, 'ftbic:iron_rod', 'immersiveengineering:stick_iron')
+  event.replaceOutput({}, 'ftbic:aluminum_rod', 'immersiveengineering:stick_aluminum')
+
+  event.replaceOutput({}, 'ftbic:copper_gear', 'thermal:copper_gear')
+  event.replaceOutput({}, 'ftbic:bronze_gear', 'thermal:bronze_gear')
+  event.replaceOutput({}, 'ftbic:enderium_gear', 'thermal:enderium_gear')
+  event.replaceOutput({}, 'ftbic:lead_gear', 'thermal:lead_gear')
+  event.replaceOutput({}, 'ftbic:tin_gear', 'thermal:tin_gear')
+  event.replaceOutput({}, 'ftbic:gold_gear', 'thermal:gold_gear')
+  event.replaceOutput({}, 'ftbic:iron_gear', 'thermal:iron_gear')
+
+  event.replaceOutput({}, 'ftbic:copper_plate', 'immersiveengineering:plate_copper')
+  event.replaceOutput({}, 'ftbic:bronze_plate', 'thermal:bronze_plate')
+  event.replaceOutput({}, 'ftbic:enderium_plate', 'thermal:enderium_plate')
+  event.replaceOutput({}, 'ftbic:lead_plate', 'immersiveengineering:plate_lead')
+  event.replaceOutput({}, 'ftbic:uranium_plate', 'immersiveengineering:plate_uranium')
+  event.replaceOutput({}, 'ftbic:aluminum_plate', 'immersiveengineering:plate_aluminum')
+  event.replaceOutput({}, 'ftbic:tin_plate', 'thermal:tin_plate')
+  event.replaceOutput({}, 'ftbic:iron_plate', 'immersiveengineering:plate_iron')
+  event.replaceOutput({}, 'ftbic:gold_plate', 'immersiveengineering:plate_gold')
+
+  event.replaceOutput({}, 'ftbic:copper_dust', 'immersiveengineering:dust_copper')
+  event.replaceOutput({}, 'ftbic:bronze_dust', 'mekanism:dust_bronze')
+  event.replaceOutput({}, 'ftbic:enderium_dust', 'thermal:enderium_dust')
+  event.replaceOutput({}, 'ftbic:lead_dust', 'immersiveengineering:dust_lead')
+  event.replaceOutput({}, 'ftbic:uranium_dust', 'immersiveengineering:dust_uranium')
+  event.replaceOutput({}, 'ftbic:aluminum_dust', 'immersiveengineering:dust_aluminum')
+  event.replaceOutput({}, 'ftbic:tin_dust', 'mekanism:dust_tin')
+
+  event.replaceOutput({}, 'ftbic:iron_dust', 'immersiveengineering:dust_iron')
+  event.replaceOutput({}, 'ftbic:gold_dust', 'immersiveengineering:dust_gold')
+  event.replaceOutput({}, 'ftbic:diamond_dust', 'mekanism:dust_diamond')
+  event.replaceOutput({}, 'ftbic:obsidian_dust', 'mekanism:dust_obsidian')
+  event.replaceOutput({}, 'ftbic:coal_dust', 'mekanism:dust_coal')
+  event.replaceOutput({}, 'ftbic:charcoal_dust', 'mekanism:dust_charcoal')
+
+});

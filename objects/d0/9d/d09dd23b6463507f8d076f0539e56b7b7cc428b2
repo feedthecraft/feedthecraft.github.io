@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal_extra:dragon_bronze_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal_extra:dragon_bronze_plate"
+    }
+  ]
+}

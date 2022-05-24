@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "key": "electrum",
+      "value": true,
+      "type": "immersiveposts:cfg"
+    }
+  ],
+  "pattern": [
+    "isi",
+    "isi"
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/electrum"
+    },
+    "s": {
+      "tag": "forge:rods/electrum"
+    }
+  },
+  "result": {
+    "item": "immersiveposts:fence_electrum",
+    "count": 1
+  }
+}

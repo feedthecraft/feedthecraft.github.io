@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "forge:ores/osmium"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "mekanism:dust_osmium",
+      "count": 2
+    }
+  ]
+}

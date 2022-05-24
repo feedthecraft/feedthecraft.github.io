@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "item": "thermal_extra:nebulium_plate"
+  },
+  "input": {
+    "item": "thermal_extra:nebulium_ingot"
+  },
+  "energy": 2400
+}

@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "forge:raw_materials/desh"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "tnp:desh_dust",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+	id: "0000000000000985"
+	group: "74CE4A09AC5F3CF1"
+	order_index: 16
+	filename: "reliquary"
+	title: "Reliquary"
+	icon: {
+		id: "reliquary:mercy_cross"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -4.5d
+		width: 0.6d
+		height: 0.6d
+		rotation: 0.0d
+		image: "kubejs:textures/other/quest-tnp.png"
+		hover: ["Questline by: TNP Team, Gbergz."]
+		click: "https://www.curseforge.com/members/nexusproject/projects"
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Cross of Mercy is a weapon that deals extra damage to undead mobs."
+			id: "0000000000000988"
+			tasks: [{
+				id: "0000000000000989"
+				type: "item"
+				item: {
+					id: "reliquary:mercy_cross"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000009AE"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "Death protection vial - shatters when the player would die, restores a bit of health and buffs the player with some helpful effects."
+			id: "000000000000098A"
+			tasks: [{
+				id: "000000000000098B"
+				type: "item"
+				item: "reliquary:angelheart_vial"
+			}]
+			rewards: [{
+				id: "00000000000009AF"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Angelic Feather protects against falling damage. On a fall that would hurt the player it instead drains players hunger."
+			id: "000000000000098C"
+			tasks: [{
+				id: "000000000000098D"
+				type: "item"
+				item: "reliquary:angelic_feather"
+			}]
+			rewards: [{
+				id: "00000000000009B0"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			subtitle: "Coin of Fortune when turned on teleports items and experience within range to player. If right click is held with the coin in hand the range in which items and experience are teleported is higher"
+			id: "000000000000098E"
+			tasks: [{
+				id: "000000000000098F"
+				type: "item"
+				item: "reliquary:fortune_coin"
+			}]
+			rewards: [{
+				id: "00000000000009B1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			subtitle: "Ender Staff is a teleportation tool. In ender pearl mode it allows throwing ender pearls in the similar way that you would do with just ender pearls in hand."
+			description: [
+				"In ender eye mode the ender pearls thrown would go further and faster. In both modes when the ender pearl hits it teleports player in much safer way than vanilla ender pearl."
+				" "
+				"In wraith node mode ender staff teleports player to the wraith node that it is set to (by right clicking with the ender staff on the wraith node)."
+			]
+			id: "0000000000000990"
+			tasks: [{
+				id: "0000000000000991"
+				type: "item"
+				item: {
+					id: "reliquary:ender_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:ender_pearl"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000009B2"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			subtitle: "Glacial Staff is a ranged weapon that shoots snowballs out of its charge."
+			description: [
+				"When turned on it drains these from player's inventory and it also freezes lava (into obsidian) and water (into packed ice) within player's reach so it allows walking on lava and water."
+				" "
+				"These frozen blocks will quickly melt back once outside of the range."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"39CDF2D6112F65EE"
+				"66F5844A83B1EA88"
+			]
+			id: "0000000000000992"
+			tasks: [{
+				id: "0000000000000993"
+				type: "item"
+				item: "reliquary:glacial_staff"
+			}]
+			rewards: [{
+				id: "00000000000009B3"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "Infernal Chalice holds lava and based on mode it is in you can use it to place or remove lava in the world."
+			dependencies: ["0000000000000998"]
+			size: 0.85d
+			id: "0000000000000994"
+			tasks: [{
+				id: "0000000000000995"
+				type: "item"
+				item: "reliquary:infernal_chalice"
+			}]
+			rewards: [{
+				id: "00000000000009B4"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			subtitle: "Lantern of Paranoia when on searches for dark spots around the player and places torches in those either from player's inventory or from Sojourner's Staff."
+			id: "0000000000000996"
+			tasks: [{
+				id: "0000000000000997"
+				type: "item"
+				item: "reliquary:lantern_of_paranoia"
+			}]
+			rewards: [{
+				id: "00000000000009B5"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Emperor's Chalice is both infinite water bucket and empty bucket based on what mode it is in."
+			description: [
+				"So you can use it to place or remove water in the world, but it can as well be used with Apothecary Cauldron, Botania's Petal Apothecary and Thaumcraft's Crucible."
+				" "
+				"You can also use it to refill your hunger in exchange for some health."
+			]
+			id: "0000000000000998"
+			tasks: [{
+				id: "0000000000000999"
+				type: "item"
+				item: "reliquary:emperor_chalice"
+			}]
+			rewards: [{
+				id: "00000000000009B6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "Phoenix Down is an upgraded version of Angelic Feather. It also prevents falling damage in exchange for player's hunger, but it also can prevent death."
+			description: ["In case the player would die otherwise it heals the player and buffs them with some helpful effects."]
+			dependencies: ["000000000000098C"]
+			size: 0.85d
+			id: "000000000000099A"
+			tasks: [{
+				id: "000000000000099B"
+				type: "item"
+				item: "reliquary:phoenix_down"
+			}]
+			rewards: [{
+				id: "00000000000009B7"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "Hero's Medallion stores experience. When turned on it drains it from player. When turned off player can take one level out of it per right click."
+			dependencies: ["000000000000098E"]
+			size: 0.85d
+			id: "000000000000099C"
+			tasks: [{
+				id: "000000000000099D"
+				type: "item"
+				item: "reliquary:hero_medallion"
+			}]
+			rewards: [{
+				id: "00000000000009B8"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			subtitle: "One of the best food item in the game. Fills hunger and saturation fully."
+			id: "000000000000099E"
+			tasks: [{
+				id: "000000000000099F"
+				type: "item"
+				item: "reliquary:glowing_bread"
+			}]
+			rewards: [{
+				id: "00000000000009B9"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			subtitle: "Sojourner's Staff holds many torches that you can place by right clicking with it. It can also place torchers at distance for a higher torch cost."
+			id: "00000000000009A0"
+			tasks: [{
+				id: "00000000000009A1"
+				type: "item"
+				item: "reliquary:sojourner_staff"
+			}]
+			rewards: [{
+				id: "00000000000009BA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			subtitle: "Rending Gale in flight mode allows player to fly by pointing and right clicking. It can also push or pull mobs and if it rains there's a Bolt mode available that allows spawning lightnings."
+			id: "00000000000009A2"
+			tasks: [{
+				id: "00000000000009A3"
+				type: "item"
+				item: {
+					id: "reliquary:rending_gale"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:feather"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000009BB"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			subtitle: "When held it puts out fires around the player, it can also reflect ghast fireballs shot at the player."
+			id: "00000000000009A4"
+			tasks: [{
+				id: "00000000000009A5"
+				type: "item"
+				item: "reliquary:salamander_eye"
+			}]
+			rewards: [{
+				id: "00000000000009BC"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "Pyromancer's Staff has mutliple modes all related to fire."
+			description: [
+				"In Blaze powder and Fire charge mode it shoots blaze and ghast sized fireballs. In Erupt it burns anything in range in front of the player."
+				" "
+				"And Flint and Steel mode works exactly as the vanilla flint and steel. It also destroys any fireballs shot at the player and puts out fires when turned off."
+			]
+			id: "00000000000009A6"
+			tasks: [{
+				id: "00000000000009A7"
+				type: "item"
+				item: "reliquary:pyromancer_staff"
+			}]
+			rewards: [{
+				id: "00000000000009BD"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			subtitle: "Shoots slime balls at enemies."
+			id: "00000000000009A8"
+			tasks: [{
+				id: "00000000000009A9"
+				type: "item"
+				item: {
+					id: "reliquary:serpent_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000009BE"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			subtitle: "Makes mobs ignore player during night even if they are hit by the player."
+			id: "00000000000009AA"
+			tasks: [{
+				id: "00000000000009AB"
+				type: "item"
+				item: "reliquary:twilight_cloak"
+			}]
+			rewards: [{
+				id: "00000000000009BF"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			subtitle: "Hoe Harvest rod is a farmers helper tool."
+			description: [
+				"It can hoe the land, keep seeds/plantables in its inventory and plant these and keep bonemeal in its inventory and bonemeal with it."
+				""
+				"All of these can either be done on a block player is pointing at by simple right click or in an area of effect by holding right click. It also breaks all crops in its range when player breaks one so it helps with speeding up harvesting as well."
+			]
+			id: "00000000000009AC"
+			tasks: [{
+				id: "00000000000009AD"
+				type: "item"
+				item: {
+					id: "reliquary:harvest_rod"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								filter: {
+									id: "minecraft:bone_meal"
+									Count: 1b
+								}
+								amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000009C0"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			subtitle: "If in player's inventory it prevents them from getting withered."
+			size: 0.7d
+			id: "00000000000009C1"
+			tasks: [{
+				id: "00000000000009C3"
+				type: "item"
+				item: "reliquary:witherless_rose"
+			}]
+			rewards: [{
+				id: "00000000000009CB"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Prevents player from being hurt in fire in exchange for hunger."
+			size: 0.7d
+			id: "00000000000009C4"
+			tasks: [{
+				id: "00000000000009C5"
+				type: "item"
+				item: "reliquary:infernal_claws"
+			}]
+			rewards: [{
+				id: "00000000000009CC"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.1199999999999999d
+			subtitle: "Powerful thrown explosive that can kill most of the mobs in one hit."
+			size: 0.7d
+			id: "00000000000009C8"
+			tasks: [{
+				id: "00000000000009C9"
+				type: "item"
+				item: "reliquary:holy_hand_grenade"
+			}]
+			rewards: [{
+				id: "00000000000009CD"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			title: "&dLilypad of Fertility"
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Lilypad of Fertility speeds up growth of crops around it."
+			description: ["You can also place multiples of these next to each other to get even faster speed."]
+			id: "00000000000013DE"
+			tasks: [{
+				id: "00000000000013DF"
+				type: "item"
+				item: "reliquary:fertile_lily_pad"
+			}]
+			rewards: [{
+				id: "00000000000013E0"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.25d
+			subtitle: "A handgun that can be loaded with lots of different bullets."
+			id: "26AC0A81FDE05637"
+			tasks: [{
+				id: "566B862F082DD20F"
+				type: "item"
+				item: "reliquary:handgun"
+			}]
+			rewards: [{
+				id: "047CE8132A61E4FF"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 2.75d
+			y: -3.25d
+			subtitle: "Touchstone of Midas uses its glowstone charge to repair any gold based items in player's inventory. That includes Reliquary items like Cross of Mercy and Magic Bane."
+			id: "06958F62DCC59503"
+			tasks: [{
+				id: "1183DDF1EF0999A4"
+				type: "item"
+				item: "reliquary:midas_touchstone"
+			}]
+			rewards: [{
+				id: "40838AE55DCF32D6"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 3.5d
+			subtitle: "Magic Bane is a special sword that can randomly buff mobs hit with negative buffs. Its damage will also improve with the number of enchantments applied to it."
+			id: "6EADEC0A3B4CE6E1"
+			tasks: [{
+				id: "0F2F3331D7C7AD3B"
+				type: "item"
+				item: {
+					id: "reliquary:magicbane"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "64B53054BBB99D18"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 3.5d
+			subtitle: "Creates a wall of force that prevents entities from getting near."
+			id: "7E7340542B4F8571"
+			tasks: [{
+				id: "45997942178DFEB0"
+				type: "item"
+				item: "reliquary:interdiction_torch"
+			}]
+			rewards: [{
+				id: "4407D157842FED2E"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 1.2d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Lobs harmful snowballs."
+			size: 0.75d
+			id: "39CDF2D6112F65EE"
+			tasks: [{
+				id: "5D5C106791D5B353"
+				type: "item"
+				item: "reliquary:ice_magus_rod"
+			}]
+			rewards: [{
+				id: "0BBC68041D34C365"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -1.125d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Magic shears that tear the leaves from trees with cold."
+			size: 0.75d
+			id: "66F5844A83B1EA88"
+			tasks: [{
+				id: "2382D3763A455E60"
+				type: "item"
+				item: "reliquary:shears_of_winter"
+			}]
+			rewards: [{
+				id: "6A075011DACEE50A"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

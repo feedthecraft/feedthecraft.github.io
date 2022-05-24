@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "blue_skies:ores/aquite"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "tnp:aquite_dust",
+      "count": 2
+    }
+  ]
+}

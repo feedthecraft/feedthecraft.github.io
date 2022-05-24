@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": "immersiveengineering:mold_rod",
+  "result": {
+    "item": "ftbic:iridium_rod",
+    "count": 2
+  },
+  "input": {
+    "item": "ftbic:iridium_alloy"
+  },
+  "energy": 2400
+}

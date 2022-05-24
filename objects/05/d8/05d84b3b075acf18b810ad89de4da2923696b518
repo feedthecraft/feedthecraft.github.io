@@ -1,0 +1,23 @@
+["!local"]
+rockTexture = "minecraft:block/stone"
+
+[":fluorite_ore"]
+oreTexture = ":block/fluorite_ore"
+
+[":tin_ore"]
+oreTexture = ":block/tin_ore"
+
+[":osmium_ore"]
+oreTexture = ":block/osmium_ore"
+
+[":deepslate_fluorite_ore"]
+oreTexture = ":block/deepslate_fluorite_ore"
+rockTexture = "minecraft:block/deepslate"
+
+[":deepslate_tin_ore"]
+oreTexture = ":block/deepslate_tin_ore"
+rockTexture = "minecraft:block/deepslate"
+
+[":deepslate_osmium_ore"]
+oreTexture = ":block/deepslate_osmium_ore"
+rockTexture = "minecraft:block/deepslate"

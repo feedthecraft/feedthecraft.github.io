@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "amount": 8,
+    "ingredient": {
+      "item": "ftbic:iridium_chunk"
+    }
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "output": {
+    "item": "ftbic:iridium_ore"
+  }
+}

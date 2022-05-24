@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createdeco:cast_iron_ingot"
+    },
+    {
+      "item": "createdeco:cast_iron_ingot"
+    },
+    {
+      "item": "immersiveengineering:hammer"
+    }
+  ],
+  "result": {
+    "item": "createdeco:cast_iron_sheet"
+  }
+}

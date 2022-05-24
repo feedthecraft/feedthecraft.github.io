@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "malum:crushed_soulstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "tnp:soulstone_nugget",
+      "count": 9
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal_extra:polarium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal_extra:polarium_plate"
+    }
+  ]
+}

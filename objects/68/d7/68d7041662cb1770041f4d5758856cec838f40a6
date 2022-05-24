@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thermal_extra:vukaium_ingot"
+    },
+    {
+      "item": "thermal_extra:vukaium_ingot"
+    },
+    {
+      "item": "immersiveengineering:hammer"
+    }
+  ],
+  "result": {
+    "item": "thermal_extra:vukaium_plate"
+  }
+}

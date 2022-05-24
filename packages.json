@@ -4,14 +4,14 @@
     {
       "title" : "ATM Spellbound 2.2.7",
       "name" : "ATM Spellbound",
-      "version" : "2022-05-24-13-40-11",
+      "version" : "2022-05-24-14-19-01",
       "location" : "atm-spellbound.json",
       "priority" : 0
     },
     {
-      "title" : "TNP Limitless 2.6.0",
+      "title" : "TNP Limitless 2.7.0",
       "name" : "TNP Limitless 5",
-      "version" : "2022-05-24-13-40-25",
+      "version" : "2022-05-24-14-18-21",
       "location" : "tnp-limitless-5.json",
       "priority" : 0
     }

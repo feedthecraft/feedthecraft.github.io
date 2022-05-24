@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/iridium"
+    }
+  },
+  "output": {
+    "item": "ftbic:iridium_dust"
+  }
+}

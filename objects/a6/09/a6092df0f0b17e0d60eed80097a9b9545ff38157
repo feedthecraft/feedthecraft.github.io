@@ -1,0 +1,42 @@
+{
+  "group": "irongenerators",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ingots/refined_obsidian"
+    },
+    "1": {
+      "tag": "forge:storage_blocks/refined_obsidian"
+    },
+    "2": {
+      "tag": "forge:ingots/refined_obsidian"
+    },
+    "3": {
+      "tag": "forge:storage_blocks/refined_obsidian"
+    },
+    "4": {
+      "item": "irongenerators:obsidian_generator"
+    },
+    "5": {
+      "tag": "forge:storage_blocks/refined_obsidian"
+    },
+    "6": {
+      "tag": "forge:ingots/refined_obsidian"
+    },
+    "7": {
+      "tag": "forge:storage_blocks/refined_obsidian"
+    },
+    "8": {
+      "tag": "forge:ingots/refined_obsidian"
+    }
+  },
+  "result": {
+    "item": "irongenerators:refined_obsidian_generator",
+    "count": 1
+  }
+}

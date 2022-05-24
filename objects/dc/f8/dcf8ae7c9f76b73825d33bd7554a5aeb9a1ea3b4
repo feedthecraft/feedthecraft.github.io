@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ftbic:iridium_alloy"
+    },
+    {
+      "item": "ftbic:iridium_alloy"
+    },
+    {
+      "item": "immersiveengineering:hammer"
+    }
+  ],
+  "result": {
+    "item": "ftbic:iridium_plate"
+  }
+}

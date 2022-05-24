@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "item": "biggerreactors:blutonium_ingot"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "biggerreactors:blutonium_dust"
+    }
+  ]
+}

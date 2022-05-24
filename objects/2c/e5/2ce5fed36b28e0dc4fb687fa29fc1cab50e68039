@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "forge:storage_blocks/coal_coke"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "immersiveengineering:dust_coke",
+      "count": 9
+    }
+  ]
+}

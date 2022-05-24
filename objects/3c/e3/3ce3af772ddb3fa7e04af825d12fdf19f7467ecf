@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "ftbic:iridium_alloy"
+    }
+  ],
+  "results": [
+    {
+      "item": "ftbic:iridium_plate"
+    }
+  ]
+}

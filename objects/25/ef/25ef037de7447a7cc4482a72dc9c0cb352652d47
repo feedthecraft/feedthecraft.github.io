@@ -1,0 +1,12 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "forge:raw_materials/iridium"
+	},
+	"output": [
+		{
+			"item": "ftbic:iridium_dust",
+			"count": 2
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "forge:ores/brilliant"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "tnp:brilliance_dust",
+      "count": 3
+    }
+  ]
+}

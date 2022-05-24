@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "ftbic:iridium_chunk"
+    }
+  ],
+  "results": [
+    {
+      "item": "tnp:crushed_iridium_ore",
+      "count": 2
+    },
+    {
+      "item": "tnp:crushed_iridium_ore",
+      "chance": 0.25
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    }
+  ],
+  "processingTime": 250
+}

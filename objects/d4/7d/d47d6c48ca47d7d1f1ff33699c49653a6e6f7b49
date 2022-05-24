@@ -1,0 +1,16 @@
+["!local"]
+rockTexture = ":block/stone"
+
+[":prosperity_ore"]
+oreTexture = ":block/prosperity_ore"
+
+[":deepslate_prosperity_ore"]
+oreTexture = ":block/deepslate_prosperity_ore"
+rockTexture = ":block/deepslate"
+
+[":inferium_ore"]
+oreTexture = ":block/inferium_ore"
+
+[":deepslate_inferium_ore"]
+oreTexture = ":block/deepslate_inferium_ore"
+rockTexture = ":block/deepslate"

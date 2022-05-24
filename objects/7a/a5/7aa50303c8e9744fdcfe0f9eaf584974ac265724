@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "thermal:enderium_ingot"
+	},
+	"result": {
+		"item": "ftbic:enderium_rod",
+		"count": 2
+	}
+}

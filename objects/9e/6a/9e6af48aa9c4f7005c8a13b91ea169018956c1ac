@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/constantan"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "immersiveengineering:dust_constantan"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "ftbic:carbon_fiber_mesh"
+    }
+  ],
+  "results": [
+    {
+      "item": "ftbic:carbon_plate"
+    }
+  ]
+}

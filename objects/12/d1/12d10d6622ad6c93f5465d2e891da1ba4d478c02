@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "item": "thermal:netherite_plate"
+  },
+  "input": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "energy": 2400
+}

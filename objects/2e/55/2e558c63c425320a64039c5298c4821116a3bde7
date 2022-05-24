@@ -1,0 +1,16 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": "immersiveengineering:mold_gear",
+  "result": {
+    "item": "thermal_extra:nectium_gear"
+  },
+  "conditions": [],
+  "input": {
+    "count": 4,
+    "base_ingredient": {
+      "tag": "forge:ingots/nectium"
+    }
+  },
+  "conditions": [],
+  "energy": 2400
+}
