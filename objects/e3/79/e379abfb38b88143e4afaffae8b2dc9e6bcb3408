@@ -1,0 +1,13 @@
+{
+  "type": "thermal:smelter_recycle",
+  "ingredient": {
+    "tag": "forge:tools/constantan"
+  },
+  "result": [
+    {
+      "item": "immersiveengineering:ingot_constantan",
+      "count": 1
+    }
+  ],
+  "experience": 0.3
+}

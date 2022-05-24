@@ -1,0 +1,29 @@
+{
+	"type": "cyclic:crusher",
+	"input": {
+		"tag": "blue_skies:raw_materials/ventium"
+	},
+	"energy": {
+		"ticks": 600,
+		"rfpertick": 60
+	},
+	"result": {
+		"item": "tnp:ventium_dust",
+		"count": 2
+	},
+	"conditions": [
+		{
+			"values": [
+				{
+					"modid": "cyclic",
+					"type": "forge:mod_loaded"
+				},
+				{
+					"item": "cyclic:crusher",
+					"type": "forge:item_exists"
+				}
+			],
+			"type": "forge:and"
+		}
+	]
+}

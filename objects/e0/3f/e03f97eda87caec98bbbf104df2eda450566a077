@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "amount": 8,
+    "ingredient": {
+      "item": "silentgear:raw_crimson_iron"
+    }
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "output": {
+    "item": "silentgear:crimson_iron_ore"
+  }
+}

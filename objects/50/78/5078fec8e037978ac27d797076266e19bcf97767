@@ -1,0 +1,22 @@
+#Changed WoolyCow SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Wooly cow SpawnRate" = 10
+#Changed Cluckshroom SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Cluckshroom SpawnRate" = 5
+#Changed Horned Sheep SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Horned Sheep SpawnRate" = 10
+#Changed Hyper Rabbit SpawnRate. [0 ~ 100]
+#Range: 0 ~ 100
+"Hyper Rabbit SpawnRate" = 5
+#Changed Bone Spider SpawnRate. [0 ~ 1000]
+#Range: 0 ~ 1000
+"Bone Spider SpawnRate" = 10
+#Changed BoulderingZombie SpawnRate. [0 ~ 1000]
+#Range: 0 ~ 1000
+"BoulderingZombie SpawnRate" = 20
+#Changed LobberZombie SpawnRate. [0 ~ 1000]
+#Range: 0 ~ 1000
+"LobberZombie SpawnRate" = 20
+

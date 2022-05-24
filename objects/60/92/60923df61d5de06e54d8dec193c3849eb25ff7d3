@@ -1,0 +1,19 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [],
+      "recipe": {
+        "type": "oreberriesreplanted:vat",
+        "ingredient": {
+          "item": "oreberriesreplanted:silver_oreberry"
+        },
+        "fluid": "oreberriesreplanted:silver_oreberry_juice",
+        "result": {
+          "item": "immersiveengineering:nugget_silver"
+        },
+        "evaporationtime": 100
+      }
+    }
+  ]
+}

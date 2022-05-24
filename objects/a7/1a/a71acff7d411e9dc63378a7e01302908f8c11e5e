@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/certus_quartz"
+  },
+  "result": {
+    "item": "ae2:certus_quartz_dust",
+    "count": 3
+  }
+}

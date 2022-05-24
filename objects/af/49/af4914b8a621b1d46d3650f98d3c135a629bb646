@@ -1,0 +1,303 @@
+{
+  "modId": "croptopia",
+  "group": {
+    "name": "Croptopia Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:iron_ingot"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "croptopia:artichoke_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:asparagus_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:bellpepper_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:blackbean_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:blackberry_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:cabbage_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:blueberry_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:broccoli_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:cantaloupe_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:cauliflower_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:celery_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:corn_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:cranberry_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:cucumber_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:currant_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:eggplant_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:elderberry_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:garlic_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:grape_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:greenbean_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:honeydew_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:hops_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:kale_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:kiwi_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:leek_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:lettuce_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:olive_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:onion_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:peanut_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:pineapple_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:radish_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:raspberry_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:rhubarb_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:rice_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:rutabaga_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:saguaro_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:squash_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:strawberry_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:tomatillo_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:tomato_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:turnip_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:yam_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:zucchini_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:mustard_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:chile_pepper_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:turmeric_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:ginger_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:basil_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:oat_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:barley_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:soybean_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:vanilla_seeds"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:pepper_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:coffee_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:greenonion_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:sweetpotato_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:spinach_seed"
+      }
+    },
+    {
+      "output": {
+        "item": "croptopia:tea_seed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+	"type": "crossroads:ore_cleanser",
+	"output": {
+		"item": "tnp:nickel_clump",
+		"count": 2
+	},
+	"ingredient": [
+		{
+			"tag": "forge:ores/nickel"
+		}
+	]
+}

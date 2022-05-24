@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 12,
+    "base_ingredient": {
+      "tag": "forge:dusts/aquite"
+    }
+  },
+  "input": {
+    "tag": "blue_skies:storage_blocks/raw_aquite"
+  },
+  "energy": 54000
+}

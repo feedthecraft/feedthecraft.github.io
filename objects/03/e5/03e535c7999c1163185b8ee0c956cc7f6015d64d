@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "malum:brilliant_stone"
+  },
+  "result": {
+    "item": "tnp:brilliance_dust",
+    "count": 3
+  }
+}

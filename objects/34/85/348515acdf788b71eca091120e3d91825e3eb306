@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/sulfur"
+  },
+  "result": {
+    "item": "mekanism:dust_sulfur",
+    "count": 2
+  }
+}

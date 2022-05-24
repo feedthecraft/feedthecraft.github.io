@@ -1,0 +1,463 @@
+{
+	id: "46AEE70CB0048C39"
+	group: "2869CB12B4663D25"
+	order_index: 4
+	filename: "evilcraft"
+	title: "Evilcraft"
+	icon: "evilcraft:dark_gem"
+	subtitle: ["Like Blood Magic, but eviler (and functional)"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -9.5d
+			y: -0.5d
+			description: [
+				"Mine some dark gems. Like any other gemstone, fortune increases the drops. You’ll also get crushed dark gems, a purple powder. "
+				"If you are unlucky on getting crushed gems, give them to your occultism crusher spirit, or throw them in the create millstone/crushing wheels."
+			]
+			id: "36C4C17FA28F3D0C"
+			tasks: [{
+				id: "192734D101DDEDD7"
+				type: "item"
+				item: "evilcraft:dark_gem"
+				count: 16L
+			}]
+			rewards: [{
+				id: "35B0875871046CA1"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Death by apple"
+			x: -8.0d
+			y: -1.5d
+			description: [
+				"Craft an apple with a dark gem, and feed it to an innocent mob. From the result, toss a book into the anomaly, and get your Origins of darkness book. "
+				"There is also an origins of darkness book in your akashic tome, but in case you lose it, this is how you make one."
+			]
+			optional: true
+			id: "7BB25D8C0F1ECAC2"
+			tasks: [
+				{
+					id: "502A130DDE438B65"
+					type: "item"
+					item: "evilcraft:darkened_apple"
+				}
+				{
+					id: "65B880CC79EBE0CD"
+					type: "item"
+					item: "evilcraft:origins_of_darkness"
+				}
+			]
+			rewards: [{
+				id: "035597BC9335C577"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "I thought these were only in doctor's offices"
+			x: -6.5d
+			y: -0.5d
+			description: ["Craft a syringe using dark gems, iron and glass. Keep it in your inventory and go kill some mobs. If you need more capacity in a syringe, craft two together, to double its capacity.  Detects empty syringe, full syringe."]
+			dependencies: ["36C4C17FA28F3D0C"]
+			id: "12902CEDB8DEB58C"
+			tasks: [
+				{
+					id: "13B9A6FB18130529"
+					type: "item"
+					item: {
+						id: "evilcraft:blood_extractor"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "37BCB7DFFC263874"
+					type: "item"
+					item: {
+						id: "evilcraft:blood_extractor"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "evilcraft:blood"
+								Amount: 5000
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4CAAEA6E9C86FF2B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Blood Stars"
+			x: -5.0d
+			y: -0.5d
+			description: ["Right click the syringe in a space on the ground able to hold 5 blocks of liquid. Quickly before it hardens (and it will), toss in a dark gem to make a dark power gem. Now do the same thing again (this is why you want either a higher capacity syringe or multiples), and let the blood harden. Mine the block with a flint and steel or silk touch for hardened blood shards. Hardened blood block smelts for shards. Surround the dark power gem to get a blood infusion core. "]
+			dependencies: ["12902CEDB8DEB58C"]
+			id: "2CFF93267CCB620C"
+			tasks: [
+				{
+					id: "2591880DD05E6FF3"
+					type: "item"
+					item: "evilcraft:dark_power_gem"
+				}
+				{
+					id: "26C69C04D54B186A"
+					type: "item"
+					item: "evilcraft:hardened_blood_shard"
+					count: 8L
+				}
+				{
+					id: "30AE71398D8E5881"
+					type: "item"
+					item: "evilcraft:blood_infusion_core"
+				}
+			]
+			rewards: [{
+				id: "0D68FEA463A44CD2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Blood chest or blood furnace? How about both."
+			x: -3.5d
+			y: -0.5d
+			description: ["Craft a blood chest like a regular chest, but around a blood infusion core, and craft a blood infuser like a furnace, around a blood infusion core. Using the blood infuser makes dark power gems much MUCH cheaper. You can right click on the item to fill it with blood. The blood chest repairs items inside it with blood. Fillable by blood extractor."]
+			dependencies: ["2CFF93267CCB620C"]
+			id: "19D482DC635AA54A"
+			tasks: [
+				{
+					id: "20F827A26664C013"
+					type: "item"
+					item: {
+						id: "evilcraft:blood_infuser"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "298502360709D5DE"
+					type: "item"
+					item: {
+						id: "evilcraft:blood_chest"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "7D2E680831B29FC6"
+				type: "item"
+				item: "evilcraft:blood_infusion_core"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			description: ["Using the bowl of empty promises, one can make tenacity cores. There are three tiers; iron, gold and diamond. Putting these in certain blood machines increases speed, capacity and what recipes they can do. Make an iron tenacity core for now. "]
+			dependencies: ["19D482DC635AA54A"]
+			id: "1B5D7089474C454B"
+			tasks: [
+				{
+					id: "1CAEC46979118F4A"
+					type: "item"
+					item: "evilcraft:bowl_of_promises_empty"
+				}
+				{
+					id: "2E2BFAAF60B75366"
+					type: "item"
+					item: "evilcraft:bowl_of_promises_dusted"
+				}
+				{
+					id: "4FA95D2E55276F16"
+					type: "item"
+					item: "evilcraft:bowl_of_promises_tier0"
+				}
+				{
+					id: "019BF10236AAC8AE"
+					type: "item"
+					item: "evilcraft:promise_acceptor_iron"
+				}
+				{
+					id: "21EAF91B6ABD5A61"
+					type: "item"
+					item: "evilcraft:promise_tier_1"
+				}
+			]
+			rewards: [{
+				id: "56BB43D30D400171"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			description: ["Big blood chest. Recipe needs a gold tenacity core powered infuser. "]
+			dependencies: [
+				"44728DC2754E3738"
+				"19D482DC635AA54A"
+				"2CFF93267CCB620C"
+			]
+			id: "3C939097515156A7"
+			tasks: [{
+				id: "0D8ADB4B7721CDE6"
+				type: "item"
+				item: {
+					id: "evilcraft:colossal_blood_chest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5C67321928839AE4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			description: ["Run a dead bush through the blood infuser to get an undead sapling, and grow it on netherrack? The wood is what we want here. "]
+			dependencies: ["19D482DC635AA54A"]
+			id: "44728DC2754E3738"
+			tasks: [{
+				id: "48D89A33A7CC8174"
+				type: "item"
+				item: "evilcraft:undead_sapling"
+			}]
+			rewards: [
+				{
+					id: "1D25DC5FBEB3EA8C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "21DD2CAADF1833B8"
+					type: "item"
+					item: "evilcraft:undead_log"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "Stripping enchantments with my own blood"
+			x: -0.5d
+			y: -1.5d
+			description: ["I hear the purifier can disenchant things with blood. "]
+			dependencies: ["2CFF93267CCB620C"]
+			id: "3DBA37226F4A54D4"
+			tasks: [{
+				id: "34486C8D829BCDF7"
+				type: "item"
+				item: {
+					id: "evilcraft:purifier"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "About them Vengeance Spirits"
+			x: -0.5d
+			y: 0.5d
+			description: ["Opening this releases a vengeance spirit. "]
+			dependencies: ["19D482DC635AA54A"]
+			id: "72D78F3C577A549C"
+			tasks: [
+				{
+					id: "41528F067F755624"
+					type: "item"
+					item: "evilcraft:vengeance_essence"
+				}
+				{
+					id: "2A9FE7E738D046C7"
+					type: "item"
+					item: "evilcraft:box_of_eternal_closure"
+				}
+				{
+					id: "5CE47E562482C579"
+					type: "item"
+					item: "evilcraft:vengeance_essence_materialized"
+				}
+				{
+					id: "7C40F448EABEC5F8"
+					type: "item"
+					item: "evilcraft:garmonbozia"
+				}
+			]
+			rewards: [{
+				id: "6436844A69BEF441"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			description: ["Dude, a moderately easy to get fortune 5 pickaxe? Just strip the enchantments, no vengeful spirits required. Requires dark sticks for the handle. "]
+			dependencies: ["72D78F3C577A549C"]
+			id: "1B2F756322F1DAC6"
+			tasks: [{
+				id: "2B8FC672800B8B92"
+				type: "item"
+				item: {
+					id: "evilcraft:vengeance_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "evilcraft:vengeance"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "628B6C416D1D3AB3"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "7AC4A2855A9A23AA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Broom broom broooooommmmm"
+			x: 1.5d
+			y: -0.5d
+			subtitle: "I heard you like fast travel"
+			description: [
+				"You can craft a broom that can fly! Takes three pieces, and is modular, so it can be changed up. "
+				"and its charged up by blood. "
+			]
+			id: "487FAE908110E95A"
+			tasks: [{
+				id: "0E818A3A37030D4A"
+				type: "item"
+				item: {
+					id: "evilcraft:broom"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "evilcraft:blood"
+							Amount: 10000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7F394095AA7EE92B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7AC0BCDA741BEAC4"
+					type: "item"
+					item: {
+						id: "evilcraft:dark_tank"
+						Count: 1b
+						tag: {
+							capacity: 16000
+						}
+					}
+				}
+				{
+					id: "3F4EA8D304D17A01"
+					type: "item"
+					item: {
+						id: "evilcraft:sanguinary_pedestal_1"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			shape: "gear"
+			description: ["Needed to make the ATM star. "]
+			dependencies: ["72D78F3C577A549C"]
+			id: "0EAE5E9A415DF373"
+			tasks: [{
+				id: "5909159343D8444E"
+				type: "item"
+				item: {
+					id: "evilcraft:flesh_rejuvenated"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1E99317D1806076D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3284C24D76A669FA"
+					type: "item"
+					item: "evilcraft:effortless_ring"
+				}
+				{
+					id: "5DC9C8BF2BADE8E8"
+					type: "item"
+					item: {
+						id: "botania:cosmetic_devil_horns"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			subtitle: "Higher level promise of crafting prowess"
+			dependencies: ["1B5D7089474C454B"]
+			id: "7FE97CD6AE3C8DBF"
+			tasks: [
+				{
+					id: "3C5611540DAE62CC"
+					type: "item"
+					item: "evilcraft:promise_tier_3"
+				}
+				{
+					id: "74D4684C2129EB0C"
+					type: "item"
+					item: "evilcraft:promise_efficiency_0"
+				}
+				{
+					id: "2F84E7EBFB26E6D3"
+					type: "item"
+					item: "evilcraft:promise_speed_0"
+				}
+			]
+			rewards: [{
+				id: "096C9525549BA349"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
+}

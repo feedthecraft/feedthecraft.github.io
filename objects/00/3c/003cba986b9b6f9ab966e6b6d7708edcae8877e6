@@ -1,0 +1,16 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "forge:ores/silver"
+	},
+	"output": [
+		{
+			"item": "immersiveengineering:raw_silver",
+			"count": 2
+		},
+		{
+			"item": "sand",
+			"count": 1
+		}
+	]
+}

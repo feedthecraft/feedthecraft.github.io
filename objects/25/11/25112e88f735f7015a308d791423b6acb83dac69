@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "mekanism:dust_fluorite"
+  },
+  "input": {
+    "tag": "forge:gems/fluorite"
+  }
+}

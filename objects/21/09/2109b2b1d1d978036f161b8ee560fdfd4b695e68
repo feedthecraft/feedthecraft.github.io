@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance": 0.33333334,
+      "output": {
+        "tag": "forge:dusts/osmium"
+      }
+    }
+  ],
+  "result": {
+    "tag": "forge:dusts/osmium"
+  },
+  "input": {
+    "tag": "forge:raw_materials/osmium"
+  },
+  "energy": 6000
+}

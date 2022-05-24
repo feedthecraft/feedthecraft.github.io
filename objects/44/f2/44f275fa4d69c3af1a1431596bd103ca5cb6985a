@@ -1,0 +1,88 @@
+type = hud
+
+customization-meta {
+  backgroundimage = config/fancymenu/customimages/loadingbackground.jpg
+  renderorder = foreground
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  visible = false
+  action = editprogressbar
+}
+
+customization {
+  path = config/fancymenu/customimages/mojang.png
+  orientation = mid-centered
+  x = 4
+  width = 110
+  action = addtexture
+  actionid = 356b18a5-abc8-4796-9dce-049945bd2a9c1632947307671
+  y = -69
+  height = 26
+}
+
+customization {
+  orientation = mid-centered
+  bartexture = config/fancymenu/customimages/loadingbar.png
+  x = 0
+  width = 293
+  y = 72
+  action = addcustomprogressbar
+  backgroundtexture = config/fancymenu/customimages/loadingbarouter.png
+  height = 5
+  direction = right
+  barcolor = #ffffff
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  x = -4
+  textcolor = #ffffff
+  action = addtext
+  actionid = d43df915-d312-4512-8832-5eb8571f4e591632947542399
+  y = 54
+  scale = 1.0
+  alignment = left
+  value = Pack is currently booting up or reloading. Be patient
+}
+
+customization {
+  path = config/fancymenu/customimages/loadingdots.gif
+  orientation = mid-centered
+  x = 135
+  width = 27
+  action = addtexture
+  actionid = 4f1548f9-d69e-4a98-8fb9-b033f56ec7801632947562044
+  y = 55
+  height = 13
+}
+
+customization {
+  path = config/fancymenu/customimages/ll5-logo-using.png
+  orientation = mid-centered
+  x = 0
+  width = 350
+  action = addtexture
+  actionid = 921390cf-93f1-4b53-8faf-fb23766854731632948192291
+  y = -1
+  height = 87
+}
+
+customization {
+  path = config/fancymenu/customimages/loadingspin.gif
+  orientation = bottom-right
+  x = -7
+  width = 37
+  action = addtexture
+  actionid = 4bc76780-0076-45a9-a480-9ebcdf4be07a1632948661768
+  y = -7
+  height = 37
+}
+

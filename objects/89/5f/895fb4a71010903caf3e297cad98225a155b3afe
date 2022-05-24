@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 12,
+    "base_ingredient": {
+      "item": "silentgear:azure_silver_dust"
+    }
+  },
+  "input": {
+    "tag": "forge:raw_blocks/azure_silver"
+  },
+  "energy": 54000
+}

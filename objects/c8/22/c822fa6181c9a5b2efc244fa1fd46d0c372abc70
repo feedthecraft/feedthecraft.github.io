@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "amount": 12,
+    "ingredient": {
+      "item": "malum:raw_soulstone"
+    }
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  },
+  "output": {
+    "item": "malum:deepslate_soulstone_ore"
+  }
+}

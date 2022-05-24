@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "ae2:sky_dust"
+  },
+  "input": {
+    "item": "ae2:sky_stone_block"
+  }
+}

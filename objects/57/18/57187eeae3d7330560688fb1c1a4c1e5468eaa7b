@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "pickletweaks:flint_chestplate"
+  },
+  "results": [
+    {
+      "item": "minecraft:flint",
+      "count": 8
+    }
+  ]
+}

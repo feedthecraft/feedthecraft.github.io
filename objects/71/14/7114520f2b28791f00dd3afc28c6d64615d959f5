@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "tnp:calorite_dust"
+  },
+  "input": {
+    "item": "beyond_earth:calorite_ingot"
+  }
+}

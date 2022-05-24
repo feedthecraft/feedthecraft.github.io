@@ -1,0 +1,12 @@
+{
+	"type": "crossroads:ore_cleanser",
+	"output": {
+		"item": "tnp:zinc_clump",
+		"count": 1
+	},
+	"ingredient": [
+		{
+			"item": "tnp:raw_zinc_grit"
+		}
+	]
+}

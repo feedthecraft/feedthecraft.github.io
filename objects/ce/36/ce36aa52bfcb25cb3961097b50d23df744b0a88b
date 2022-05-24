@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "item": "blue_skies:charoite"
+    }
+  ],
+  "additives": [],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "blue_skies:charoite"
+      }
+    }
+  ],
+  "input": {
+    "item": "blue_skies:raw_charoite"
+  },
+  "time": 100,
+  "energy": 25600
+}

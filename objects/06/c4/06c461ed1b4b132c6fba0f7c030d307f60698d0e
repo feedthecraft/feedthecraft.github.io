@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "silentgear:crushed_shulker_shell"
+  },
+  "input": {
+    "item": "minecraft:shulker_shell"
+  }
+}

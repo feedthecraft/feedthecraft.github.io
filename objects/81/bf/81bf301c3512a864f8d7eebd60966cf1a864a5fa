@@ -1,0 +1,13 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:raw_materials/osmium"
+  },
+  "result": [
+    {
+      "item": "mekanism:dust_osmium",
+      "count": 2
+    }
+  ],
+  "experience": 0.1
+}

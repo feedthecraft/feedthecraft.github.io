@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:gems/lapis"
+  },
+  "result": [
+    {
+      "item": "mekanism:dust_lapis_lazuli",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+onEvent('recipes', event => {
+
+  // Stripped Oak Cabinet
+  event.remove({id: 'cfm:stripped_oak_cabinet'})
+  event.shaped(Item.of('cfm:stripped_oak_cabinet'), [
+    'SSL',
+    'SLL',
+    'SSL'
+  ], {
+    S: 'minecraft:stripped_oak_log',
+    L: 'minecraft:oak_log'
+  }).id('tnp:cfm_stripped_oak_cabinet')
+
+  // Stripped Spruce Cabinet
+  event.remove({id: 'cfm:stripped_spruce_cabinet'})
+  event.shaped(Item.of('cfm:stripped_spruce_cabinet'), [
+    'SSL',
+    'SLL',
+    'SSL'
+  ], {
+    S: 'minecraft:stripped_spruce_log',
+    L: 'minecraft:spruce_log'
+  }).id('tnp:cfm_stripped_spruce_cabinet')
+
+  // Stripped Birch Cabinet
+  event.remove({id: 'cfm:stripped_birch_cabinet'})
+  event.shaped(Item.of('cfm:stripped_birch_cabinet'), [
+    'SSL',
+    'SLL',
+    'SSL'
+  ], {
+    S: 'minecraft:stripped_birch_log',
+    L: 'minecraft:birch_log'
+  }).id('tnp:cfm_stripped_birch_cabinet')
+
+  // Stripped Jungle Cabinet
+  event.remove({id: 'cfm:stripped_jungle_cabinet'})
+  event.shaped(Item.of('cfm:stripped_jungle_cabinet'), [
+    'SSL',
+    'SLL',
+    'SSL'
+  ], {
+    S: 'minecraft:stripped_jungle_log',
+    L: 'minecraft:jungle_log'
+  }).id('tnp:cfm_stripped_jungle_cabinet')
+
+  // Stripped Acacia Cabinet
+  event.remove({id: 'cfm:stripped_acacia_cabinet'})
+  event.shaped(Item.of('cfm:stripped_acacia_cabinet'), [
+    'SSL',
+    'SLL',
+    'SSL'
+  ], {
+    S: 'minecraft:stripped_acacia_log',
+    L: 'minecraft:acacia_log'
+  }).id('tnp:cfm_stripped_acacia_cabinet')
+
+  // Stripped Dark Oak Cabinet
+  event.remove({id: 'cfm:stripped_dark_oak_cabinet'})
+  event.shaped(Item.of('cfm:stripped_dark_oak_cabinet'), [
+    'SSL',
+    'SLL',
+    'SSL'
+  ], {
+    S: 'minecraft:stripped_dark_oak_log',
+    L: 'minecraft:dark_oak_log'
+  }).id('tnp:cfm_stripped_dark_oak_cabinet')
+
+  // Stripped Crimson Cabinet
+  event.remove({id: 'cfm:stripped_crimson_cabinet'})
+  event.shaped(Item.of('cfm:stripped_crimson_cabinet'), [
+    'SSL',
+    'SLL',
+    'SSL'
+  ], {
+    S: 'minecraft:stripped_crimson_stem',
+    L: 'minecraft:crimson_stem'
+  }).id('tnp:cfm_stripped_crimson_cabinet')
+
+  // Stripped Warped Cabinet
+  event.remove({id: 'cfm:stripped_warped_cabinet'})
+  event.shaped(Item.of('cfm:stripped_warped_cabinet'), [
+    'SSL',
+    'SLL',
+    'SSL'
+  ], {
+    S: 'minecraft:stripped_warped_stem',
+    L: 'minecraft:warped_stem'
+  }).id('tnp:cfm_stripped_warped_cabinet')
+
+
+
+  // Stripped Oak bedside Cabinet
+  event.remove({id: 'cfm:stripped_oak_bedside_cabinet'})
+  event.shaped(Item.of('cfm:stripped_oak_bedside_cabinet'), [
+    'SSS',
+    'LSL',
+    'LLL'
+  ], {
+    S: 'minecraft:stripped_oak_log',
+    L: 'minecraft:oak_log'
+  }).id('tnp:cfm_stripped_oak_bedside_cabinet')
+
+  // Stripped Spruce Bedside Cabinet
+  event.remove({id: 'cfm:stripped_spruce_bedside_cabinet'})
+  event.shaped(Item.of('cfm:stripped_spruce_bedside_cabinet'), [
+    'SSS',
+    'LSL',
+    'LLL'
+  ], {
+    S: 'minecraft:stripped_spruce_log',
+    L: 'minecraft:spruce_log'
+  }).id('tnp:cfm_stripped_spruce_bedside_cabinet')
+
+  // Stripped Birch Bedside Cabinet
+  event.remove({id: 'cfm:stripped_birch_bedside_cabinet'})
+  event.shaped(Item.of('cfm:stripped_birch_bedside_cabinet'), [
+    'SSS',
+    'LSL',
+    'LLL'
+  ], {
+    S: 'minecraft:stripped_birch_log',
+    L: 'minecraft:birch_log'
+  }).id('tnp:cfm_stripped_birch_bedside_cabinet')
+
+  // Stripped Jungle Bedside Cabinet
+  event.remove({id: 'cfm:stripped_jungle_bedside_cabinet'})
+  event.shaped(Item.of('cfm:stripped_jungle_bedside_cabinet'), [
+    'SSS',
+    'LSL',
+    'LLL'
+  ], {
+    S: 'minecraft:stripped_jungle_log',
+    L: 'minecraft:jungle_log'
+  }).id('tnp:cfm_stripped_jungle_bedside_cabinet')
+
+  // Stripped Acacia Bedside Cabinet
+  event.remove({id: 'cfm:stripped_acacia_bedside_cabinet'})
+  event.shaped(Item.of('cfm:stripped_acacia_bedside_cabinet'), [
+    'SSS',
+    'LSL',
+    'LLL'
+  ], {
+    S: 'minecraft:stripped_acacia_log',
+    L: 'minecraft:acacia_log'
+  }).id('tnp:cfm_stripped_acacia_bedside_cabinet')
+
+  // Stripped Dark Oak Bedside Cabinet
+  event.remove({id: 'cfm:stripped_dark_oak_bedside_cabinet'})
+  event.shaped(Item.of('cfm:stripped_dark_oak_bedside_cabinet'), [
+    'SSS',
+    'LSL',
+    'LLL'
+  ], {
+    S: 'minecraft:stripped_dark_oak_log',
+    L: 'minecraft:dark_oak_log'
+  }).id('tnp:cfm_stripped_dark_oak_bedside_cabinet')
+
+  // Stripped Crimson Bedside Cabinet
+  event.remove({id: 'cfm:stripped_crimson_bedside_cabinet'})
+  event.shaped(Item.of('cfm:stripped_crimson_bedside_cabinet'), [
+    'SSS',
+    'LSL',
+    'LLL'
+  ], {
+    S: 'minecraft:stripped_crimson_stem',
+    L: 'minecraft:crimson_stem'
+  }).id('tnp:cfm_stripped_crimson_bedside_cabinet')
+
+  // Stripped Warped Bedside Cabinet
+  event.remove({id: 'cfm:stripped_warped_bedside_cabinet'})
+  event.shaped(Item.of('cfm:stripped_warped_bedside_cabinet'), [
+    'SSS',
+    'LSL',
+    'LLL'
+  ], {
+    S: 'minecraft:stripped_warped_stem',
+    L: 'minecraft:warped_stem'
+  }).id('tnp:cfm_stripped_warped_bedside_cabinet')
+
+
+
+  // Oak Upgraded Fence
+  event.remove({id: 'cfm:oak_upgraded_fence'})
+  event.shaped(Item.of('cfm:oak_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:oak_log',
+  }).id('tnp:oak_upgraded_fence')
+
+  // Birch Upgraded Fence
+  event.remove({id: 'cfm:birch_upgraded_fence'})
+  event.shaped(Item.of('cfm:birch_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:birch_log',
+  }).id('tnp:birch_upgraded_fence')
+
+  // Dark Oak Upgraded Fence
+  event.remove({id: 'cfm:dark_oak_upgraded_fence'})
+  event.shaped(Item.of('cfm:dark_oak_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:dark_oak_log',
+  }).id('tnp:dark_oak_upgraded_fence')
+
+  // Acacia Upgraded Fence
+  event.remove({id: 'cfm:acacia_upgraded_fence'})
+  event.shaped(Item.of('cfm:acacia_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:acacia_log',
+  }).id('tnp:acacia_upgraded_fence')
+
+  // Jungle Upgraded Fence
+  event.remove({id: 'cfm:jungle_upgraded_fence'})
+  event.shaped(Item.of('cfm:jungle_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:jungle_log',
+  }).id('tnp:jungle_upgraded_fence')
+
+  // Spruce Upgraded Fence
+  event.remove({id: 'cfm:spruce_upgraded_fence'})
+  event.shaped(Item.of('cfm:spruce_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:spruce_log',
+  }).id('tnp:spruce_upgraded_fence')
+
+  // Warped Upgraded Fence
+  event.remove({id: 'cfm:warped_upgraded_fence'})
+  event.shaped(Item.of('cfm:warped_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:warped_stem',
+  }).id('tnp:warped_upgraded_fence')
+
+  // Crimson Upgraded Fence
+  event.remove({id: 'cfm:crimson_upgraded_fence'})
+  event.shaped(Item.of('cfm:crimson_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:crimson_stem',
+  }).id('tnp:crimson_upgraded_fence')
+  
+
+
+  // Stripped Oak Stripped Fence
+  event.remove({id: 'cfm:stripped_oak_upgraded_fence'})
+  event.shaped(Item.of('cfm:stripped_oak_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:stripped_oak_log',
+  }).id('tnp:stripped_oak_upgraded_fence')
+
+  // Stripped Birch Stripped Fence
+  event.remove({id: 'cfm:stripped_birch_upgraded_fence'})
+  event.shaped(Item.of('cfm:stripped_birch_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:stripped_birch_log',
+  }).id('tnp:stripped_birch_upgraded_fence')
+
+  // Stripped Dark Oak Stripped Fence
+  event.remove({id: 'cfm:stripped_dark_oak_upgraded_fence'})
+  event.shaped(Item.of('cfm:stripped_dark_oak_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:stripped_dark_oak_log',
+  }).id('tnp:stripped_dark_oak_upgraded_fence')
+
+  // Stripped Acacia Stripped Fence
+  event.remove({id: 'cfm:stripped_acacia_upgraded_fence'})
+  event.shaped(Item.of('cfm:stripped_acacia_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:stripped_acacia_log',
+  }).id('tnp:stripped_acacia_upgraded_fence')
+
+  // Stripped Jungle Stripped Fence
+  event.remove({id: 'cfm:stripped_jungle_upgraded_fence'})
+  event.shaped(Item.of('cfm:stripped_jungle_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:stripped_jungle_log',
+  }).id('tnp:stripped_jungle_upgraded_fence')
+
+  // Stripped Spruce Stripped Fence
+  event.remove({id: 'cfm:stripped_spruce_upgraded_fence'})
+  event.shaped(Item.of('cfm:stripped_spruce_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:stripped_spruce_log',
+  }).id('tnp:stripped_spruce_upgraded_fence')
+
+  // Stripped Warped Stripped Fence
+  event.remove({id: 'cfm:stripped_warped_upgraded_fence'})
+  event.shaped(Item.of('cfm:stripped_warped_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:stripped_warped_stem',
+  }).id('tnp:stripped_warped_upgraded_fence')
+
+  // Stripped Crimson Stripped Fence
+  event.remove({id: 'cfm:stripped_crimson_upgraded_fence'})
+  event.shaped(Item.of('cfm:stripped_crimson_upgraded_fence', 12), [
+    'LSL',
+    'L L',
+    'LSL'
+  ], {
+    S: '#forge:rods/wooden',
+    L: 'minecraft:stripped_crimson_stem',
+  }).id('tnp:stripped_crimson_upgraded_fence')
+
+  // Stripped Oak Crate
+  event.remove({id: 'cfm:stripped_oak_crate'})
+  event.shaped(Item.of('cfm:stripped_oak_crate'), [
+    'SLS',
+    'LSL',
+    'SLS'
+  ], {
+    S: 'minecraft:stripped_oak_log',
+    L: 'minecraft:oak_log'
+  }).id('tnp:cfm_stripped_oak_crate')
+
+  // Stripped Spruce Crate
+  event.remove({id: 'cfm:stripped_spruce_crate'})
+  event.shaped(Item.of('cfm:stripped_spruce_crate'), [
+    'SLS',
+    'LSL',
+    'SLS'
+  ], {
+    S: 'minecraft:stripped_spruce_log',
+    L: 'minecraft:spruce_log'
+  }).id('tnp:cfm_stripped_spruce_crate')
+
+  // Stripped Birch Crate
+  event.remove({id: 'cfm:stripped_birch_crate'})
+  event.shaped(Item.of('cfm:stripped_birch_crate'), [
+    'SLS',
+    'LSL',
+    'SLS'
+  ], {
+    S: 'minecraft:stripped_birch_log',
+    L: 'minecraft:birch_log'
+  }).id('tnp:cfm_stripped_birch_crate')
+
+  // Stripped Jungle Crate
+  event.remove({id: 'cfm:stripped_jungle_crate'})
+  event.shaped(Item.of('cfm:stripped_jungle_crate'), [
+    'SLS',
+    'LSL',
+    'SLS'
+  ], {
+    S: 'minecraft:stripped_jungle_log',
+    L: 'minecraft:jungle_log'
+  }).id('tnp:cfm_stripped_jungle_crate')
+
+  // Stripped Acacia Crate
+  event.remove({id: 'cfm:stripped_acacia_crate'})
+  event.shaped(Item.of('cfm:stripped_acacia_crate'), [
+    'SLS',
+    'LSL',
+    'SLS'
+  ], {
+    S: 'minecraft:stripped_acacia_log',
+    L: 'minecraft:acacia_log'
+  }).id('tnp:cfm_stripped_acacia_crate')
+
+  // Stripped Dark Oak Crate
+  event.remove({id: 'cfm:stripped_dark_oak_crate'})
+  event.shaped(Item.of('cfm:stripped_dark_oak_crate'), [
+    'SLS',
+    'LSL',
+    'SLS'
+  ], {
+    S: 'minecraft:stripped_dark_oak_log',
+    L: 'minecraft:dark_oak_log'
+  }).id('tnp:cfm_stripped_dark_oak_crate')
+
+  // Stripped Crimson Crate
+  event.remove({id: 'cfm:stripped_crimson_crate'})
+  event.shaped(Item.of('cfm:stripped_crimson_crate'), [
+    'SLS',
+    'LSL',
+    'SLS'
+  ], {
+    S: 'minecraft:stripped_crimson_stem',
+    L: 'minecraft:crimson_stem'
+  }).id('tnp:cfm_stripped_crimson_crate')
+
+  // Stripped Warped Crate
+  event.remove({id: 'cfm:stripped_warped_crate'})
+  event.shaped(Item.of('cfm:stripped_warped_crate'), [
+    'SLS',
+    'LSL',
+    'SLS'
+  ], {
+    S: 'minecraft:stripped_warped_stem',
+    L: 'minecraft:warped_stem'
+  }).id('tnp:cfm_stripped_warped_crate')
+
+
+});

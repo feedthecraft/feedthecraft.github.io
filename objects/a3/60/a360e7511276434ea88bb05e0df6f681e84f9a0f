@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:raw_materials/cobalt"
+  },
+  "result": {
+    "item": "tnp:cobalt_dust",
+    "count": 2
+  }
+}

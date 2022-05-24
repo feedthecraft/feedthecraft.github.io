@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "tnp:crushed_osmium_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:nugget_osmium",
+      "count": 9
+    }
+  ]
+}

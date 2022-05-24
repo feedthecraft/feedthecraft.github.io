@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/crimson_iron"
+  },
+  "result": {
+    "item": "silentgear:crimson_iron_dust",
+    "count": 2
+  }
+}

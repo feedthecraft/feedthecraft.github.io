@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:lapis_lazuli"
+  },
+  "result": {
+    "item": "mekanism:dust_lapis_lazuli",
+    "count": 1
+  }
+}

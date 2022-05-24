@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "item": "mekanism:osmium_ore"
+  },
+  "result": {
+    "item": "mekanism:dust_osmium",
+    "count": 2
+  },
+  "crushing_time": 200
+}

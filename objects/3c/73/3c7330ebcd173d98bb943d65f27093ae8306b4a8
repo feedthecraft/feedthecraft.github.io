@@ -1,0 +1,7 @@
+onEvent('item.modification', event => {
+  event.modify('minecraft:rotten_flesh', (item) => {
+    item.setFoodProperties((food) => {
+      food.alwaysEdible();
+    });
+  })
+})

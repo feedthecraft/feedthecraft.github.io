@@ -1,0 +1,16 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "blue_skies:ores/pyrope"
+	},
+	"output": [
+		{
+			"item": "blue_skies:pyrope_gem",
+			"count": 2
+		},
+		{
+			"item": "sand",
+			"count": 1
+		}
+	]
+}

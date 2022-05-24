@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "count": 2,
+    "item": "tnp:ventium_dust"
+  },
+  "input": {
+    "tag": "blue_skies:ores/ventium"
+  }
+}

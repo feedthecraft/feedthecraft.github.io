@@ -1,0 +1,8 @@
+{
+	"type": "crossroads:fluid_cooling",
+	"fluid": "oreberriesreplanted:aluminum_oreberry_juice",
+	"fluid_amount": 90,
+	"item": "immersiveengineering:ingot_aluminum",
+	"max_temp": 1500,
+	"temp_change": 100
+}

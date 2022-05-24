@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "forge:ingots/bronze"
+  },
+  "result": {
+    "item": "immersiveengineering:dust_bronze",
+    "count": 2
+  },
+  "crushing_time": 100,
+}

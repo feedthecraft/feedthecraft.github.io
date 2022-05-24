@@ -1,0 +1,12 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "blue_skies:raw_materials/ventium"
+	},
+	"output": [
+		{
+			"item": "tnp:ventium_dust",
+			"count": 2
+		}
+	]
+}

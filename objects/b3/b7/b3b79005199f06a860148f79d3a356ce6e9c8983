@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "item": "blue_skies:aquite"
+    }
+  ],
+  "additives": [],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "blue_skies:aquite"
+      }
+    }
+  ],
+  "input": {
+    "item": "blue_skies:raw_aquite"
+  },
+  "time": 100,
+  "energy": 25600
+}

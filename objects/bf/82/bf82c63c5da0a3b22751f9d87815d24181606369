@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "pneumaticcraft:compressed_iron_helmet"
+  },
+  "results": [
+    {
+      "item": "pneumaticcraft:ingot_iron_compressed",
+      "count": 5
+    }
+  ]
+}

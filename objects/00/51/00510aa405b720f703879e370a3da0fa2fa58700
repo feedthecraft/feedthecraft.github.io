@@ -1,0 +1,203 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.PauseScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=398258%
+  orientation = top-centered
+  x = -102
+  action = movebutton
+  y = 93
+}
+
+customization {
+  identifier = %id=398354%
+  orientation = top-centered
+  x = -102
+  action = movebutton
+  y = 189
+}
+
+customization {
+  identifier = %id=398306%
+  orientation = top-centered
+  x = -102
+  action = movebutton
+  y = 141
+}
+
+customization {
+  identifier = %id=398306%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=398306%
+  action = setbuttonlabel
+  value =    Mod Configs..
+}
+
+customization {
+  identifier = %id=398282%
+  orientation = top-centered
+  x = -102
+  action = movebutton
+  y = 117
+}
+
+customization {
+  identifier = %id=398330%
+  orientation = top-centered
+  x = -102
+  action = movebutton
+  y = 165
+}
+
+customization {
+  identifier = %id=504282%
+  orientation = top-centered
+  x = 4
+  action = movebutton
+  y = 117
+}
+
+customization {
+  identifier = %id=504330%
+  orientation = top-centered
+  x = 4
+  action = movebutton
+  y = 165
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = Report issues you find in the pack.%n%&7(Clicking this will open your browser.)
+  label =     Report Issues
+  loopbackgroundanimations = true
+  x = 4
+  width = 98
+  actionid = 0809d484-1040-4a71-a55a-4bfd051dbfd31641386426584
+  action = addbutton
+  y = 141
+  value = https://github.com/The-Nexus-Project/Limitless-5/issues
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/customimages/github.png
+  orientation = top-centered
+  x = 8
+  width = 14
+  action = addtexture
+  actionid = 0656e170-e260-4dfd-a43e-cbe709bc830a1641386732536
+  y = 144
+  height = 14
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = View the latest or all changelogs.%n%&7(Clicking this will open your browser.)
+  label = 
+  loopbackgroundanimations = true
+  x = 105
+  width = 20
+  actionid = 6bd136f7-1527-427f-a66a-12c16210a33f1641387137991
+  action = addbutton
+  y = 165
+  value = https://github.com/The-Nexus-Project/Limitless-5/blob/main/changelogs.md
+  height = 20
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = Click to join the TNP Discord.%n%&7(Clicking this will open your browser.)%n%&7(Then it will redirect you to the discord application.)
+  label = 
+  loopbackgroundanimations = true
+  x = -126
+  width = 20
+  actionid = 44841a8e-7ecf-45ef-aadc-7606e94ac4391641387441838
+  action = addbutton
+  y = 165
+  value = https://discord.gg/gwzpyQb
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/customimages/changelog_icon.png
+  orientation = top-centered
+  x = 106
+  width = 18
+  action = addtexture
+  actionid = 54558964-61f0-4ff7-9128-4e96528cb8331641387042679
+  y = 166
+  height = 18
+}
+
+customization {
+  path = config/fancymenu/customimages/discord_logo.png
+  orientation = top-centered
+  x = -123
+  width = 14
+  action = addtexture
+  actionid = d0c0770a-93d6-4863-9124-7ad31e432e691641387906270
+  y = 169
+  height = 11
+}
+
+customization {
+  path = config/fancymenu/customimages/config-icon.png
+  orientation = top-centered
+  x = -95
+  width = 14
+  action = addtexture
+  actionid = 19aab006-4bac-41e0-94a9-2cbb977d6f991642069157344
+  y = 144
+  height = 14
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = Need a server? %n%&7Use Code: &bGbergz&f @ Checkout (25% off.)%n%&7BisectHosting offers a quick, %n%&7simple and quality solution.%n%&f(Clicking will open your browser.)
+  label = 
+  loopbackgroundanimations = true
+  x = -126
+  width = 20
+  actionid = 9125fb6d-d880-4ada-a9e5-5332dfbfd4ba1650918206507
+  action = addbutton
+  y = 117
+  value = https://bisecthosting.com/gbergz
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/customimages/serverhost-icon.png
+  orientation = top-centered
+  x = -122
+  width = 12
+  action = addtexture
+  actionid = 32bcbc5e-23dc-4a1a-9dd3-03d4602a44781650918612539
+  y = 120
+  height = 13
+}
+

@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "blue_skies:gems/aquite"
+    }
+  },
+  "output": {
+    "item": "tnp:aquite_dust"
+  }
+}

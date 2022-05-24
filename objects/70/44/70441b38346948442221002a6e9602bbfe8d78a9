@@ -1,0 +1,29 @@
+{
+	"type": "cyclic:crusher",
+	"input": {
+		"tag": "forge:ingots/ostrum"
+	},
+	"energy": {
+		"ticks": 300,
+		"rfpertick": 30
+	},
+	"result": {
+		"item": "tnp:ostrum_dust",
+		"count": 1
+	},
+	"conditions": [
+		{
+			"values": [
+				{
+					"modid": "cyclic",
+					"type": "forge:mod_loaded"
+				},
+				{
+					"item": "cyclic:crusher",
+					"type": "forge:item_exists"
+				}
+			],
+			"type": "forge:and"
+		}
+	]
+}

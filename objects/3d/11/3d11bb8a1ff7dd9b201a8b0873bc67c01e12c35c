@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "create:zinc_ingot"
+  },
+  "result": {
+    "item": "create:crushed_zinc_ore",
+    "count": 1
+  }
+}

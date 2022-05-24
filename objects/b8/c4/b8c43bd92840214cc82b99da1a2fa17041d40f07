@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "item": "tconstruct:raw_cobalt"
+  },
+  "result": {
+    "item": "tnp:cobalt_dust",
+    "count": 2
+  },
+  "crushing_time": 200
+}

@@ -1,0 +1,10 @@
+{
+	"type": "crossroads:crucible",
+	"input": {
+		"tag": "forge:dusts/lead"
+	},
+	"output": {
+		"fluid": "oreberriesreplanted:lead_oreberry_juice",
+		"amount": 144
+	}
+}

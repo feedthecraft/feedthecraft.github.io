@@ -1,0 +1,16 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "forge:ores/pendorite"
+	},
+	"output": [
+		{
+			"item": "byg:raw_pendorite",
+			"count": 2
+		},
+		{
+			"item": "sand",
+			"count": 1
+		}
+	]
+}

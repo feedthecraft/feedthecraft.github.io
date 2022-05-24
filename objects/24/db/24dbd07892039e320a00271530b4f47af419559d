@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "blue_skies:ores/falsite"
+  },
+  "result": {
+    "item": "tnp:falsite_dust",
+    "count": 2
+  }
+}

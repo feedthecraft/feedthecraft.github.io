@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "tnp:charoite_dust"
+  },
+  "input": {
+    "item": "blue_skies:charoite"
+  }
+}

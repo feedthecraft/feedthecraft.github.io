@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "count": 3,
+    "item": "tnp:brilliance_dust"
+  },
+  "input": {
+    "item": "malum:brilliant_deepslate"
+  }
+}

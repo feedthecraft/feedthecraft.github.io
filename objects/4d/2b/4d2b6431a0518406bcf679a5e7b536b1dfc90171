@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:bandit_village",
+      "weight": 0.75
+    }
+  ],
+  "placement": {
+    "salt": 1111272534,
+    "spacing": 55,
+    "separation": 45,
+    "type": "minecraft:random_spread"
+  }
+}

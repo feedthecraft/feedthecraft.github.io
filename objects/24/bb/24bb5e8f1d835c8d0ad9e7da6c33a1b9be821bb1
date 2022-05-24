@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "count": 2,
+    "item": "tnp:calorite_dust"
+  },
+  "input": {
+    "tag": "forge:raw_materials/calorite"
+  }
+}

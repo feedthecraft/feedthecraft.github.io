@@ -1,0 +1,12 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "forge:raw_materials/desh"
+	},
+	"output": [
+		{
+			"item": "tnp:desh_dust",
+			"count": 2
+		}
+	]
+}

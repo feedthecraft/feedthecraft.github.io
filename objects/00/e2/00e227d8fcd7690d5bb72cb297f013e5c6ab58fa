@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:scorched_mines",
+      "weight": 0.75
+    }
+  ],
+  "placement": {
+    "salt": 1332446387,
+    "spacing": 140,
+    "separation": 110,
+    "type": "minecraft:random_spread"
+  }
+}

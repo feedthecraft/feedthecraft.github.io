@@ -1,0 +1,19 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:storage_electrum",
+      "count": 1
+    },
+    {
+      "item": "thermal:press_unpacking_die"
+    }
+  ],
+  "result": [
+    {
+      "item": "immersiveengineering:ingot_electrum",
+      "count": 9
+    }
+  ],
+  "energy": 400
+}

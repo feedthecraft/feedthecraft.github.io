@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "count": 13,
+      "base_ingredient": {
+        "item": "blue_skies:falsite_ingot"
+      }
+    }
+  ],
+  "additives": [],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "blue_skies:falsite_ingot"
+      }
+    }
+  ],
+  "input": {
+    "item": "blue_skies:raw_falsite_block"
+  },
+  "time": 900,
+  "energy": 230400
+}

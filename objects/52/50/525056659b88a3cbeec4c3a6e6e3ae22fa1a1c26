@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "tag": "forge:ingots/crimson_iron"
+    }
+  ],
+  "additives": [],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:ingots/crimson_iron"
+      }
+    }
+  ],
+  "input": {
+    "tag": "forge:raw_materials/crimson_iron"
+  },
+  "time": 100,
+  "energy": 25600
+}

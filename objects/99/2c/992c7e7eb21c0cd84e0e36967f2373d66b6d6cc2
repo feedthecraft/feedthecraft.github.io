@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ingots/ostrum"
+  },
+  "result": {
+    "item": "tnp:ostrum_dust",
+    "count": 1
+  }
+}

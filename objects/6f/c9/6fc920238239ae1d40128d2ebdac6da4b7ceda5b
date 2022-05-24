@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:refined_glowstone_shield"
+  },
+  "results": [
+    {
+      "item": "mekanism:ingot_refined_glowstone",
+      "count": 6
+    },
+    {
+      "item": "minecraft:shield"
+    }
+  ]
+}

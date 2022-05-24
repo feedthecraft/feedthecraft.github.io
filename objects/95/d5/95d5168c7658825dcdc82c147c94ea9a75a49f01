@@ -1,0 +1,12 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "forge:raw_materials/silver"
+	},
+	"output": [
+		{
+			"item": "immersiveengineering:dust_silver",
+			"count": 2
+		}
+	]
+}

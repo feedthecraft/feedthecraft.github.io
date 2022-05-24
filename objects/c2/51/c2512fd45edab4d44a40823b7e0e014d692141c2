@@ -1,0 +1,14 @@
+onEvent('block.modification', event => {
+    event.modify('minecraft:deepslate', m => {
+        m.destroySpeed = 1.5
+})
+    event.modify('minecraft:cobbled_deepslate', m => {
+        m.destroySpeed = 2
+    })
+    event.modify('minecraft:spawner', m => {
+        m.destroySpeed = 40
+    })
+    event.modify('ba_bt:bt_land_spawner', m => {
+        m.destroySpeed = 40
+    })
+})

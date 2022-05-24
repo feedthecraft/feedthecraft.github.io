@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "blue_skies:ores/moonstone"
+  },
+  "result": {
+    "item": "tnp:moonstone_dust",
+    "count": 2
+  }
+}

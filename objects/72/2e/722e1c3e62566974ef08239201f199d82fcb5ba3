@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "additionalstructures:well_1",
+      "weight": 0.85
+    },
+    {
+      "structure": "additionalstructures:well_2",
+      "weight": 0.85
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 35,
+    "separation": 10,
+    "salt": 12984311
+  }
+}

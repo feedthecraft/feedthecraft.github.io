@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "additionalstructures:underground_nether_portal",
+      "weight": 0.85
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 15,
+    "salt": 99532492
+  }
+}

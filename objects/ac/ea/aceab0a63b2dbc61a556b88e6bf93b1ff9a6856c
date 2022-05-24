@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "blue_skies:ores/falsite"
+  },
+  "result": {
+    "item": "tnp:falsite_dust",
+    "count": 2
+  },
+  "crushing_time": 200
+}

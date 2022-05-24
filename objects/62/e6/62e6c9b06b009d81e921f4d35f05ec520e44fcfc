@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cyclic:crystal_boots"
+  },
+  "results": [
+    {
+      "item": "cyclic:gem_obsidian",
+      "count": 4
+    }
+  ]
+}

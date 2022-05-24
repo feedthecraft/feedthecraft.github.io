@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "ironjetpacks:jetpack",
+        "ironjetpacks:capacitor",
+        "ironjetpacks:thruster",
+        "ironjetpacks:cell",
+        "patchouli:guide_book"
+    ]
+}

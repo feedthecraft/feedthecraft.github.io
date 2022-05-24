@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "undergarden:froststeel_shield"
+  },
+  "results": [
+    {
+      "item": "undergarden:froststeel_ingot",
+      "count": 6
+    },
+    {
+      "item": "minecraft:shield"
+    }
+  ]
+}

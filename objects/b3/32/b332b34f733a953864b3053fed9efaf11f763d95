@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "blue_skies:horizonite_boots"
+  },
+  "results": [
+    {
+      "item": "blue_skies:horizonite_ingot",
+      "count": 4
+    }
+  ]
+}

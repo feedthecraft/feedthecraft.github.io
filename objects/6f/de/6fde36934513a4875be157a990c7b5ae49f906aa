@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "pickletweaks:emerald_helmet"
+  },
+  "results": [
+    {
+      "item": "minecraft:emerald",
+      "count": 5
+    }
+  ]
+}

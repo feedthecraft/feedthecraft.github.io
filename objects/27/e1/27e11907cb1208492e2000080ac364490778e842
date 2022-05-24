@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "aquaculture:neptunium_helmet"
+  },
+  "results": [
+    {
+      "item": "aquaculture:neptunium_ingot",
+      "count": 5
+    }
+  ]
+}

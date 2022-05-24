@@ -1,0 +1,12 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "forge:raw_materials/cobalt"
+	},
+	"output": [
+		{
+			"item": "tnp:cobalt_dust",
+			"count": 2
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "byg:ametrine_chestplate"
+  },
+  "results": [
+    {
+      "item": "byg:ametrine_block"
+    }
+  ]
+}

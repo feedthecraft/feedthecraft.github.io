@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "everythingcopper:copper_shovel"
+  },
+  "results": [
+    {
+      "item": "minecraft:copper_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}

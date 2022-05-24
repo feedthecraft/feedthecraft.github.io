@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "item": "malum:brilliant_deepslate"
+  },
+  "result": {
+    "item": "tnp:brilliance_dust",
+    "count": 3
+  },
+  "crushing_time": 200
+}

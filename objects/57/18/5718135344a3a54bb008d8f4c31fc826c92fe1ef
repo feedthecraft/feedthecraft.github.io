@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "immersiveengineering:ingot_electrum"
+  },
+  "result": {
+    "item": "immersiveengineering:dust_electrum",
+    "count": 1
+  }
+}

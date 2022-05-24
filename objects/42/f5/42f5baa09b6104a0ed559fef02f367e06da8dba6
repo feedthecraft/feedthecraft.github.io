@@ -1,0 +1,19 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [],
+      "recipe": {
+        "type": "oreberriesreplanted:vat",
+        "ingredient": {
+          "item": "oreberriesreplanted:zinc_oreberry"
+        },
+        "fluid": "oreberriesreplanted:zinc_oreberry_juice",
+        "result": {
+          "item": "create:zinc_nugget"
+        },
+        "evaporationtime": 100
+      }
+    }
+  ]
+}

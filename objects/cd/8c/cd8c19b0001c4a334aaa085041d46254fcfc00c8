@@ -1,0 +1,19 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [],
+      "recipe": {
+        "type": "oreberriesreplanted:vat",
+        "ingredient": {
+          "item": "oreberriesreplanted:iron_oreberry"
+        },
+        "fluid": "oreberriesreplanted:iron_oreberry_juice",
+        "result": {
+          "item": "minecraft:iron_nugget"
+        },
+        "evaporationtime": 100
+      }
+    }
+  ]
+}

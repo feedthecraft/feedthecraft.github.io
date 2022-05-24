@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "undergarden:cloggrum_battleaxe"
+  },
+  "results": [
+    {
+      "item": "undergarden:cloggrum_ingot",
+      "count": 4
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:refined_obsidian_hoe"
+  },
+  "results": [
+    {
+      "item": "mekanism:ingot_refined_obsidian",
+      "count": 2
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}

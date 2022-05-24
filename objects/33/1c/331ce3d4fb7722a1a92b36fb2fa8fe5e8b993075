@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/osmium"
+  },
+  "result": {
+    "item": "mekanism:dust_osmium",
+    "count": 2
+  }
+}

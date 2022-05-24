@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:heavenly_conqueror",
+      "weight": 0.75
+    }
+  ],
+  "placement": {
+    "salt": 374552443,
+    "spacing": 250,
+    "separation": 140,
+    "type": "minecraft:random_spread"
+  }
+}

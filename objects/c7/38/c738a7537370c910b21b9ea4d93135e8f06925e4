@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "enigmaticlegacy:etherium_helmet"
+  },
+  "results": [
+    {
+      "item": "enigmaticlegacy:etherium_ingot",
+      "count": 5
+    }
+  ]
+}

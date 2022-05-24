@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/iesnium"
+    }
+  },
+  "output": {
+    "item": "occultism:iesnium_dust"
+  }
+}

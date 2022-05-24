@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "blue_skies:charoite_chestplate"
+  },
+  "results": [
+    {
+      "item": "blue_skies:charoite",
+      "count": 8
+    }
+  ]
+}

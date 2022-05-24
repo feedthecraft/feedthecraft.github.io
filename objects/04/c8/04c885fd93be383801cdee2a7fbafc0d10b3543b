@@ -1,0 +1,10 @@
+{
+	"type": "crossroads:crucible",
+	"input": {
+		"tag": "forge:nuggets/osmium"
+	},
+	"output": {
+		"fluid": "oreberriesreplanted:osmium_oreberry_juice",
+		"amount": 16
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:ingot_electrum"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:plate_electrum"
+    }
+  ]
+}

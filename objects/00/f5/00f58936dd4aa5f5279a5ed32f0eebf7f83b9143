@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "blazegear:brimsteel_shovel"
+  },
+  "results": [
+    {
+      "item": "blazegear:brimsteel_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "count": 2
+    }
+  ]
+}

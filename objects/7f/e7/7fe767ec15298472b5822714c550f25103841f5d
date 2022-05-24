@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:soul_sand",
+    "bygonenether:soul_stone",
+    "minecraft:soul_soil",
+    "mysticalagriculture:soulstone",
+    "mysticalagriculture:soulstone_cobble",
+    "quark:soul_sandstone"
+  ]
+} 

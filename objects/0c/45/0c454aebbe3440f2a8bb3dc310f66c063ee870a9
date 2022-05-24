@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "immersiveengineering:dust_uranium"
+  },
+  "input": {
+    "tag": "forge:ingots/uranium"
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"type": "crossroads:crucible",
+	"input": {
+		"tag": "forge:nuggets/aluminum"
+	},
+	"output": {
+		"fluid": "oreberriesreplanted:aluminum_oreberry_juice",
+		"amount": 16
+	}
+}

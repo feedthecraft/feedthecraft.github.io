@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "croptopia:rice",
+      "count": 2
+    },
+    {
+      "item": "croptopia:rice_seed",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "croptopia:rice_seed"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "croptopia:rice_crop"
+  }
+}

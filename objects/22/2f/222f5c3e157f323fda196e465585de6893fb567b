@@ -1,0 +1,17 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:ores/cobalt"
+  },
+  "result": [
+    {
+      "item": "tnp:cobalt_dust",
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:netherrack",
+      "chance": 0.2
+    }
+  ],
+  "experience": 0.2
+}

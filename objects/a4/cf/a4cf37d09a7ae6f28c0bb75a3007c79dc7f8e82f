@@ -1,0 +1,10 @@
+{
+	"type": "crossroads:stamp_mill",
+	"output": {
+		"item": "tnp:raw_osmium_grit",
+		"count": 3
+	},
+	"ingredient": {
+		"tag": "forge:raw_materials/osmium"
+	}
+}

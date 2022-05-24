@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/crimson_iron"
+    }
+  },
+  "output": {
+    "item": "silentgear:crimson_iron_dust"
+  }
+}

@@ -1,0 +1,38 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.LevelLoadingScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 3
+  action = addtext
+  actionid = 5097fd4f-0277-4858-93c7-c3ec6b122f3a1637072565703
+  y = 3
+  scale = 0.65
+  alignment = left
+  value = §e§l!§f Generating worlds, loading into worlds/servers might take some time! Freezes are normal. Be patient! You'll get in eventually.
+}
+
+customization {
+  path = config/fancymenu/customimages/loadingspin.gif
+  orientation = bottom-right
+  x = -44
+  width = 37
+  action = addtexture
+  actionid = 7c9fc656-97f9-4419-abb2-a07c00f114d61645213058797
+  y = -45
+  height = 37
+}
+

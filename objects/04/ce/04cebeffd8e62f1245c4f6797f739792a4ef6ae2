@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "tag": "forge:dusts/cyanite"
+  },
+  "input": {
+    "tag": "forge:ingots/cyanite"
+  }
+}

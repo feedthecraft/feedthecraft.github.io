@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "undergarden:cloggrum_boots"
+  },
+  "results": [
+    {
+      "item": "undergarden:cloggrum_ingot",
+      "count": 4
+    }
+  ]
+}

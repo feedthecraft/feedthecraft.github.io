@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ingots/osmium"
+  },
+  "result": {
+    "item": "mekanism:dust_osmium",
+    "count": 1
+  }
+}

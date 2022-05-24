@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "croptopia:sweetpotato",
+      "count": 2
+    },
+    {
+      "item": "croptopia:sweetpotato_seed",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "croptopia:sweetpotato_seed"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "croptopia:sweetpotato_crop"
+  }
+}

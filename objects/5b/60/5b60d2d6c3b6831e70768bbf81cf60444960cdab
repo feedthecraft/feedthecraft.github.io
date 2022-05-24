@@ -1,0 +1,1099 @@
+onEvent('recipes', event => {
+
+  // Mining Dim - Block
+  event.remove({id: 'jamd:mine_portal_block'})
+  event.shaped(Item.of('jamd:mine_portal_block'), [
+    'GLG',
+    'LPL',
+    'GLG'
+  ], {
+    G: 'minecraft:gold_block',
+    L: '#minecraft:logs',
+    P: 'minecraft:golden_pickaxe'
+  }).id('tnp:mine_portal_block')
+
+  // Comforts - White Sleeping Bag
+  event.remove({id: 'comforts:sleeping_bag_white'})
+  event.shaped(Item.of('comforts:sleeping_bag_white'), [
+    'L L',
+    'WWW',
+    'L L'
+  ], {
+    L: '#forge:leather',
+    W: '#minecraft:wool'
+  }).id('tnp:comforts_sleeping_bag')
+
+  // Stone Wand
+  event.remove({id: 'wands:stone_wand'})
+  event.smithing('wands:stone_wand', '#forge:rods/wooden', '#forge:cobblestone').id('tnp:stone_wand')
+
+  // Iron Wand
+  event.remove({id: 'wands:iron_wand'})
+  event.smithing('wands:iron_wand', '#forge:rods/wooden', 'minecraft:iron_ingot').id('tnp:iron_wand')
+
+  // Diamond Wand
+  event.remove({id: 'wands:diamond_wand'})
+  event.smithing('wands:diamond_wand', '#forge:rods/wooden', 'minecraft:diamond').id('tnp:diamond_wand')
+
+  // Click Machine
+  event.shaped(Item.of('clickmachine:auto_clicker'), [
+    'SPS',
+    'SBS',
+    'SRS'
+  ], {
+    S: '#minecraft:stone_tool_materials',
+    P: 'minecraft:comparator',
+    B: 'minecraft:redstone_block',
+    R: 'minecraft:repeater'
+  }).id('tnp:click_machine')
+
+  // Master Infusion
+  event.replaceInput({id: "matc:crystals/master_infusion_crystal"}, 'mysticalagriculture:prosperity_shard', 'mysticalagradditions:insanium_essence')
+
+  // Water Strainer - String Mesh
+  event.remove({id: 'waterstrainer:string_mesh'})
+  event.shaped(Item.of('waterstrainer:string_mesh'), [
+    ' S ',
+    'SSS',
+    ' S '
+  ], {
+    S: 'minecraft:string',
+  }).id('tnp:ws_string_mesh')
+
+  // Ladder
+  event.shaped(Item.of('minecraft:ladder', 3), [
+    'S S',
+    'SSS',
+    'S S'
+  ], {
+    S: '#forge:rods/wooden',
+  }).id('tnp:normal_ladder')
+
+  // Expanded Storage - Chest
+  event.remove({id: 'expandedstorage:wood_chest'})
+  event.shaped(Item.of('expandedstorage:wood_chest'), [
+    'CCC',
+    'CBC',
+    'CCC'
+  ], {
+    C: '#minecraft:planks',
+    B: '#minecraft:buttons'
+  }).id('tnp:exp_wood_chest')
+
+  // Dog Bath Fix
+  event.remove({id: 'doggytalents:dog_bath'})
+  event.shaped(Item.of('doggytalents:dog_bath'), [
+    '   ',
+    'IWI',
+    'III'
+  ], {
+    I: 'minecraft:iron_ingot',
+    W: 'minecraft:water_bucket'
+  }).id('tnp:doggytalents_dog_bath')
+
+  // Watering Can
+  event.remove({id: 'pickletweaks:watering_can'})
+  event.shaped(Item.of('pickletweaks:watering_can'), [
+    '  I',
+    'IBI',
+    ' I '
+  ], {
+    I: 'minecraft:iron_ingot',
+    B: 'minecraft:bowl'
+  }).id('tnp:pickletweaks_watering_can')
+
+  // Tinted Borderless Glass
+  event.remove({id: 'connectedglass:tinted_borderless_glass1'})
+  event.shaped(Item.of('connectedglass:tinted_borderless_glass'), [
+    'TTT',
+    'TTT',
+    'TTT'
+  ], {
+    T: 'minecraft:tinted_glass',
+  }).id('tnp:cglass_tinted_borderless')
+
+  // Grate
+  event.remove({id: 'quark:building/crafting/grate'})
+  event.shaped(Item.of('quark:grate'), [
+    'TTT',
+    'TTT',
+    '   '
+  ], {
+    T: 'minecraft:iron_bars',
+  }).id('tnp:quark_grate')
+
+  // Iron Bridge Pier
+  event.remove({id: 'mcwbridges:iron_bridge_pier'})
+  event.shaped(Item.of('mcwbridges:iron_bridge_pier', 3), [
+    '   ',
+    'TTT',
+    'T T'
+  ], {
+    T: 'minecraft:iron_bars',
+  }).id('tnp:mcw_iron_bridge_pier')
+
+  // Jail Door
+  event.remove({id: 'mcwdoors:jail_door'})
+  event.shaped(Item.of('mcwdoors:jail_door'), [
+    'TT ',
+    'TN ',
+    'TT '
+  ], {
+    T: 'minecraft:iron_bars',
+    N: 'minecraft:iron_nugget'
+  }).id('tnp:mcw_jail_door')
+
+
+  // Knife
+  event.remove({id: 'croptopia:shaped_knife'})
+  event.shaped(Item.of('croptopia:knife'), [
+    ' I ',
+    ' S ',
+    '   '
+  ], {
+    I: 'minecraft:iron_ingot',
+    S: '#forge:rods/wooden'
+  }).id('tnp:croptopia_knife')
+
+  // Chest Slab back to Chest
+  event.shaped(Item.of('minecraft:chest'), [
+    'C  ',
+    'C  ',
+    '   '
+  ], {
+    C: 'slabmachines:chest_slab',
+  }).id('tnp:chest_slabs_back_to_chest')
+
+  // Revertable Chests
+  event.shapeless(Item.of('minecraft:chest'), ['#quark:revertable_chests']).id('tnp:revertable_chests')
+
+  // Iron Bars Horizontal
+  event.remove({output: 'additionalbars:horizontal_iron_bars'})
+  event.shaped(Item.of('additionalbars:horizontal_iron_bars', 2), [
+    'B  ',
+    'B  ',
+    '   '
+  ], {
+    B: 'minecraft:iron_bars',
+  }).id('tnp:iron_bars_horizontal')
+
+  // Mixed Chest from Planks
+  event.shaped(Item.of('minecraft:chest'), [
+    'PPP',
+    'P P',
+    'PPP'
+  ], {
+    P: '#tnp:chest/planks',
+  }).id('tnp:mixed_chest_planks')
+
+  // Mixed Chest from Logs
+  event.shaped(Item.of('minecraft:chest', 4), [
+    'PPP',
+    'P P',
+    'PPP'
+  ], {
+    P: '#tnp:chest/logs',
+  }).id('tnp:mixed_chest_logs')
+
+  // Decorative Blocks Lattice
+  event.remove({id: 'decorative_blocks:lattice'})
+  event.shaped(Item.of('decorative_blocks:lattice'), [
+    ' S ',
+    'SPS',
+    ' S '
+  ], {
+    P: '#minecraft:planks',
+    S: '#forge:rods/wooden',
+  }).id('tnp:deco_lattice')
+
+  // Decorative Blocks Lattice
+  event.remove({id: 'decorative_blocks:bar_panel'})
+  event.shaped(Item.of('decorative_blocks:bar_panel', 2), [
+    '   ',
+    'III',
+    '   '
+  ], {
+    I: 'minecraft:iron_bars',
+  }).id('tnp:deco_bar_panel')
+
+  // Rechiseled - Chisel
+  event.remove({id: 'rechiseled:chisel'})
+  event.shaped(Item.of('rechiseled:chisel'), [
+    'SI ',
+    '   ',
+    '   '
+  ], {
+    S: '#forge:rods/wooden',
+    I: 'immersiveengineering:stick_iron',
+  }).id('tnp:rc_chisel')
+
+  // Lootbag Pieces to Lootbag
+  event.shaped(Item.of('lootbagmod:lootbag'), [
+    'PPP',
+    'PPP',
+    'PPP'
+  ], {
+    P: 'tnp:lootbag_piece',
+  }).id('tnp:loot_bag_from_pieces')
+
+
+  // Floral Ench - Large Pot
+  event.remove({id: 'floralench:large_pot'})
+  event.shaped(Item.of('floralench:large_pot'), [
+    'C C',
+    'C C',
+    ' C '
+  ], {
+    C: '#forge:ingots/brick',
+  }).id('tnp:floralench_large_pot')
+
+  // AE2 - Calculation Press
+  event.shaped(Item.of('ae2:calculation_processor_press'), [
+    'CQC',
+    'QBQ',
+    'CQC'
+  ], {
+    Q: 'refinedstorage:quartz_enriched_iron_block',
+    C: 'silentgear:crimson_iron_block',
+    B: 'ae2:quartz_block',
+  }).id('tnp:calculation_processor_press')
+
+  // AE2 - Engineering Press
+  event.shaped(Item.of('ae2:engineering_processor_press'), [
+    'CQC',
+    'QTQ',
+    'CQC'
+  ], {
+    Q: 'refinedstorage:quartz_enriched_iron_block',
+    C: 'silentgear:crimson_iron_block',
+    T: 'immersiveengineering:toolbox',
+  }).id('tnp:engineering_processor_press')
+
+  // AE2 - Logic Press
+  event.shaped(Item.of('ae2:logic_processor_press'), [
+    'CQC',
+    'QLQ',
+    'CQC'
+  ], {
+    Q: 'refinedstorage:quartz_enriched_iron_block',
+    C: 'silentgear:crimson_iron_block',
+    L: 'rftoolsutility:logic',
+  }).id('tnp:logic_processor_press')
+
+  // AE2 - Silicon Press
+  event.shaped(Item.of('ae2:silicon_press'), [
+    'CQC',
+    'QSQ',
+    'CQC'
+  ], {
+    Q: 'refinedstorage:quartz_enriched_iron_block',
+    C: 'silentgear:crimson_iron_block',
+    S: '#forge:silicon',
+  }).id('tnp:silicon_press')
+
+  // Mystical Agriculture - Silicon Press
+  event.replaceInput({id: "mysticalagriculture:essence/appliedenergistics2/silicon_press"}, 'ae2:silicon', '#forge:silicon')
+
+  // Advanced Coil
+  event.replaceInput({id: "ironjetpacks:advanced_coil"}, '#balm:wooden_rods', 'ironjetpacks:basic_coil')
+
+  // Elite Coil
+  event.replaceInput({id: "ironjetpacks:elite_coil"}, '#balm:wooden_rods', 'ironjetpacks:advanced_coil')
+
+  // Ultimate Coil
+  event.replaceInput({id: "ironjetpacks:ultimate_coil"}, '#balm:wooden_rods', 'ironjetpacks:elite_coil')
+
+  // Cursed Ring
+  event.shaped(Item.of('enigmaticlegacy:cursed_ring'), [
+    'GNH',
+    'NRN',
+    'ENE'
+  ], {
+    H: 'enigmaticlegacy:earth_heart',
+    G: 'enigmaticlegacy:golem_heart',
+    E: 'enigmaticlegacy:etherium_ingot',
+    R: 'enigmaticlegacy:ender_ring',
+    N: 'minecraft:netherite_ingot'
+  }).id('tnp:cursed_ring')
+
+  // Angel Ring
+  event.remove({output: 'angelring:itemring'})
+  event.shaped(Item.of('angelring:itemring'), [
+    'WGW',
+    'NIN',
+    'DGD'
+  ], {
+    W: 'reliquary:bat_wing',
+    G: 'minecraft:gold_block',
+    I: 'angelring:itemdiamondring',
+    D: 'quark:dragon_scale',
+    N: 'minecraft:netherite_block'
+  }).id('tnp:angel_ring')
+
+  // Diamond Ring
+  event.remove({output: 'angelring:itemdiamondring'})
+  event.shaped(Item.of('angelring:itemdiamondring'), [
+    'NDN',
+    'DFD',
+    'NDN'
+  ], {
+    D: 'minecraft:diamond_block',
+    F: 'enigmaticlegacy:fabulous_scroll',
+    N: 'advancednetherite:netherite_diamond_ingot'
+  }).id('tnp:diamond_ring')
+
+  // Unwitnessed Amulet
+  event.shaped(Item.of('enigmaticlegacy:unwitnessed_amulet'), [
+    'DLD',
+    'RER',
+    'DLD'
+  ], {
+    D: 'buildersdelight:chain_1',
+    R: 'minecraft:emerald',
+    L: 'minecraft:lapis_lazuli',
+    E: 'enigmaticlegacy:gem_ring'
+  }).id('tnp:unwitnessed_amulet')
+
+  // Ring of Ender
+  event.replaceInput({id: "enigmaticlegacy:ender_ring"}, 'enigmaticlegacy:iron_ring', 'enigmaticlegacy:gem_ring')
+
+  // Nether Wart Output Fix
+  event.remove({id: 'cyclic:crafting/nether_wart_reverse'})
+  event.shapeless(Item.of('minecraft:nether_wart', 4), ['minecraft:nether_wart_block']).id('tnp:nether_wart_uncraft_fix')
+
+  // Animal Feed
+  event.remove({output: 'essentials:animal_feed'})
+  event.shapeless(Item.of('essentials:animal_feed', 2), ['minecraft:beetroot', 'minecraft:carrot', 'minecraft:potato']).id('tnp:animal_feed')
+
+  // Cyclic - Arcane Relic Recipe Fix
+  event.replaceInput({id: "cyclic:charm_magicdefense"}, 'cyclic:heart_empty', 'minecraft:heart_of_the_sea')
+
+  // Apple to Baked Apple
+  event.smelting(Item.of('tnp:baked_apple', 1), 'minecraft:apple').xp(0.10).id('tnp:baked_apple_smelt')
+  event.smoking(Item.of('tnp:baked_apple', 1), 'minecraft:apple').xp(0.10).id('tnp:baked_apple_smoked')
+  event.campfireCooking('tnp:baked_apple', 'minecraft:apple').id('tnp:baked_apple_campfire')
+
+  // Glow Berries to Baked Glow Berries
+  event.smelting(Item.of('tnp:baked_glow_berries', 1), 'minecraft:glow_berries').xp(0.10).id('tnp:baked_glow_berries_smelt')
+  event.smoking(Item.of('tnp:baked_glow_berries', 1), 'minecraft:glow_berries').xp(0.10).id('tnp:baked_glow_berries_smoked')
+  event.campfireCooking('tnp:baked_glow_berries', 'minecraft:glow_berries').id('tnp:baked_glow_berries_campfire')
+
+  // Graphite Ingot - Blasting
+  event.blasting(Item.of('biggerreactors:graphite_ingot', 1), 'minecraft:coal').xp(0.10).id('tnp:blast_graphite_ingot_blast')
+  event.blasting(Item.of('biggerreactors:graphite_ingot', 1), 'biggerreactors:graphite_dust').id('tnp:blast_graphite_dust')
+
+  //_blast Golden Berries
+  event.shaped(Item.of('tnp:golden_berries'), [
+    'GGG',
+    'GSG',
+    'GGG'
+  ], {
+    S: '#tnp:berries',
+    G: 'minecraft:gold_nugget'
+  }).id('tnp:golden_berries')
+
+  // Golden Melon Slice
+  event.shaped(Item.of('tnp:golden_melon'), [
+    'NIN',
+    'IMI',
+    'NIN'
+  ], {
+    M: 'minecraft:melon_slice',
+    N: 'minecraft:gold_nugget',
+    I: 'minecraft:gold_ingot'
+  }).id('tnp:golden_melon_slice')
+
+  // Golden Chain
+  event.shaped(Item.of('buildersdelight:chain_1'), [
+    ' N ',
+    ' I ',
+    ' N '
+  ], {
+    N: 'minecraft:gold_nugget',
+    I: 'minecraft:gold_ingot'
+  }).id('tnp:gold_chain')
+
+  // Carrot to Roasted Carrot
+  event.smelting(Item.of('tnp:roasted_carrot', 1), 'minecraft:carrot').xp(0.10).id('tnp:roasted_carrot_smelt')
+  event.smoking(Item.of('tnp:roasted_carrot', 1), 'minecraft:carrot').xp(0.10).id('tnp:roasted_carrot_smoked')
+  event.campfireCooking('tnp:roasted_carrot', 'minecraft:carrot').id('tnp:roasted_carrot_campfire')
+
+  // Melon to Grilled Melon
+  event.smelting(Item.of('tnp:grilled_melon', 1), 'minecraft:melon_slice').xp(0.10).id('tnp:grilled_melon_smelt')
+  event.smoking(Item.of('tnp:grilled_melon', 1), 'minecraft:melon_slice').xp(0.10).id('tnp:grilled_melon_smoked')
+  event.campfireCooking('tnp:grilled_melon', 'minecraft:melon_slice').id('tnp:grilled_melon_campfire')
+
+  // Iron Fence
+  event.remove({output: 'buildersaddition:iron_fence'})
+  event.shaped(Item.of('buildersaddition:iron_fence', 12), [
+    'IRI',
+    'IRI',
+    'IRI'
+  ], {
+    I: 'minecraft:iron_ingot',
+    R: '#forge:rods/iron'
+  }).id('tnp:iron_fence')
+
+
+  event.smelting(Item.of('beyond_earth:calorite_ingot', 1), 'tnp:calorite_dust').xp(0.35).id('tnp:smelt_dust_calorite_smelt')
+  event.blasting(Item.of('beyond_earth:calorite_ingot', 1), 'tnp:calorite_dust').xp(0.35).id('tnp:blast_dust_calorite_blast')
+
+  event.smelting(Item.of('beyond_earth:ostrum_ingot', 1), 'tnp:ostrum_dust').xp(0.35).id('tnp:smelt_dust_ostrum_smelt')
+  event.blasting(Item.of('beyond_earth:ostrum_ingot', 1), 'tnp:ostrum_dust').xp(0.35).id('tnp:blast_dust_ostrum_blast')
+
+  event.smelting(Item.of('beyond_earth:desh_ingot', 1), 'tnp:desh_dust').xp(0.35).id('tnp:smelt_dust_desh_smelt')
+  event.blasting(Item.of('beyond_earth:desh_ingot', 1), 'tnp:desh_dust').xp(0.35).id('tnp:blast_dust_desh_blast')
+
+  // Crafting Pad Alternate Recipe
+  event.shaped(Item.of('vanillatweaks:crafting_pad'), [
+    ' P ',
+    'S  ',
+    '   '
+  ], {
+    P: 'minecraft:crafting_table',
+    S: '#forge:rods/wooden'
+  }).id('tnp:craftig_pad_alt')
+
+  // Any Trapped Chest to Vanilla Trapped Chest
+  event.shapeless(Item.of('minecraft:trapped_chest'), ['#forge:chests/trapped']).id('tnp:trapped_chest_convert')
+
+  // Red Corundum
+  event.shaped(Item.of('quark:red_corundum'), [
+    'CCC',
+    'CCC',
+    'CCC'
+  ], {
+    C: 'quark:red_corundum_cluster',
+  }).id('tnp:red_corundum_cluster')
+
+  // Orange Corundum
+  event.shaped(Item.of('quark:orange_corundum'), [
+    'CCC',
+    'CCC',
+    'CCC'
+  ], {
+    C: 'quark:orange_corundum_cluster',
+  }).id('tnp:orange_corundum_cluster')
+
+  // Yellow Corundum
+  event.shaped(Item.of('quark:yellow_corundum'), [
+    'CCC',
+    'CCC',
+    'CCC'
+  ], {
+    C: 'quark:yellow_corundum_cluster',
+  }).id('tnp:yellow_corundum_cluster')
+
+  // Green Corundum
+  event.shaped(Item.of('quark:green_corundum'), [
+    'CCC',
+    'CCC',
+    'CCC'
+  ], {
+    C: 'quark:green_corundum_cluster',
+  }).id('tnp:green_corundum_cluster')
+
+  // Blue Corundum
+  event.shaped(Item.of('quark:blue_corundum'), [
+    'CCC',
+    'CCC',
+    'CCC'
+  ], {
+    C: 'quark:blue_corundum_cluster',
+  }).id('tnp:blue_corundum_cluster')
+
+  // Indigo Corundum
+  event.shaped(Item.of('quark:indigo_corundum'), [
+    'CCC',
+    'CCC',
+    'CCC'
+  ], {
+    C: 'quark:indigo_corundum_cluster',
+  }).id('tnp:indigo_corundum_cluster')
+
+  // Violet Corundum
+  event.shaped(Item.of('quark:violet_corundum'), [
+    'CCC',
+    'CCC',
+    'CCC'
+  ], {
+    C: 'quark:violet_corundum_cluster',
+  }).id('tnp:violet_corundum_cluster')
+
+  // Black Corundum
+  event.shaped(Item.of('quark:black_corundum'), [
+    'CCC',
+    'CCC',
+    'CCC'
+  ], {
+    C: 'quark:black_corundum_cluster',
+  }).id('tnp:black_corundum_cluster')
+
+  // Red Corundum Revert to Cluster
+  event.shapeless(Item.of('quark:red_corundum_cluster', 9), ['quark:red_corundum']).id('tnp:red_corundum_revert')
+
+  // Orange Corundum Revert to Cluster
+  event.shapeless(Item.of('quark:orange_corundum_cluster', 9), ['quark:orange_corundum']).id('tnp:orange_corundum_revert')
+
+  // Yellow Corundum Revert to Cluster
+  event.shapeless(Item.of('quark:yellow_corundum_cluster', 9), ['quark:yellow_corundum']).id('tnp:yellow_corundum_revert')
+
+  // Green Corundum Revert to Cluster
+  event.shapeless(Item.of('quark:green_corundum_cluster', 9), ['quark:green_corundum']).id('tnp:green_corundum_revert')
+
+  // Blue Corundum Revert to Cluster
+  event.shapeless(Item.of('quark:blue_corundum_cluster', 9), ['quark:blue_corundum']).id('tnp:blue_corundum_revert')
+
+  // Indigo Corundum Revert to Cluster
+  event.shapeless(Item.of('quark:indigo_corundum_cluster', 9), ['quark:indigo_corundum']).id('tnp:indigo_corundum_revert')
+
+  // Violet Corundum Revert to Cluster
+  event.shapeless(Item.of('quark:violet_corundum_cluster', 9), ['quark:violet_corundum']).id('tnp:violet_corundum_revert')
+
+  // Black Corundum Revert to Cluster
+  event.shapeless(Item.of('quark:black_corundum_cluster', 9), ['quark:black_corundum']).id('tnp:black_corundum_revert')
+
+  // Copper Ladder
+  event.remove({output: 'everythingcopper:copper_ladder'})
+  event.shaped(Item.of('everythingcopper:copper_ladder', 16), [
+    'C C',
+    'CNC',
+    'C C'
+  ], {
+    C: 'minecraft:copper_ingot',
+    N: 'immersiveengineering:nugget_copper'
+  }).id('tnp:copper_ladder')
+
+  // End Cake
+  event.remove({output: 'dimensional_cake_rebuilt:end_cake'})
+  event.shaped(Item.of('dimensional_cake_rebuilt:end_cake'), [
+    'ILE',
+    'OCO',
+    'ELI'
+  ], {
+    I: 'rftoolsbase:infused_enderpearl',
+    L: 'botania:quartz_lavender',
+    C: 'minecraft:cake',
+    O: 'minecraft:crying_obsidian',
+    E: 'minecraft:ender_eye'
+  }).id('tnp:end_cake')
+
+  // Nether Cake
+  event.remove({output: 'dimensional_cake_rebuilt:nether_cake'})
+  event.shaped(Item.of('dimensional_cake_rebuilt:nether_cake'), [
+    'LNW',
+    'SCS',
+    'FNL'
+  ], {
+    F: 'minecraft:crimson_fungus',
+    W: 'minecraft:warped_fungus',
+    L: 'minecraft:soul_lantern',
+    N: 'minecraft:red_nether_bricks',
+    S: 'mysticalagriculture:soulium_block',
+    C: 'minecraft:cake'
+  }).id('tnp:nether_cake')
+
+  // Create Deco - Gold Bars
+  event.remove({id: 'createdeco:gold_bars'})
+  event.shaped(Item.of('createdeco:gold_bars', 16), [
+    '   ',
+    'GNG',
+    'GNG'
+  ], {
+    G: 'minecraft:gold_ingot',
+    N: 'minecraft:gold_nugget',
+  }).id('tnp:createdeco_gold_bars')
+
+  // Create Deco Fix
+  event.replaceInput({id: "createdeco:mossy_red_bricks_slab_vert"}, 'minecraft:brick_slab', 'createdeco:mossy_red_bricks_slab')
+  event.replaceInput({id: "createdeco:cracked_red_bricks_slab_vert"}, 'minecraft:brick_slab', 'createdeco:cracked_red_bricks_slab')
+
+  // Pam's HC2 -  Roller
+  event.remove({id: 'pamhc2foodcore:tool_roller'})
+  event.shaped(Item.of('pamhc2foodcore:rolleritem'), [
+    '  S',
+    ' L ',
+    'S  '
+  ], {
+    S: '#forge:rods/wooden',
+    L: '#minecraft:logs',
+  }).id('tnp:food_roller')
+
+  // Ore Berries
+  event.smelting(Item.of('minecraft:iron_nugget', 1), 'oreberriesreplanted:iron_oreberry').xp(0.25).id('tnp:smelt_oreberries_iron_smelt')
+  event.blasting(Item.of('minecraft:iron_nugget', 1), 'oreberriesreplanted:iron_oreberry').xp(0.25).id('tnp:blast_oreberries_iron_blast')
+  event.smelting(Item.of('minecraft:gold_nugget', 1), 'oreberriesreplanted:gold_oreberry').xp(0.25).id('tnp:smelt_oreberries_gold_smelt')
+  event.blasting(Item.of('minecraft:gold_nugget', 1), 'oreberriesreplanted:gold_oreberry').xp(0.25).id('tnp:blast_oreberries_gold_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_copper', 1), 'oreberriesreplanted:copper_oreberry').xp(0.25).id('tnp:smelt_oreberries_copper_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_copper', 1), 'oreberriesreplanted:copper_oreberry').xp(0.25).id('tnp:blast_oreberries_copper_blast')
+  event.smelting(Item.of('mekanism:nugget_tin', 1), 'oreberriesreplanted:tin_oreberry').xp(0.25).id('tnp:smelt_oreberries_tin_smelt')
+  event.blasting(Item.of('mekanism:nugget_tin', 1), 'oreberriesreplanted:tin_oreberry').xp(0.25).id('tnp:blast_oreberries_tin_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_aluminum', 1), 'oreberriesreplanted:aluminum_oreberry').xp(0.25).id('tnp:smelt_oreberries_aluminum_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_aluminum', 1), 'oreberriesreplanted:aluminum_oreberry').xp(0.25).id('tnp:blast_oreberries_aluminum_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_lead', 1), 'oreberriesreplanted:lead_oreberry').xp(0.25).id('tnp:smelt_oreberries_lead_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_lead', 1), 'oreberriesreplanted:lead_oreberry').xp(0.25).id('tnp:blast_oreberries_lead_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_nickel', 1), 'oreberriesreplanted:nickel_oreberry').xp(0.25).id('tnp:smelt_oreberries_nickel_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_nickel', 1), 'oreberriesreplanted:nickel_oreberry').xp(0.25).id('tnp:blast_oreberries_nickel_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_uranium', 1), 'oreberriesreplanted:uranium_oreberry').xp(0.25).id('tnp:smelt_oreberries_uranium_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_uranium', 1), 'oreberriesreplanted:uranium_oreberry').xp(0.25).id('tnp:blast_oreberries_uranium_blast')
+  event.smelting(Item.of('mekanism:nugget_osmium', 1), 'oreberriesreplanted:osmium_oreberry').xp(0.25).id('tnp:smelt_oreberries_osmium_smelt')
+  event.blasting(Item.of('mekanism:nugget_osmium', 1), 'oreberriesreplanted:osmium_oreberry').xp(0.25).id('tnp:blast_oreberries_osmium_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_silver', 1), 'oreberriesreplanted:silver_oreberry').xp(0.25).id('tnp:smelt_oreberries_silver_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_silver', 1), 'oreberriesreplanted:silver_oreberry').xp(0.25).id('tnp:blast_oreberries_silver_blast')
+  event.smelting(Item.of('create:zinc_nugget', 1), 'oreberriesreplanted:zinc_oreberry').xp(0.25).id('tnp:smelt_oreberries_zinc_smelt')
+  event.blasting(Item.of('create:zinc_nugget', 1), 'oreberriesreplanted:zinc_oreberry').xp(0.25).id('tnp:blast_oreberries_zinc_blast')
+
+  // Creative Crafter
+  event.replaceInput({id: "creativecrafter:creative_crafter"}, 'refinedstorage:crafter', 'extrastorage:netherite_crafter')
+
+  // Crushed Cobalt
+  event.smelting(Item.of('tconstruct:cobalt_ingot', 1), 'tnp:crushed_cobalt_ore').xp(0.1).id('tnp:smelt_crushed_cobalt_ore_smelt')
+  event.blasting(Item.of('tconstruct:cobalt_ingot', 1), 'tnp:crushed_cobalt_ore').xp(0.1).id('tnp:blast_crushed_cobalt_ore_blast')
+
+  // Crushed Osmium
+  event.smelting(Item.of('mekanism:ingot_osmium', 1), 'tnp:crushed_osmium_ore').xp(0.1).id('tnp:smelt_crushed_osmium_ore_smelt')
+  event.blasting(Item.of('mekanism:ingot_osmium', 1), 'tnp:crushed_osmium_ore').xp(0.1).id('tnp:blast_crushed_osmium_ore_blast')
+
+  // Crushed Azure Silver
+  event.smelting(Item.of('silentgear:azure_silver_ingot', 1), 'tnp:crushed_azure_silver_ore').xp(0.1).id('tnp:smelt_crushed_azure_silver_ore_smelt')
+  event.blasting(Item.of('silentgear:azure_silver_ingot', 1), 'tnp:crushed_azure_silver_ore').xp(0.1).id('tnp:blast_crushed_azure_silver_ore_blast')
+
+  // Crushed Crimson Iron
+  event.smelting(Item.of('silentgear:crimson_iron_ingot', 1), 'tnp:crushed_crimson_iron_ore').xp(0.1).id('tnp:smelt_crushed_crimson_iron_ore_smelt')
+  event.blasting(Item.of('silentgear:crimson_iron_ingot', 1), 'tnp:crushed_crimson_iron_ore').xp(0.1).id('tnp:blast_crushed_crimson_iron_ore_blast')
+
+  // Crushed Iesnium
+  event.smelting(Item.of('occultism:iesnium_ingot', 1), 'tnp:crushed_iesnium_ore').xp(0.1).id('tnp:smelt_crushed_iesnium_ore_smelt')
+  event.blasting(Item.of('occultism:iesnium_ingot', 1), 'tnp:crushed_iesnium_ore').xp(0.1).id('tnp:blast_crushed_iesnium_ore_blast')
+
+  // Crushed Aquite
+  event.smelting(Item.of('blue_skies:aquite', 1), 'tnp:crushed_aquite_ore').xp(0.1).id('tnp:smelt_crushed_aquite_ore_smelt')
+  event.blasting(Item.of('blue_skies:aquite', 1), 'tnp:crushed_aquite_ore').xp(0.1).id('tnp:blast_crushed_aquite_ore_blast')
+
+  // Crushed Charoite
+  event.smelting(Item.of('blue_skies:charoite', 1), 'tnp:crushed_charoite_ore').xp(0.1).id('tnp:smelt_crushed_charoite_ore_smelt')
+  event.blasting(Item.of('blue_skies:charoite', 1), 'tnp:crushed_charoite_ore').xp(0.1).id('tnp:blast_crushed_charoite_ore_blast')
+
+  // Crushed Falsite
+  event.smelting(Item.of('blue_skies:falsite_ingot', 1), 'tnp:crushed_falsite_ore').xp(0.1).id('tnp:smelt_crushed_falsite_ore_smelt')
+  event.blasting(Item.of('blue_skies:falsite_ingot', 1), 'tnp:crushed_falsite_ore').xp(0.1).id('tnp:blast_crushed_falsite_ore_blast')
+
+  // Crushed Ventium
+  event.smelting(Item.of('blue_skies:ventium_ingot', 1), 'tnp:crushed_ventium_ore').xp(0.1).id('tnp:smelt_crushed_ventium_ore_smelt')
+  event.blasting(Item.of('blue_skies:ventium_ingot', 1), 'tnp:crushed_ventium_ore').xp(0.1).id('tnp:blast_crushed_ventium_ore_blast')
+
+  // Crushed Horizonite
+  event.smelting(Item.of('blue_skies:horizonite_ingot', 1), 'tnp:crushed_horizonite_ore').xp(0.1).id('tnp:smelt_crushed_horizonite_ore_smelt')
+  event.blasting(Item.of('blue_skies:horizonite_ingot', 1), 'tnp:crushed_horizonite_ore').xp(0.1).id('tnp:blast_crushed_horizonite_ore_blast')
+
+  // Crushed Moonstone
+  event.smelting(Item.of('blue_skies:moonstone', 1), 'tnp:crushed_moonstone_ore').xp(0.1).id('tnp:smelt_crushed_moonstone_ore_smelt')
+  event.blasting(Item.of('blue_skies:moonstone', 1), 'tnp:crushed_moonstone_ore').xp(0.1).id('tnp:blast_crushed_moonstone_ore_blast')
+
+  // Crushed Diopside
+  event.smelting(Item.of('blue_skies:diopside_gem', 1), 'tnp:crushed_diopside_ore').xp(0.1).id('tnp:smelt_crushed_diopside_ore_smelt')
+  event.blasting(Item.of('blue_skies:diopside_gem', 1), 'tnp:crushed_diopside_ore').xp(0.1).id('tnp:blast_crushed_diopside_ore_blast')
+
+  // Crushed Pyrope
+  event.smelting(Item.of('blue_skies:pyrope_gem', 1), 'tnp:crushed_pyrope_ore').xp(0.1).id('tnp:smelt_crushed_pyrope_ore_smelt')
+  event.blasting(Item.of('blue_skies:pyrope_gem', 1), 'tnp:crushed_pyrope_ore').xp(0.1).id('tnp:blast_crushed_pyrope_ore_blast')
+
+  // Tag Fix
+  event.replaceInput({id: "advancedperipherals:environment_detector"}, '#forge:crops', '#forge:seeds')
+  event.replaceInput({id: "rftoolsutility:blindness_module"}, '#forge:dyes/black', 'minecraft:black_dye')
+  event.replaceInput({id: "pneumaticcraft:harvesting_drone"}, '#forge:crops', '#forge:seeds')
+  event.replaceInput({id: "croptopia:documentation"}, '#forge:crops', '#forge:seeds')
+  event.replaceInput({id: "elementalcraft:shrine_upgrade_mystical_grove"}, '#botania:livingrock', 'botania:livingrock')
+
+  // Blue Skies - Smelting Dusts
+  event.smelting(Item.of('blue_skies:horizonite_ingot', 1), 'tnp:horizonite_dust').xp(0.35).id('tnp:smelt_dust_horizonite_smelt')
+  event.blasting(Item.of('blue_skies:horizonite_ingot', 1), 'tnp:horizonite_dust').xp(0.35).id('tnp:blast_dust_horizonite_blast')
+
+  event.smelting(Item.of('blue_skies:ventium_ingot', 1), 'tnp:ventium_dust').xp(0.35).id('tnp:smelt_dust_ventium_smelt')
+  event.blasting(Item.of('blue_skies:ventium_ingot', 1), 'tnp:ventium_dust').xp(0.35).id('tnp:blast_dust_ventium_blast')
+
+  event.smelting(Item.of('blue_skies:falsite_ingot', 1), 'tnp:falsite_dust').xp(0.35).id('tnp:smelt_dust_falsite_smelt')
+  event.blasting(Item.of('blue_skies:falsite_ingot', 1), 'tnp:falsite_dust').xp(0.35).id('tnp:blast_dust_falsite_blast')
+
+  event.smelting(Item.of('blue_skies:charoite', 1), 'tnp:charoite_dust').xp(0.35).id('tnp:smelt_dust_charoite_smelt')
+  event.blasting(Item.of('blue_skies:charoite', 1), 'tnp:charoite_dust').xp(0.35).id('tnp:blast_dust_charoite_blast')
+
+  event.smelting(Item.of('blue_skies:aquite', 1), 'tnp:aquite_dust').xp(0.35).id('tnp:smelt_dust_aquite_smelt')
+  event.blasting(Item.of('blue_skies:aquite', 1), 'tnp:aquite_dust').xp(0.35).id('tnp:blast_dust_aquite_blast')
+
+  event.smelting(Item.of('blue_skies:moonstone', 1), 'tnp:moonstone_dust').xp(0.35).id('tnp:smelt_dust_moonstone_smelt')
+  event.blasting(Item.of('blue_skies:moonstone', 1), 'tnp:moonstone_dust').xp(0.35).id('tnp:blast_dust_moonstone_blast')
+
+  event.smelting(Item.of('blue_skies:diopside_gem', 1), 'tnp:diopside_dust').xp(0.35).id('tnp:smelt_dust_diopside_smelt')
+  event.blasting(Item.of('blue_skies:diopside_gem', 1), 'tnp:diopside_dust').xp(0.35).id('tnp:blast_dust_diopside_blast')
+
+  event.smelting(Item.of('blue_skies:pyrope_gem', 1), 'tnp:pyrope_dust').xp(0.35).id('tnp:smelt_dust_pyrope_smelt')
+  event.blasting(Item.of('blue_skies:pyrope_gem', 1), 'tnp:pyrope_dust').xp(0.35).id('tnp:blast_dust_pyrope_blast')
+
+  // Bluebright Chest (Log)
+  event.shaped(Item.of('blue_skies:bluebright_chest', 4), [
+    'LLL',
+    'L L',
+    'LLL'
+  ], {
+    L: '#blue_skies:logs/bluebright',
+  }).id('tnp:bskies_chest_logs_bluebright')
+
+  // Starlit Chest (Log)
+  event.shaped(Item.of('blue_skies:starlit_chest', 4), [
+    'LLL',
+    'L L',
+    'LLL'
+  ], {
+    L: '#blue_skies:logs/starlit',
+  }).id('tnp:bskies_chest_logs_starlit')
+
+  // Frostbright Chest (Log)
+  event.shaped(Item.of('blue_skies:frostbright_chest', 4), [
+    'LLL',
+    'L L',
+    'LLL'
+  ], {
+    L: '#blue_skies:logs/frostbright',
+  }).id('tnp:bskies_chest_logs_frostbright')
+
+  // Frostbright Chest (Log)
+  event.shaped(Item.of('blue_skies:frostbright_chest', 4), [
+    'LLL',
+    'L L',
+    'LLL'
+  ], {
+    L: '#blue_skies:logs/frostbright',
+  }).id('tnp:bskies_chest_logs_frostbright')
+
+  // Lunar Chest (Log)
+  event.shaped(Item.of('blue_skies:lunar_chest', 4), [
+    'LLL',
+    'L L',
+    'LLL'
+  ], {
+    L: '#blue_skies:logs/lunar',
+  }).id('tnp:bskies_chest_logs_lunar')
+
+  // Dusk Chest (Log)
+  event.shaped(Item.of('blue_skies:dusk_chest', 4), [
+    'LLL',
+    'L L',
+    'LLL'
+  ], {
+    L: '#blue_skies:logs/dusk',
+  }).id('tnp:bskies_chest_logs_dusk')
+
+  // Maple Chest (Log)
+  event.shaped(Item.of('blue_skies:maple_chest', 4), [
+    'LLL',
+    'L L',
+    'LLL'
+  ], {
+    L: '#blue_skies:logs/maple',
+  }).id('tnp:bskies_chest_logs_maple')
+
+  // Cherry Chest (Log)
+  event.shaped(Item.of('blue_skies:cherry_chest', 4), [
+    'LLL',
+    'L L',
+    'LLL'
+  ], {
+    L: '#blue_skies:logs/cherry',
+  }).id('tnp:bskies_chest_logs_cherry')
+
+  // Blue Skies - Bluebright Ladder
+  event.remove({id: 'blue_skies:bluebright_ladder'})
+  event.shaped(Item.of('blue_skies:bluebright_ladder', 4), [
+    'S S',
+    'SPS',
+    'S S'
+  ], {
+    P: 'blue_skies:bluebright_planks',
+    S: '#forge:rods/wooden',
+  }).id('tnp:bluebright_ladder')
+
+  // Blue Skies - Starlit Ladder
+  event.remove({id: 'blue_skies:starlit_ladder'})
+  event.shaped(Item.of('blue_skies:starlit_ladder', 4), [
+    'S S',
+    'SPS',
+    'S S'
+  ], {
+    P: 'blue_skies:starlit_planks',
+    S: '#forge:rods/wooden',
+  }).id('tnp:starlit_ladder')
+
+  // Blue Skies - Frostbright Ladder
+  event.remove({id: 'blue_skies:frostbright_ladder'})
+  event.shaped(Item.of('blue_skies:frostbright_ladder', 4), [
+    'S S',
+    'SPS',
+    'S S'
+  ], {
+    P: 'blue_skies:frostbright_planks',
+    S: '#forge:rods/wooden',
+  }).id('tnp:frostbright_ladder')
+
+  // Blue Skies - Lunar Ladder
+  event.remove({id: 'blue_skies:lunar_ladder'})
+  event.shaped(Item.of('blue_skies:lunar_ladder', 4), [
+    'S S',
+    'SPS',
+    'S S'
+  ], {
+    P: 'blue_skies:lunar_planks',
+    S: '#forge:rods/wooden',
+  }).id('tnp:lunar_ladder')
+
+  // Blue Skies - Dusk Ladder
+  event.remove({id: 'blue_skies:dusk_ladder'})
+  event.shaped(Item.of('blue_skies:dusk_ladder', 4), [
+    'S S',
+    'SPS',
+    'S S'
+  ], {
+    P: 'blue_skies:dusk_planks',
+    S: '#forge:rods/wooden',
+  }).id('tnp:dusk_ladder')
+
+  // Blue Skies - Maple Ladder
+  event.remove({id: 'blue_skies:maple_ladder'})
+  event.shaped(Item.of('blue_skies:maple_ladder', 4), [
+    'S S',
+    'SPS',
+    'S S'
+  ], {
+    P: 'blue_skies:maple_planks',
+    S: '#forge:rods/wooden',
+  }).id('tnp:maple_ladder')
+
+  // Blue Skies - Cherry Ladder
+  event.remove({id: 'blue_skies:cherry_ladder'})
+  event.shaped(Item.of('blue_skies:cherry_ladder', 4), [
+    'S S',
+    'SPS',
+    'S S'
+  ], {
+    P: 'blue_skies:cherry_planks',
+    S: '#forge:rods/wooden',
+  }).id('tnp:cherry_ladder')
+
+  // Blue Skies - Midnight Glass
+  event.remove({id: 'blue_skies:midnight_glass_from_smelting_midnight_sand'})
+  event.shaped(Item.of('blue_skies:midnight_glass'), [
+    'GM ',
+    '   ',
+    '   '
+  ], {
+    M: 'blue_skies:midnight_sand',
+    G: '#forge:glass',
+  }).id('tnp:midnight_glass')
+
+  // Blue Skies - Crystal Glass
+  event.remove({id: 'blue_skies:crystal_glass_from_smelting_crystal_sand'})
+  event.shaped(Item.of('blue_skies:crystal_glass'), [
+    'GC ',
+    '   ',
+    '   '
+  ], {
+    C: 'blue_skies:crystal_sand',
+    G: '#forge:glass',
+  }).id('tnp:crystal_glass')
+
+  // Aquite to Nugget
+  event.shapeless(Item.of('tnp:aquite_shard', 9), ['blue_skies:aquite']).id('tnp:aquite_nugget')
+
+  // Charoite to Nugget
+  event.shapeless(Item.of('tnp:charoite_shard', 9), ['blue_skies:charoite']).id('tnp:charoite_nugget')
+
+  // Pyrope to Nugget
+  event.shapeless(Item.of('tnp:pyrope_shard', 9), ['blue_skies:pyrope_gem']).id('tnp:pyrope_nugget')
+
+  // Diopside to Nugget
+  event.shapeless(Item.of('tnp:diopside_shard', 9), ['blue_skies:diopside_gem']).id('tnp:diopside_nugget')
+
+  // Moonstone to Nugget
+  event.shapeless(Item.of('tnp:moonstone_nugget', 9), ['blue_skies:moonstone']).id('tnp:moonstone_nugget')
+
+  // Aquite Nugget to Aquite
+  event.shaped(Item.of('blue_skies:aquite'), [
+    'AAA',
+    'AAA',
+    'AAA'
+  ], {
+    A: 'tnp:aquite_shard',
+  }).id('tnp:aquite_from_nugget')
+
+  // Charoite Nugget to Charoite
+  event.shaped(Item.of('blue_skies:charoite'), [
+    'CCC',
+    'CCC',
+    'CCC'
+  ], {
+    C: 'tnp:charoite_shard',
+  }).id('tnp:charoite_from_nugget')
+
+  // Pyrope Nugget to Pyrope
+  event.shaped(Item.of('blue_skies:pyrope_gem'), [
+    'CCC',
+    'CCC',
+    'CCC'
+  ], {
+    C: 'tnp:pyrope_shard',
+  }).id('tnp:pyrope_from_nugget')
+
+  // Diopside Nugget to Diopside
+  event.shaped(Item.of('blue_skies:diopside_gem'), [
+    'CCC',
+    'CCC',
+    'CCC'
+  ], {
+    C: 'tnp:diopside_shard',
+  }).id('tnp:diopside_from_nugget')
+
+  // Moonstone Nugget to Moonstone
+  event.shaped(Item.of('blue_skies:moonstone'), [
+    'CCC',
+    'CCC',
+    'CCC'
+  ], {
+    C: 'tnp:moonstone_nugget',
+  }).id('tnp:moonstone_from_nugget')
+
+  // Create Deco - Copper Door
+  event.remove({output: 'createdeco:copper_door'})
+  event.shaped(Item.of('createdeco:copper_door', 3), [
+    'NCC',
+    ' CC',
+    'NCC'
+  ], {
+    N: 'immersiveengineering:nugget_copper',
+    C: 'minecraft:copper_ingot'
+  }).id('tnp:createdeco_copper_door')
+
+  // Create Deco - Copper Bars
+  event.remove({output: 'createdeco:copper_bars'})
+  event.shaped(Item.of('createdeco:copper_bars', 16), [
+    'NNN',
+    'CCC',
+    'CCC'
+  ], {
+    N: 'immersiveengineering:nugget_copper',
+    C: 'minecraft:copper_ingot'
+  }).id('tnp:createdeco_copper_bars')
+
+  // Tesseract
+  event.remove({output: 'tesseract:tesseract'})
+  event.shaped(Item.of('tesseract:tesseract'), [
+    'OBO',
+    'ETE',
+    'OBO'
+  ], {
+    O: 'minecraft:crying_obsidian',
+    B: 'botania:ender_air_bottle',
+    E: 'upgradednetherite:ender_upgraded_netherite_ingot',
+    T: 'travel_anchors:travel_anchor'
+  }).id('tnp:tesseract')
+
+  // Soulstone to Nugget
+  event.shapeless(Item.of('tnp:soulstone_nugget', 9), ['malum:processed_soulstone']).id('tnp:soulstone_nugget')
+
+  // Soulstone Nugget to Soulstone
+  event.shaped(Item.of('malum:processed_soulstone'), [
+    'NNN',
+    'NNN',
+    'NNN'
+  ], {
+    N: 'tnp:soulstone_nugget',
+  }).id('tnp:processed_soulstone_from_nugget')
+
+  // Soulstone Smelt Dust
+  event.smelting(Item.of('malum:processed_soulstone', 2), 'tnp:soulstone_dust').xp(0.35).id('tnp:smelt_dust_soulstone_smelt')
+  event.blasting(Item.of('malum:processed_soulstone', 2), 'tnp:soulstone_dust').xp(0.35).id('tnp:blast_dust_soulstone_blast')
+
+  // Brilliance to Nugget
+  event.shapeless(Item.of('tnp:brilliance_nugget', 9), ['malum:cluster_of_brilliance']).id('tnp:brilliance_nugget')
+
+  // Brilliance Nugget to brilliance
+  event.shaped(Item.of('malum:cluster_of_brilliance'), [
+    'NNN',
+    'NNN',
+    'NNN'
+  ], {
+    N: 'tnp:brilliance_nugget',
+  }).id('tnp:cluster_of_brilliance_from_nugget')
+
+  // Brilliance Smelt Dust
+  event.smelting(Item.of('malum:chunk_of_brilliance', 4), 'tnp:brilliance_dust').xp(0.35).id('tnp:smelt_dust_brilliance_smelt')
+  event.blasting(Item.of('malum:chunk_of_brilliance', 4), 'tnp:brilliance_dust').xp(0.35).id('tnp:blast_dust_brilliance_blast')
+
+  // TCon - Gold Bars
+  event.remove({id: 'tconstruct:gold_bars'})
+  event.shaped(Item.of('tconstruct:gold_bars', 16), [
+    '   ',
+    'GNG',
+    'GGG'
+  ], {
+    G: 'minecraft:gold_ingot',
+    N: 'minecraft:gold_nugget',
+  }).id('tnp:tcon_gold_bars')
+
+  event.smelting(Item.of('tconstruct:cobalt_ingot', 1), 'tnp:cobalt_dust').xp(0.35).id('tnp:smelt_dust_cobalt_smelt')
+  event.blasting(Item.of('tconstruct:cobalt_ingot', 1), 'tnp:cobalt_dust').xp(0.35).id('tnp:blast_dust_cobalt_blast')
+
+  // Punji Sticks
+  event.shaped(Item.of('tconstruct:punji', 3), [
+    'C C',
+    ' C ',
+    'C C'
+  ], {
+    C: 'minecraft:sugar_cane',
+  }).id('tnp:punji_stick')
+
+  // Glass Facade - Crossroads
+  event.remove({output: 'crossroads:gear_facade_glass'})
+  event.shaped(Item.of('crossroads:gear_facade_glass', 8), [
+    ' I ',
+    'GGG',
+    '   '
+  ], {
+    G: '#forge:glass/colorless',
+    I: 'minecraft:iron_ingot'
+  }).id('tnp:gear_facade_glass')
+
+  event.smelting(Item.of('immersiveengineering:nugget_silver', 7), 'tnp:raw_silver_grit').xp(0.70).id('tnp:crossroads_grit_silver_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_silver', 7), 'tnp:raw_silver_grit').xp(0.70).id('tnp:crossroads_grit_silver_blast')
+  event.smelting(Item.of('create:zinc_nugget', 7), 'tnp:raw_zinc_grit').xp(0.70).id('tnp:crossroads_grit_zinc_smelt')
+  event.blasting(Item.of('create:zinc_nugget', 7), 'tnp:raw_zinc_grit').xp(0.70).id('tnp:crossroads_grit_zinc_blast')
+  event.smelting(Item.of('mekanism:nugget_osmium', 7), 'tnp:raw_osmium_grit').xp(0.70).id('tnp:crossroads_grit_osmium_smelt')
+  event.blasting(Item.of('mekanism:nugget_osmium', 7), 'tnp:raw_osmium_grit').xp(0.70).id('tnp:crossroads_grit_osmium_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_uranium', 7), 'tnp:raw_uranium_grit').xp(0.70).id('tnp:crossroads_grit_uranium_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_uranium', 7), 'tnp:raw_uranium_grit').xp(0.70).id('tnp:crossroads_grit_uranium_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_nickel', 7), 'tnp:raw_nickel_grit').xp(0.70).id('tnp:crossroads_grit_nickel_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_nickel', 7), 'tnp:raw_nickel_grit').xp(0.70).id('tnp:crossroads_grit_nickel_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_lead', 7), 'tnp:raw_lead_grit').xp(0.70).id('tnp:crossroads_grit_lead_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_lead', 7), 'tnp:raw_lead_grit').xp(0.70).id('tnp:crossroads_grit_lead_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_aluminum', 7), 'tnp:raw_aluminum_grit').xp(0.70).id('tnp:crossroads_grit_aluminum_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_aluminum', 7), 'tnp:raw_aluminum_grit').xp(0.70).id('tnp:crossroads_grit_aluminum_blast')
+  event.smelting(Item.of('tconstruct:cobalt_nugget', 7), 'tnp:raw_cobalt_grit').xp(0.70).id('tnp:crossroads_grit_cobalt_smelt')
+  event.blasting(Item.of('tconstruct:cobalt_nugget', 7), 'tnp:raw_cobalt_grit').xp(0.70).id('tnp:crossroads_grit_cobalt_blast')
+
+  event.smelting(Item.of('immersiveengineering:nugget_silver', 7), 'tnp:silver_clump').xp(0.70).id('tnp:crossroads_clump_silver_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_silver', 7), 'tnp:silver_clump').xp(0.70).id('tnp:crossroads_clump_silver_blast')
+  event.smelting(Item.of('create:zinc_nugget', 7), 'tnp:zinc_clump').xp(0.70).id('tnp:crossroads_clump_zinc_smelt')
+  event.blasting(Item.of('create:zinc_nugget', 7), 'tnp:zinc_clump').xp(0.70).id('tnp:crossroads_clump_zinc_blast')
+  event.smelting(Item.of('mekanism:nugget_osmium', 7), 'tnp:osmium_clump').xp(0.70).id('tnp:crossroads_clump_osmium_smelt')
+  event.blasting(Item.of('mekanism:nugget_osmium', 7), 'tnp:osmium_clump').xp(0.70).id('tnp:crossroads_clump_osmium_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_uranium', 7), 'tnp:uranium_clump').xp(0.70).id('tnp:crossroads_clump_uranium_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_uranium', 7), 'tnp:uranium_clump').xp(0.70).id('tnp:crossroads_clump_uranium_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_nickel', 7), 'tnp:nickel_clump').xp(0.70).id('tnp:crossroads_clump_nickel_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_nickel', 7), 'tnp:nickel_clump').xp(0.70).id('tnp:crossroads_clump_nickel_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_lead', 7), 'tnp:lead_clump').xp(0.70).id('tnp:crossroads_clump_lead_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_lead', 7), 'tnp:lead_clump').xp(0.70).id('tnp:crossroads_clump_lead_blast')
+  event.smelting(Item.of('immersiveengineering:nugget_aluminum', 7), 'tnp:aluminum_clump').xp(0.70).id('tnp:crossroads_clump_aluminum_smelt')
+  event.blasting(Item.of('immersiveengineering:nugget_aluminum', 7), 'tnp:aluminum_clump').xp(0.70).id('tnp:crossroads_clump_aluminum_blast')
+  event.smelting(Item.of('tconstruct:cobalt_nugget', 7), 'tnp:cobalt_clump').xp(0.70).id('tnp:crossroads_clump_cobalt_smelt')
+  event.blasting(Item.of('tconstruct:cobalt_nugget', 7), 'tnp:cobalt_clump').xp(0.70).id('tnp:crossroads_clump_cobalt_blast')
+
+});

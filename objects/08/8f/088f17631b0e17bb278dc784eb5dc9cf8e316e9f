@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:ingot_constantan"
+    },
+    {
+      "item": "immersiveengineering:ingot_constantan"
+    },
+    {
+      "item": "immersiveengineering:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersiveengineering:plate_constantan"
+  }
+}

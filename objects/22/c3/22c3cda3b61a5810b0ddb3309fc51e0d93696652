@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "croptopia:corn",
+      "count": 2
+    },
+    {
+      "item": "croptopia:corn_seed",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "croptopia:corn_seed"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "croptopia:corn_crop"
+  }
+}

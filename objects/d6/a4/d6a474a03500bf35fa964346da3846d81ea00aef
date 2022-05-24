@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "amount": 8,
+    "ingredient": {
+      "item": "silentgear:raw_azure_silver"
+    }
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "output": {
+    "item": "silentgear:azure_silver_ore"
+  }
+}

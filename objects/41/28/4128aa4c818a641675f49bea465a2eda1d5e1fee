@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "blue_skies:ores/charoite"
+    }
+  },
+  "output": {
+    "item": "tnp:charoite_dust",
+    "count": 2
+  }
+}

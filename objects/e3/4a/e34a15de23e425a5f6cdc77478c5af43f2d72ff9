@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "croptopia:strawberry",
+      "count": 2
+    },
+    {
+      "item": "croptopia:strawberry_seed",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "croptopia:strawberry_seed"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "croptopia:strawberry_crop"
+  }
+}

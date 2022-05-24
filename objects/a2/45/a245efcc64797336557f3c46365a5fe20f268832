@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "tag": "forge:dusts/certus_quartz"
+  },
+  "input": {
+    "tag": "forge:gems/certus_quartz"
+  }
+}

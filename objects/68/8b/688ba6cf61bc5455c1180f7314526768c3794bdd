@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "blue_skies:gems/pyrope"
+  },
+  "result": {
+    "item": "tnp:pyrope_dust",
+    "count": 1
+  }
+}

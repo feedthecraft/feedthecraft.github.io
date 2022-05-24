@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "blue_skies:aquite_boots"
+  },
+  "results": [
+    {
+      "item": "blue_skies:aquite",
+      "count": 4
+    }
+  ]
+}

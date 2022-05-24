@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "biggerreactors:blutonium_dust"
+  },
+  "input": {
+    "item": "biggerreactors:blutonium_ingot"
+  }
+}

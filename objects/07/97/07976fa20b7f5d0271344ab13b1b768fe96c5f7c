@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "count": 13,
+      "base_ingredient": {
+        "tag": "forge:ingots/tin"
+      }
+    }
+  ],
+  "additives": [],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:ingots/tin"
+      }
+    }
+  ],
+  "input": {
+    "tag": "forge:storage_blocks/raw_tin"
+  },
+  "time": 900,
+  "energy": 230400
+}

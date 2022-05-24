@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "additionalstructures:silverfish_cluster_1",
+      "weight": 0.85
+    },
+    {
+      "structure": "additionalstructures:silverfish_cluster_2",
+      "weight": 0.85
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 15,
+    "salt": 59084892
+  }
+}

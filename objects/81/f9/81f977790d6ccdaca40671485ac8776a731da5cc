@@ -1,0 +1,5476 @@
+{
+	id: "127AACECD4E9CABC"
+	group: "74CE4A09AC5F3CF1"
+	order_index: 3
+	filename: "ars_nouveau"
+	title: "Ars Nouveau"
+	icon: "ars_nouveau:archmage_spell_book"
+	subtitle: ["Magical spells, devices, and trinkets."]
+	default_quest_shape: "pentagon"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -0.2d
+			y: -10.4d
+			width: 0.8d
+			height: 0.8d
+			rotation: 0.0d
+			image: "tnp:textures/other/haunted_cred.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.2d
+			y: -11.0d
+			width: 3.5d
+			height: 1.3d
+			rotation: 0.0d
+			image: "tnp:textures/other/quest_credit3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Novice Spell Book"
+			icon: "ars_nouveau:novice_spell_book"
+			x: -0.3999999999999986d
+			y: -5.5d
+			subtitle: "Craft a novice spell book."
+			description: [
+				"To begin spell casting, you will need to first obtain a spellbook. A spellbook will allow you to create, store, and cast spells using spell mana. FYI: You can also dye your spell book by placing dye next to the spell book in the crafting grid. "
+				"Rewards: x4 iron ore, x2 diamond"
+			]
+			dependency_requirement: "one_started"
+			id: "214E613632AF1B7C"
+			tasks: [{
+				id: "5EC6B4788342685F"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [
+				{
+					id: "0C6224D0AEFFD80E"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 4
+				}
+				{
+					id: "6631E2101D7D7A4F"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "ars_nouveau:source_gem"
+			x: -11.0d
+			y: -7.5d
+			subtitle: "Locate a source gem."
+			description: [
+				"Source gems can be found in loot chests or created in a crystallizer. Source gems are required for many ars nouveau crafting recipes."
+				"Rewards: x8 source gem"
+			]
+			dependencies: ["1D05DDF6D2888551"]
+			dependency_requirement: "one_completed"
+			id: "2E2A4FA43636CB14"
+			tasks: [{
+				id: "02D1C4B7CE3FDDEE"
+				type: "item"
+				item: "ars_nouveau:source_gem"
+			}]
+			rewards: [{
+				id: "408A16B9B951E318"
+				type: "item"
+				icon: "ars_nouveau:source_gem"
+				item: "ars_nouveau:source_gem"
+				count: 8
+			}]
+		}
+		{
+			title: "Source Berry Bush"
+			icon: "ars_nouveau:source_berry"
+			x: -8.2d
+			y: -8.0d
+			subtitle: "Locate source berry bushes."
+			description: [
+				"Source berry bushes can be found in taiga and archwood biomes. The berries are used for crafting source berry rolls and pies as well as mana regeneration potions."
+				"Rewards: x8 source berry rolls"
+			]
+			hide_dependency_lines: false
+			dependencies: ["1D05DDF6D2888551"]
+			dependency_requirement: "one_completed"
+			id: "351DD22A13FF9AA7"
+			tasks: [{
+				id: "5ABB969777733602"
+				type: "item"
+				item: "ars_nouveau:source_berry"
+				count: 8L
+			}]
+			rewards: [{
+				id: "2CEFEFF2C70B6926"
+				type: "item"
+				icon: "ars_nouveau:source_berry_roll"
+				item: "ars_nouveau:source_berry_roll"
+				count: 8
+			}]
+		}
+		{
+			x: -0.3999999999999986d
+			y: -1.3999999999999986d
+			subtitle: "Craft an imbuement chamber."
+			description: [
+				"The imbuement chamber is used to create source gems. Place amethyst or lapis into the chamber, but be sure to have source nearby which is used to create source gems. "
+				"Rewards: x1 amethyst block, x1 lapis block"
+			]
+			dependencies: ["214E613632AF1B7C"]
+			id: "32E326DA9CA1BD82"
+			tasks: [{
+				id: "2E768044AFE5361E"
+				type: "item"
+				item: "ars_nouveau:imbuement_chamber"
+			}]
+			rewards: [
+				{
+					id: "73767C6848CEFA64"
+					type: "item"
+					item: "minecraft:amethyst_block"
+				}
+				{
+					id: "27EE0B1D83199952"
+					type: "item"
+					item: "minecraft:lapis_block"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -6.399999999999999d
+			subtitle: "Craft a source jar."
+			description: [
+				"Source is an important part of Ars Nouveau. Please refer to the worn notebook for all of its uses."
+				"Rewards: x8 glass, x1 loot bag piece"
+			]
+			dependencies: ["214E613632AF1B7C"]
+			id: "516CFC0B5471FE3D"
+			tasks: [{
+				id: "4EE8FFC04EE21418"
+				type: "item"
+				item: "ars_nouveau:source_jar"
+			}]
+			rewards: [
+				{
+					id: "7A801B0DE4A0BA6D"
+					type: "item"
+					item: "minecraft:glass"
+					count: 8
+				}
+				{
+					id: "3ECD7E0B6202C59E"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "40FB3F2D96C129EC"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -9.3d
+			y: -6.800000000000001d
+			subtitle: "Archwood Logs"
+			description: [
+				"Used for crafting wands, rituals, or decoration."
+				"Archwood Trees do not generate normally in the world, instead they can be bought in the Market from the mod &7@Farming For Blockheads&f."
+				"Rewards: x6 iron ore, x4 xp"
+			]
+			dependencies: ["1D05DDF6D2888551"]
+			id: "385F201672EBE203"
+			tasks: [
+				{
+					id: "169BE85AD9EE0785"
+					type: "item"
+					item: "ars_nouveau:blue_archwood_log"
+				}
+				{
+					id: "7DBC0716F6F164C4"
+					type: "item"
+					item: "ars_nouveau:purple_archwood_log"
+				}
+				{
+					id: "2B4AD9244817C779"
+					type: "item"
+					item: "ars_nouveau:green_archwood_log"
+				}
+				{
+					id: "64CA061F5571B56F"
+					type: "item"
+					item: "ars_nouveau:red_archwood_log"
+				}
+			]
+			rewards: [
+				{
+					id: "4C7FF1DDF33A6468"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 6
+				}
+				{
+					id: "1B8522C0BB0ACE46"
+					type: "xp"
+					xp: 4
+				}
+			]
+		}
+		{
+			x: -9.399999999999999d
+			y: -9.0d
+			subtitle: "Craft a worn notebook to guide you through Ars Nouveau."
+			description: [
+				"Ars Nouveau provides spell crafting, magical devices, powerful trinkets, and magical entity automation."
+				"Rewards: x1 book, x1 loot bag piece"
+			]
+			id: "1D05DDF6D2888551"
+			tasks: [{
+				id: "301DA5A7B4D149E2"
+				type: "item"
+				item: "ars_nouveau:worn_notebook"
+			}]
+			rewards: [
+				{
+					id: "6E091A7B6261720F"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "603F52C8771267A4"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -12.2d
+			y: -8.0d
+			subtitle: "Craft arcane stone."
+			description: [
+				"Arcane stone is used for crafting items from Ars Nouveau. You may also want to use this in your Ars Nouveau magical area."
+				"Rewards: x8 smooth ashlar, x1 xp"
+			]
+			dependencies: ["2E2A4FA43636CB14"]
+			id: "6F2C846AB59D8767"
+			tasks: [{
+				id: "087E6DB7ED1FE2B0"
+				type: "item"
+				item: "ars_nouveau:arcane_stone"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "0AE1B0E35F837ABE"
+					type: "item"
+					item: "ars_nouveau:sas_ashlar"
+					count: 8
+				}
+				{
+					id: "37551C5A6BFC755E"
+					type: "xp"
+					xp: 1
+				}
+			]
+		}
+		{
+			x: -13.200000000000003d
+			y: -7.399999999999999d
+			subtitle: "Craft gilded arcane stone."
+			description: [
+				"A decorative block from Ars Nouveau to use if you want a little bit of glitz in your magical build."
+				"Rewards: x8 arcane gilded stone, x1 gold ingot"
+			]
+			dependencies: ["6F2C846AB59D8767"]
+			optional: true
+			id: "46D55950901BB9D1"
+			tasks: [{
+				id: "094EF6F9D1B477F5"
+				type: "item"
+				item: "ars_nouveau:as_gold_stone"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "2CE0702B18E19F95"
+					type: "item"
+					item: "ars_nouveau:as_gold_stone"
+					count: 8
+				}
+				{
+					id: "62DC0566DFB84351"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+			]
+		}
+		{
+			x: -12.100000000000001d
+			y: -6.5d
+			subtitle: "Craft a lava lily."
+			description: [
+				"Another decorative block from Ars Nouveau. You can place this on any block or liquid, and it's texture will change."
+				"Rewards: x1 lava bucket, x1 loot bag piece"
+			]
+			dependencies: ["2E2A4FA43636CB14"]
+			optional: true
+			id: "342CE620BF236566"
+			tasks: [{
+				id: "588E49BA95BAC394"
+				type: "item"
+				item: "ars_nouveau:lava_lily"
+			}]
+			rewards: [
+				{
+					id: "52CE00B15A037750"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "4DA57C0909D5F741"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -7.100000000000001d
+			y: -8.0d
+			subtitle: "Bake up a source berry pie."
+			description: [
+				"Source berry pie as well as source berry rolls grant mana regeneration."
+				"Rewards: x8 source berry, x1 xp"
+			]
+			dependencies: ["351DD22A13FF9AA7"]
+			optional: true
+			id: "5F4A9E172D7688E5"
+			tasks: [{
+				id: "37C9F5BFB2DAE8CF"
+				type: "item"
+				item: "ars_nouveau:source_berry_pie"
+			}]
+			rewards: [
+				{
+					id: "00074A38CF0ED84F"
+					type: "item"
+					item: "ars_nouveau:source_berry"
+					count: 8
+				}
+				{
+					id: "07E6F71A2681819F"
+					type: "xp"
+					xp: 1
+				}
+			]
+		}
+		{
+			x: -11.100000000000001d
+			y: -5.899999999999999d
+			subtitle: "Craft a magelight sconce."
+			description: [
+				"A decorative lighting choice from Ars Nouveau."
+				"Rewards: x1 magelight sconce, x1 gold ingot"
+			]
+			dependencies: ["2E2A4FA43636CB14"]
+			optional: true
+			id: "6F7EC513F06458E9"
+			tasks: [{
+				id: "18F049D334FC3936"
+				type: "item"
+				item: "ars_nouveau:sconce"
+			}]
+			rewards: [
+				{
+					id: "2E5CA07B09970C5B"
+					type: "item"
+					item: "ars_nouveau:sconce"
+				}
+				{
+					id: "508EA1021A633F90"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -7.600000000000001d
+			subtitle: "Craft a magebloom seed."
+			description: [
+				"Mage blooms are used to create source and magebloom fiber. They are also used in crafting potions of spell damage."
+				"Rewards: x1 magebloom seed, x1 loot bag piece"
+			]
+			dependencies: ["19E590CFEBB55029"]
+			id: "0186520D081DD15B"
+			tasks: [{
+				id: "21C2067E1DB34950"
+				type: "item"
+				item: "ars_nouveau:magebloom_crop"
+			}]
+			rewards: [
+				{
+					id: "13C9CBFACBE11AB5"
+					type: "item"
+					item: "ars_nouveau:magebloom_crop"
+				}
+				{
+					id: "69574C946A7148F2"
+					type: "xp"
+					xp: 2
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -6.300000000000001d
+			subtitle: "Delve deeper, craft an enchanting apparatus."
+			description: [
+				"The enchanting apparatus is to be used with arcane pedestals and an arcane core. Please refer to worn notebook for more information."
+				"Rewards: x8 arcane stone, x1 xp"
+			]
+			dependencies: ["214E613632AF1B7C"]
+			id: "19E590CFEBB55029"
+			tasks: [{
+				id: "047E8DB9A37DFABD"
+				type: "item"
+				item: "ars_nouveau:enchanting_apparatus"
+			}]
+			rewards: [
+				{
+					id: "07C8A7058B27DA07"
+					type: "item"
+					item: "ars_nouveau:arcane_stone"
+					count: 8
+				}
+				{
+					id: "6B19CD3EBCD4F0AC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+		{
+			x: 1.8000000000000007d
+			y: -4.199999999999999d
+			subtitle: "Craft an arcane pedestal."
+			description: [
+				"Arcane pedestals are used along with the enchanting apparatus to create magical items."
+				"Rewards: x2 gold ingots, x1 xp"
+			]
+			dependencies: ["19E590CFEBB55029"]
+			id: "7CB4F07299A48C45"
+			tasks: [{
+				id: "08D30F5B4F1025DE"
+				type: "item"
+				item: "ars_nouveau:arcane_pedestal"
+			}]
+			rewards: [
+				{
+					id: "0496755187A4CB67"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+				{
+					id: "4A0D937312365D49"
+					type: "xp"
+					xp: 1
+				}
+			]
+		}
+		{
+			x: 2.1000000000000014d
+			y: -5.399999999999999d
+			subtitle: "Craft an arcane core."
+			description: [
+				"The arcane core is to be placed beneath the enchanting apparatus to aid in magical endeavors."
+				"Rewards: x1 loot bag piece, x5 xp"
+			]
+			dependencies: ["19E590CFEBB55029"]
+			id: "741E5269E03DC999"
+			tasks: [{
+				id: "2E65BA0AC73A1090"
+				type: "item"
+				item: "ars_nouveau:arcane_core"
+			}]
+			rewards: [
+				{
+					id: "49A0CBCA6DEEF561"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "58CCC151B618F19C"
+					type: "xp"
+					xp: 5
+				}
+			]
+		}
+		{
+			x: -3.8999999999999986d
+			y: -7.399999999999999d
+			subtitle: "Craft an alchemical sourcelink."
+			description: [
+				"Generates source from nearby potion jars. Refer to worn notebook for more information."
+				"Rewards: x2 blaze rod"
+			]
+			dependencies: ["516CFC0B5471FE3D"]
+			id: "7D3FF1738E769221"
+			tasks: [{
+				id: "5A4BE95C960F5BF1"
+				type: "item"
+				item: "ars_nouveau:alchemical_sourcelink"
+			}]
+			rewards: [
+				{
+					id: "4B4B1D2D5719FDC2"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 2
+				}
+				{
+					id: "7D6D19FEF317EE49"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+		{
+			x: -2.8000000000000007d
+			y: -5.0d
+			subtitle: "Craft a potion jar."
+			description: [
+				"Potion jars store up to 100 potions and may be used to create source when near an alchemical source link. See worn notebook for more information. "
+				"Rewards: x2 fermented spider eye, x2 blaze rod"
+			]
+			dependencies: ["516CFC0B5471FE3D"]
+			id: "0F8E94CA26BFA508"
+			tasks: [{
+				id: "5B328DB81DCE4728"
+				type: "item"
+				item: "ars_nouveau:potion_jar"
+			}]
+			rewards: [
+				{
+					id: "07530E5C9025DD4C"
+					type: "item"
+					item: "minecraft:fermented_spider_eye"
+					count: 2
+				}
+				{
+					id: "0B123945ABC0EE76"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -2.8000000000000007d
+			y: -8.399999999999999d
+			subtitle: "Craft an agronomic sourcelink."
+			description: [
+				"Generates source from nearby crop and tree growth. See worn notebook for further information."
+				"Rewards: x5 wheat seeds, x2 cascading archwood sapling"
+			]
+			dependencies: ["7D3FF1738E769221"]
+			id: "55CB9CC550F9AE74"
+			tasks: [{
+				id: "0FDD4222C2F9A9C5"
+				type: "item"
+				item: "ars_nouveau:agronomic_sourcelink"
+			}]
+			rewards: [
+				{
+					id: "438CC56E9D4B9761"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 5
+				}
+				{
+					id: "4CE40D6E846839E9"
+					type: "item"
+					item: "ars_nouveau:blue_archwood_sapling"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.8000000000000007d
+			y: -8.799999999999997d
+			subtitle: "Craft a mycelial sourcelink."
+			description: [
+				"This is used to generate source from nearby food. See worn notebook for more information."
+				"Rewards: x9 grass block, x1 source berry pie"
+			]
+			dependencies: ["7D3FF1738E769221"]
+			id: "64A2C2148A62A13F"
+			tasks: [{
+				id: "280A82DE272DE049"
+				type: "item"
+				item: "ars_nouveau:mycelial_sourcelink"
+			}]
+			rewards: [
+				{
+					id: "4BE432B8C986672E"
+					type: "item"
+					item: "minecraft:grass_block"
+					count: 9
+				}
+				{
+					id: "6C52BFB9774F4F89"
+					type: "item"
+					item: "ars_nouveau:source_berry_pie"
+				}
+			]
+		}
+		{
+			x: -4.800000000000001d
+			y: -8.399999999999999d
+			subtitle: "Craft a volcanic sourcelink."
+			description: [
+				"Generates source by consuming burnables. See worn notebook for more information."
+				"Rewards: x5 blazing archwood logs, x1 loot bag piece"
+			]
+			dependencies: ["7D3FF1738E769221"]
+			id: "29DCD2B494CBE8CD"
+			tasks: [{
+				id: "13C1B6438D8EB7A2"
+				type: "item"
+				item: "ars_nouveau:volcanic_sourcelink"
+			}]
+			rewards: [
+				{
+					id: "4476D61621C19FC8"
+					type: "item"
+					item: "ars_nouveau:red_archwood_log"
+					count: 5
+				}
+				{
+					id: "7E8F031B540A4399"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -7.100000000000001d
+			subtitle: "Craft a vitalic sourcelink."
+			description: [
+				"Generates source from nearby mob deaths and animal breeding. See worn notebook for more information."
+				"Rewards: x2 cow spawn egg, x1 loot bag piece"
+			]
+			dependencies: ["7D3FF1738E769221"]
+			id: "610089B9D72A9418"
+			tasks: [{
+				id: "2EF79E139F3DC231"
+				type: "item"
+				item: "ars_nouveau:vitalic_sourcelink"
+			}]
+			rewards: [
+				{
+					id: "65797C72B2C2D4D5"
+					type: "item"
+					item: "minecraft:cow_spawn_egg"
+					count: 2
+				}
+				{
+					id: "36AB614A89095C38"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.8999999999999986d
+			y: -5.5d
+			subtitle: "Craft a source relay."
+			description: [
+				"Allows moving of source between source jars and source relays. See worn notebook for more information."
+				"Rewards: x2 chest, x1 loot bag piece"
+			]
+			dependencies: ["516CFC0B5471FE3D"]
+			id: "1B532888B33CD3B6"
+			tasks: [{
+				id: "57868481EE5DB271"
+				type: "item"
+				item: "ars_nouveau:relay"
+			}]
+			rewards: [
+				{
+					id: "5B39071407286B41"
+					type: "item"
+					item: "minecraft:chest"
+					count: 2
+				}
+				{
+					id: "26D2E84E780347B1"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -6.100000000000001d
+			subtitle: "Craft a source relay collector."
+			description: [
+				"Transfers source from jars within 5 blocks that are not linked. See worn notebook for further information."
+				"Rewards: x2 hopper, x2 xp"
+			]
+			dependencies: ["1B532888B33CD3B6"]
+			id: "71FE35ADC31BA921"
+			tasks: [{
+				id: "4EF7459778F54B7E"
+				type: "item"
+				item: "ars_nouveau:relay_collector"
+			}]
+			rewards: [
+				{
+					id: "1E19FD7D821BD8FA"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 2
+				}
+				{
+					id: "31BBEA69BFBD6610"
+					type: "xp"
+					xp: 2
+				}
+			]
+		}
+		{
+			x: -5.600000000000001d
+			y: -5.100000000000001d
+			subtitle: "Craft a source relay depositor."
+			description: [
+				"Deposits source to jars not linked within 5 blocks. Refer to worn notebook for more information."
+				"Rewards: x2 lapis lazuli, x2 nether quartz"
+			]
+			dependencies: ["1B532888B33CD3B6"]
+			id: "17E2FA0DBA202351"
+			tasks: [{
+				id: "70E418263D4CAACB"
+				type: "item"
+				item: "ars_nouveau:relay_deposit"
+			}]
+			rewards: [
+				{
+					id: "3E158A9011BD6F54"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 2
+				}
+				{
+					id: "0AC3F041623FB8F1"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -5.300000000000001d
+			y: -4.100000000000001d
+			subtitle: "Craft a source relay splitter."
+			description: [
+				"This allows to and from transfer of source from many jars at once. Refer to worn notebook for more information."
+				"Rewards: x2 ender pearl, x2 popped chorus fruit"
+			]
+			dependencies: ["1B532888B33CD3B6"]
+			id: "364DD2BF7490AF23"
+			tasks: [{
+				id: "7D5730729E5F1B45"
+				type: "item"
+				item: "ars_nouveau:relay_splitter"
+			}]
+			rewards: [
+				{
+					id: "4727EB61308DAB10"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 2
+				}
+				{
+					id: "7713C025E5A88D49"
+					type: "item"
+					item: "minecraft:popped_chorus_fruit"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.300000000000001d
+			subtitle: "Craft a source relay warper."
+			description: ["Transfers source for an infinite distance between relays, but it has a chance to lose source after 30 blocks. Refer to worn notebook for more information."]
+			dependencies: ["1B532888B33CD3B6"]
+			id: "55D86E6E805C6293"
+			tasks: [{
+				id: "2CD053B2046D93B2"
+				type: "item"
+				item: "ars_nouveau:relay_warp"
+			}]
+			rewards: [
+				{
+					id: "411921F8FE73E399"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 8
+				}
+				{
+					id: "09A59CF775174B85"
+					type: "item"
+					item: "ars_nouveau:source_berry_roll"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -2.8000000000000007d
+			y: -3.8000000000000007d
+			subtitle: "Craft a potion melder."
+			description: [
+				"Used for conversion and output of potions. Refer to worn notebook for more information."
+				"Rewards: x2 gold ingot, x2 source gem"
+			]
+			dependencies: ["0F8E94CA26BFA508"]
+			id: "7BC3CA76905B2AAC"
+			tasks: [{
+				id: "413DA62DE441E5FE"
+				type: "item"
+				item: "ars_nouveau:potion_melder"
+			}]
+			rewards: [
+				{
+					id: "047FA40B6010DA2B"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+				{
+					id: "5B626CC22CA7DCA9"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -0.3999999999999986d
+			y: 3.3000000000000007d
+			subtitle: "Craft a ritual brazier."
+			description: [
+				"This is used for decoration or rituals. Refer to worn notebook for more details."
+				"Rewards: x4 flourishing archwood log, x4 source gem"
+			]
+			dependencies: ["32E326DA9CA1BD82"]
+			id: "11A1C5F30AB821AB"
+			tasks: [{
+				id: "3C1E8B90D4205045"
+				type: "item"
+				item: "ars_nouveau:ritual_brazier"
+			}]
+			rewards: [
+				{
+					id: "10BA4F9408175012"
+					type: "item"
+					item: "ars_nouveau:green_archwood_log"
+					count: 4
+				}
+				{
+					id: "0FB078216DCE7621"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.199999999999999d
+			subtitle: "Craft a scribe's table."
+			description: [
+				"The scribe's table is used to craft glyphs and or a specific spell to parchment or items. Refer to worn notebook for more information."
+				"Rewards: x8 paper, x1 loot bag"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "415D5A083C7B5549"
+			tasks: [{
+				id: "481F47B8C71F7A85"
+				type: "item"
+				item: "ars_nouveau:scribes_table"
+			}]
+			rewards: [
+				{
+					id: "3686E458617FE529"
+					type: "item"
+					item: "minecraft:paper"
+					count: 8
+				}
+				{
+					id: "293F7B11F9AF9F11"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+		{
+			x: -4.600000000000001d
+			y: 4.699999999999999d
+			subtitle: "Craft a blank parchment."
+			description: [
+				"Parchments are used to create spells at the scribe's table. Refer to worn notebook for more information."
+				"Rewards: x4 sugar cane, x1 loot bag piece, x1 magebloom seed"
+			]
+			dependencies: ["415D5A083C7B5549"]
+			id: "7D748F298E1E9ACC"
+			tasks: [{
+				id: "162D7FFEF9FED4B5"
+				type: "item"
+				item: "ars_nouveau:blank_parchment"
+			}]
+			rewards: [
+				{
+					id: "098AA16E5B4E67C8"
+					type: "item"
+					item: "minecraft:sugar_cane"
+					count: 4
+				}
+				{
+					id: "4FEF473BDA15BE5E"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "12130B91C8972A9E"
+					type: "item"
+					item: "ars_nouveau:magebloom_crop"
+				}
+			]
+		}
+		{
+			x: -13.200000000000003d
+			y: -3.0d
+			subtitle: "Obtain a wixie shard."
+			description: [
+				"Wixie shards can be found in loot chests or created according to the worn notebook. Wixie shards are used to create wixie charms."
+				"Rewards: x1 emerald, x1 loot bag piece"
+			]
+			id: "5329CBCAF8C94C82"
+			tasks: [{
+				id: "04A826832F5BD019"
+				type: "item"
+				item: "ars_nouveau:wixie_shards"
+			}]
+			rewards: [
+				{
+					id: "3C689585A228D9C7"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "46661CA7A7DFD296"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -12.2d
+			y: -2.3999999999999986d
+			subtitle: "Create a wixie charm."
+			description: [
+				"Please refer to the worn notebook to create the charm as well as to learn how wixies can help with potion making."
+				"Rewards: x8 bottle, x2 bundle of potion of mana regen, x1 loot bag piece"
+			]
+			dependencies: ["5329CBCAF8C94C82"]
+			id: "02718A17D7E3EC8D"
+			tasks: [{
+				id: "7C1AB7FFBCE9BF2D"
+				type: "item"
+				item: "ars_nouveau:wixie_charm"
+			}]
+			rewards: [
+				{
+					id: "5E8F8C2C69A49101"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 8
+				}
+				{
+					id: "153A343E1447638F"
+					type: "item"
+					item: {
+						id: "potionbundles:lingering_potion_bundle"
+						Count: 1b
+						tag: {
+							String: {
+								id: "minecraft:string"
+								Count: 1b
+							}
+							Uses: 3
+							Potion: "ars_nouveau:mana_regen_potion"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3CF63CD2437DB01F"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -3.1000000000000014d
+			subtitle: "Obtain a starbuncle shard."
+			description: [
+				"Starbuncle shards may be obtained in loot chests or by giving a starbuncle a gold nugget. Starbuncle shards are used to create starbuncle charms. Refer to the worn notebook for more details. "
+				"Rewards: x9 gold nugget, x1 loot bag piece"
+			]
+			id: "26E6DFAEB57046FD"
+			tasks: [{
+				id: "2F067095E975DF6B"
+				type: "item"
+				item: "ars_nouveau:starbuncle_shards"
+			}]
+			rewards: [
+				{
+					id: "171A4C847E058341"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 9
+				}
+				{
+					id: "67BF826DE630903A"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -2.3000000000000007d
+			subtitle: "Create a starbuncle charm."
+			description: [
+				"Use the starbuncle charm on the ground to create a starbuncle. Please refer to the worn notebook to learn how to use starbuncles to help you organize :p."
+				"Rewards: x2 archwood chest, x1 loot bag piece"
+			]
+			dependencies: ["26E6DFAEB57046FD"]
+			id: "3A012F3AE5578686"
+			tasks: [{
+				id: "7B76B2D4E774C79C"
+				type: "item"
+				item: "ars_nouveau:starbuncle_charm"
+			}]
+			rewards: [
+				{
+					id: "192D5C93342E563E"
+					type: "item"
+					item: "ars_nouveau:archwood_chest"
+					count: 2
+				}
+				{
+					id: "3DC840E18A646111"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -13.299999999999997d
+			y: -0.8999999999999986d
+			subtitle: "Obtain a drygmy shard."
+			description: [
+				"Drygmy shards can be found in loot chests. Drygmy shards are used to create drygmy charms. Refer to the worn notebook for further details."
+				"Rewards: x8 carrot, x1 golden carrot, x1 loot bag piece"
+			]
+			id: "286AC891E2FCFE82"
+			tasks: [{
+				id: "021B0888EC18E1F0"
+				type: "item"
+				item: "ars_nouveau:drygmy_shard"
+			}]
+			rewards: [
+				{
+					id: "5E29F9D9AA5FF777"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 8
+				}
+				{
+					id: "6380984E50509CD9"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "633A12B15184C95E"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -12.2d
+			y: -0.3000000000000007d
+			subtitle: "Create a drygmy charm."
+			description: [
+				"Use your drygmy charm on mossy cobblestone to bring a drygmy to life, see worn notebook for more details about how the drygmy can help out at your base. Remember, keep your drygmy happy :o)."
+				"Rewards: x2 archwood chest, x8 mossy cobblestone, x1 loot bag piece"
+			]
+			dependencies: ["286AC891E2FCFE82"]
+			id: "127D8E5924E63B75"
+			tasks: [{
+				id: "6AF441B619C8B256"
+				type: "item"
+				item: "ars_nouveau:drygmy_charm"
+			}]
+			rewards: [
+				{
+					id: "4B749FD87B314161"
+					type: "item"
+					item: "ars_nouveau:archwood_chest"
+					count: 2
+				}
+				{
+					id: "1E0BF37824A3FF73"
+					type: "item"
+					item: "minecraft:mossy_cobblestone"
+					count: 8
+				}
+				{
+					id: "67F4246C6C7BB86D"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -5.600000000000001d
+			y: 5.699999999999999d
+			subtitle: "Craft a spell parchment."
+			description: [
+				"Spell parchment is used to write specific spells. Please refer to worn notebook for more information."
+				"Rewards: x8 paper, x1 loot bag piece, x1 block of redstone"
+			]
+			dependencies: ["7D748F298E1E9ACC"]
+			id: "1746C9FDC6B96D95"
+			tasks: [{
+				id: "6183710E8400A275"
+				type: "item"
+				item: {
+					id: "ars_nouveau:spell_parchment"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "76672911A7B58BDE"
+					type: "item"
+					item: "minecraft:paper"
+					count: 8
+				}
+				{
+					id: "6F9BDAF0001B46D0"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "7604D513EBC55F32"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+			]
+		}
+		{
+			x: -5.699999999999999d
+			y: 6.899999999999999d
+			subtitle: "Create a bookwyrm charm."
+			description: [
+				"Bookwyrms can come to life by using your charm on a lectern. Refer to worn notebook for more information. PS: Bookwyrms can be dyed."
+				"Rewards: x8 paper, x1 hellbark bookshelf, x1 loot bag piece"
+			]
+			dependencies: ["1746C9FDC6B96D95"]
+			id: "082BC6C3FBE00220"
+			tasks: [{
+				id: "40D879255A737599"
+				type: "item"
+				item: "ars_nouveau:bookwyrm_charm"
+			}]
+			rewards: [
+				{
+					id: "24FCE374187E8BF2"
+					type: "item"
+					item: "minecraft:paper"
+					count: 8
+				}
+				{
+					id: "5B5A9169B5EA1F39"
+					type: "item"
+					item: "compatoplenty:hellbark_bookshelf"
+				}
+				{
+					id: "51543F8A44841D7A"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -6.800000000000001d
+			y: 6.199999999999999d
+			subtitle: "Craft a basic spell turret."
+			description: [
+				"A spell turret can be used with a redstone signal to cast spells. Refer to worn notebook for more details."
+				"Rewards: x2 spell parchment, x1 loot bag piece"
+			]
+			dependencies: ["1746C9FDC6B96D95"]
+			id: "16094A38C3C2B628"
+			tasks: [{
+				id: "4A194D337FBD08B8"
+				type: "item"
+				item: "ars_nouveau:basic_spell_turret"
+			}]
+			rewards: [
+				{
+					id: "235BB6D224FE0BDC"
+					type: "item"
+					item: {
+						id: "ars_nouveau:spell_parchment"
+						Count: 1b
+						tag: { }
+					}
+					count: 2
+				}
+				{
+					id: "42FD297AE25FD962"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.8999999999999986d
+			subtitle: "Create an amethyst golem charm."
+			description: [
+				"These magical helpers harvest, collect, and grow amethyst for you. Refer to worn notebook for more details."
+				"Rewards: x1 budding amethyst, x8 source berry roll"
+			]
+			dependencies: ["708EDCD56ABDC95B"]
+			id: "64C344F02BCB64EC"
+			tasks: [{
+				id: "58FF2C2941E9F3F2"
+				type: "item"
+				item: "ars_nouveau:amethyst_golem_charm"
+			}]
+			rewards: [
+				{
+					id: "608001719DD58DBF"
+					type: "item"
+					item: "minecraft:budding_amethyst"
+				}
+				{
+					id: "0AD932E1FE6B180C"
+					type: "item"
+					item: "ars_nouveau:source_berry_roll"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.8000000000000007d
+			subtitle: "Craft a tablet of awakening."
+			description: [
+				"Use this tablet to create magical helpers to include the weald walker and amethyst golem. Refer to worn notebook for further instructions."
+				"Rewards: x2 source gem block, x1 loot bag piece"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "708EDCD56ABDC95B"
+			tasks: [{
+				id: "58DD6A2F282CD93C"
+				type: "item"
+				item: "ars_nouveau:ritual_awakening"
+			}]
+			rewards: [
+				{
+					id: "44F0471F9FF9E33A"
+					type: "item"
+					item: "ars_nouveau:source_gem_block"
+					count: 2
+				}
+				{
+					id: "2EE93B88C698F95B"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -6.699999999999999d
+			y: 4.899999999999999d
+			subtitle: "Craft an annotated codex."
+			description: [
+				"Use this to record your glyphs. Refer to worn notebook for details."
+				"Rewards: x8 source gem, x1 blank glyph"
+			]
+			dependencies: ["1746C9FDC6B96D95"]
+			id: "7350C8F76BD231CB"
+			tasks: [{
+				id: "393207CE339737FF"
+				type: "item"
+				item: {
+					id: "ars_nouveau:annotated_codex"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "66EB6C555088DD8E"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 8
+				}
+				{
+					id: "636273C229028AA0"
+					type: "item"
+					item: "ars_nouveau:blank_glyph"
+				}
+			]
+		}
+		{
+			x: -2.1000000000000014d
+			y: -7.300000000000001d
+			subtitle: "Create a dominion wand using the enchanting apparatus."
+			description: [
+				"Use this to configure source relays and automation entities. Refer to worn notebook for more details."
+				"Rewards: x8 source gem, x8 source berry pie"
+			]
+			dependencies: ["516CFC0B5471FE3D"]
+			id: "3B27A0AA5C9694AC"
+			tasks: [{
+				id: "4BCF77567DAA4E03"
+				type: "item"
+				item: "ars_nouveau:dominion_wand"
+			}]
+			rewards: [
+				{
+					id: "17D83C318CB4FA70"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 8
+				}
+				{
+					id: "25E53B0F73FACF5F"
+					type: "item"
+					item: "ars_nouveau:source_berry_pie"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 6.800000000000001d
+			y: -8.0d
+			subtitle: "Obtain some magebloom fiber."
+			description: [
+				"Use these fibers to create your set of magical armor. Refer to worn notebook for more details."
+				"Rewards: x2 blaze rod, x1 loot bag"
+			]
+			dependencies: ["0186520D081DD15B"]
+			id: "7521ACED546CC028"
+			tasks: [{
+				id: "0B439F5A43742B34"
+				type: "item"
+				item: "ars_nouveau:magebloom_fiber"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "77D2354E161B1C6D"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 2
+				}
+				{
+					id: "11C14743FA61DC27"
+					type: "item"
+					item: "ars_nouveau:magebloom_fiber"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -0.3999999999999986d
+			y: -6.800000000000001d
+			subtitle: "Craft a mage's spellbook."
+			description: [
+				"Used to cast tier 2 glyphs or lower."
+				"Rewards: x1 ender pearl, x1 emerald, x1 loot bag piece"
+			]
+			dependencies: ["214E613632AF1B7C"]
+			id: "0A8782F5CEB79603"
+			tasks: [{
+				id: "08EEF3D19F7AC21E"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+			rewards: [
+				{
+					id: "6AC29E41BBAEFAF0"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "5F86C4D838931EAC"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "28FCBDF21FD6B293"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -0.3999999999999986d
+			y: -8.0d
+			subtitle: "Craft an archmage spellbook."
+			description: [
+				"Used to cast tier 3 glyphs or lower."
+				"Rewards: x1 random reward"
+			]
+			dependencies: ["0A8782F5CEB79603"]
+			id: "3AB0B1AB3C60F003"
+			tasks: [{
+				id: "745CB1AEDED7BFE5"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+			rewards: [{
+				id: "51FE0A17050B46CB"
+				type: "random"
+				table_id: 6166930144693596049L
+			}]
+		}
+		{
+			title: "Magical Novice Armor Set"
+			x: 7.699999999999999d
+			y: -8.799999999999997d
+			subtitle: "Craft the novice armor set."
+			description: [
+				"These magical items provide additional mana and mana regen. Refer to worn notebook for more details."
+				"Rewards: x4 magebloom fiber, x2 blaze rod, x1 loot bag"
+			]
+			dependencies: ["7521ACED546CC028"]
+			id: "76ACE64F27DB3D45"
+			tasks: [
+				{
+					id: "0BFC16EBFC5C7711"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5920FB94DCDB3920"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07BEBDB36ED55486"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F0E245DBBB8A607"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "61E8624E35025C66"
+					type: "item"
+					item: "ars_nouveau:magebloom_fiber"
+					count: 4
+				}
+				{
+					id: "71C88F0951776CAD"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 2
+				}
+				{
+					id: "28773181187B7E3D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+		{
+			x: 7.6d
+			y: -6.600000000000001d
+			subtitle: "Craft blaze fiber."
+			description: [
+				"Use these fibers to create your next set of magical armor. Refer to worn notebook for more details."
+				"Rewards: x2 popped chorus fruit, x4 magebloom fiber"
+				"Rewards: x2 popped chorus fruit, x2 blaze fiber"
+			]
+			dependencies: ["7521ACED546CC028"]
+			id: "4A365455010D6D6D"
+			tasks: [{
+				id: "0A60EDD79F89EA22"
+				type: "item"
+				item: "ars_nouveau:blaze_fiber"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "548EAEDBE4506DA5"
+					type: "item"
+					item: "minecraft:popped_chorus_fruit"
+					count: 2
+				}
+				{
+					id: "218D6055777355FC"
+					type: "item"
+					item: "ars_nouveau:blaze_fiber"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Magical Mage Armor Set"
+			x: 7.6d
+			y: -5.5d
+			subtitle: "Craft the mage armor set."
+			description: [
+				"These magical items provide additional mana and mana regen. Refer to worn notebook for more details."
+				"Rewards: x4 magebloom fiber, x4 blaze fiber, x1 loot bag"
+			]
+			dependencies: ["4A365455010D6D6D"]
+			id: "520E3B6508940832"
+			tasks: [
+				{
+					id: "1D0B7B6C4A5D964B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36F69B5EE6F42AAB"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34ACF60F5D75C691"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "38A602E1A3AC53C9"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "410E6E4930047B31"
+					type: "item"
+					item: "ars_nouveau:magebloom_fiber"
+					count: 4
+				}
+				{
+					id: "145DC499526DA5A1"
+					type: "item"
+					item: "ars_nouveau:blaze_fiber"
+					count: 4
+				}
+				{
+					id: "67ADE9212C13A1DB"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -6.699999999999999d
+			subtitle: "Craft end fiber."
+			description: [
+				"Use these fibers to create your next set of magical armor. Refer to worn notebook for more details."
+				"Rewards: x4 magebloom fiber, x4 blaze fiber, x1 loot bag piece"
+			]
+			dependencies: ["7521ACED546CC028"]
+			id: "315D3E9976FB2D15"
+			tasks: [{
+				id: "01C0073DCBBAFEF3"
+				type: "item"
+				item: "ars_nouveau:end_fiber"
+			}]
+			rewards: [
+				{
+					id: "325FF71F9BE0FDF4"
+					type: "item"
+					item: "ars_nouveau:magebloom_fiber"
+					count: 4
+				}
+				{
+					id: "553A1A776D597115"
+					type: "item"
+					item: "ars_nouveau:blaze_fiber"
+					count: 4
+				}
+				{
+					id: "09ADF9983FB3D8BA"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Magical Archmage Armor Set"
+			x: 6.5d
+			y: -5.5d
+			subtitle: "Craft the archmage armor set."
+			description: [
+				"These magical items provide additional mana and mana regen. Refer to worn notebook for more details."
+				"Rewards: x1 loot bag, x5 xp levels, x1 bundle of potion of mana regen"
+			]
+			dependencies: ["315D3E9976FB2D15"]
+			id: "22BB5636BA5A7C0C"
+			tasks: [
+				{
+					id: "11FA531D5A13496E"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F9EDCE50D00BE5E"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2087CFEAAC306774"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "754937ABBA96B2E8"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "142AC4423D60453B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "470286C2C6C05C35"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "27CF8B9EBA99D73B"
+					type: "item"
+					item: {
+						id: "potionbundles:lingering_potion_bundle"
+						Count: 1b
+						tag: {
+							String: {
+								id: "minecraft:string"
+								Count: 1b
+							}
+							Uses: 3
+							Potion: "ars_nouveau:mana_regen_potion_long"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.600000000000001d
+			y: 3.0d
+			subtitle: "Craft an item scroll: allow."
+			description: [
+				"Give this scroll to a starbuncle, and it will help keep you further organized :p. Please see worn notebook for further details."
+				"Rewards: x1 loot bag piece, x4 magebloom fiber"
+			]
+			dependencies: ["7D748F298E1E9ACC"]
+			id: "16BB2882C4FD3D85"
+			tasks: [{
+				id: "4E210AFCAF0D34AE"
+				type: "item"
+				item: "ars_nouveau:allow_scroll"
+			}]
+			rewards: [
+				{
+					id: "3561E868731FF89A"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "2E851CE040C3178D"
+					type: "item"
+					item: "ars_nouveau:magebloom_fiber"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 3.8999999999999986d
+			subtitle: "Craft an item scroll: deny."
+			description: [
+				"Give this scroll to a starbuncle, and it will help keep you further organized :p. Please see worn notebook for further details."
+				"Rewards: x1 loot bag piece, x4 magebloom fiber"
+			]
+			dependencies: ["7D748F298E1E9ACC"]
+			id: "46CCDB94850BB7EC"
+			tasks: [{
+				id: "64ECDBD280D272A9"
+				type: "item"
+				item: "ars_nouveau:deny_scroll"
+			}]
+			rewards: [
+				{
+					id: "7BED4431EF85C13A"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "6FD776597692EEAB"
+					type: "item"
+					item: "ars_nouveau:magebloom_fiber"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -5.600000000000001d
+			y: 3.1000000000000014d
+			subtitle: "Craft a mimic scroll."
+			description: [
+				"This scroll helps with automation. Refer to worn notebook for more details."
+				"Rewards: x2 archwood chest, x4 magebloom fiber"
+			]
+			dependencies: ["7D748F298E1E9ACC"]
+			id: "7C2D11F41A5DB9B5"
+			tasks: [{
+				id: "76D0BD2D7A6F48A2"
+				type: "item"
+				item: "ars_nouveau:mimic_scroll"
+			}]
+			rewards: [
+				{
+					id: "1950F7308712EA91"
+					type: "item"
+					item: "ars_nouveau:archwood_chest"
+					count: 2
+				}
+				{
+					id: "6C3F2CC6191A258D"
+					type: "item"
+					item: "ars_nouveau:magebloom_fiber"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -10.600000000000001d
+			y: -0.8999999999999986d
+			subtitle: "Obtain a whirlisprig shard."
+			description: [
+				"Obtained by growing a tree near a whirlisprig in the wild or found in loot chests. Whirlisprig shards are used to create whirlisprig charms. Refer to the worn notebook for more details."
+				"Rewards: x1 oak sapling, x4 source gem, x1 loot bag piece"
+			]
+			id: "7BE5F5A0273E53B2"
+			tasks: [{
+				id: "303AF135C9071B8E"
+				type: "item"
+				item: "ars_nouveau:whirlisprig_shards"
+			}]
+			rewards: [
+				{
+					id: "2EC72387925027B9"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "239BD2DDCBF7B497"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 4
+				}
+				{
+					id: "070EAC254AD43D34"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -9.399999999999999d
+			y: -0.3000000000000007d
+			subtitle: "Create a whirlisprig charm."
+			description: [
+				"Use your whirlisprig charm on a flower to bring a whirlisprig to life. Refer to the worn notebook to see how your whirlisprig can help you. PS: You can also use dye on your whirlisprig."
+				"Reward: x1 bundle of potion of mana regen, x1 loot bag piece"
+			]
+			dependencies: ["7BE5F5A0273E53B2"]
+			id: "3B6B983460D307D0"
+			tasks: [{
+				id: "63C318BC111A6A7E"
+				type: "item"
+				item: "ars_nouveau:whirlisprig_charm"
+			}]
+			rewards: [
+				{
+					id: "14DE24B9A111D85A"
+					type: "item"
+					item: {
+						id: "potionbundles:lingering_potion_bundle"
+						Count: 1b
+						tag: {
+							String: {
+								id: "minecraft:string"
+								Count: 1b
+							}
+							Uses: 3
+							Potion: "ars_nouveau:mana_regen_potion"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "78E8EEAC202B8237"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 9.6d
+			y: -9.200000000000003d
+			subtitle: "Craft a glyph of projectile."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 lingering potion of mana regen, x1 stone pressure plate"
+			]
+			id: "28E6C22C4E36667C"
+			tasks: [{
+				id: "4F8512CB784FD613"
+				type: "item"
+				item: "ars_nouveau:glyph_projectile"
+			}]
+			rewards: [
+				{
+					id: "18D6A8B4ACCE14EE"
+					type: "item"
+					item: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "ars_nouveau:mana_regen_potion"
+						}
+					}
+				}
+				{
+					id: "2A4AB0DE55808C0C"
+					type: "item"
+					item: "minecraft:stone_pressure_plate"
+				}
+			]
+		}
+		{
+			x: 10.6d
+			y: -9.200000000000003d
+			subtitle: "Craft a glyph of self."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Reward: x1 loot bag piece, x1 xp level"
+			]
+			id: "501F397D5700B3EC"
+			tasks: [{
+				id: "323036AAAE61129F"
+				type: "item"
+				item: "ars_nouveau:glyph_self"
+			}]
+			rewards: [
+				{
+					id: "1B012823704E11D9"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "77FE9801B960F2CA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 11.6d
+			y: -9.200000000000003d
+			subtitle: "Craft a glyph of touch."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 stone pressure plate, x1 loot bag piece"
+			]
+			id: "4EF8453E3371C744"
+			tasks: [{
+				id: "0FD2E2E18468037A"
+				type: "item"
+				item: "ars_nouveau:glyph_touch"
+			}]
+			rewards: [
+				{
+					id: "57B85503CA3F7601"
+					type: "item"
+					item: "minecraft:stone_pressure_plate"
+				}
+				{
+					id: "36527B9C9DC1C3AF"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 12.6d
+			y: -9.100000000000001d
+			subtitle: "Craft a glyph of underfoot."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Reward: x4 cooked cod, x1 xp level"
+			]
+			id: "3D6A0497A747FDD5"
+			tasks: [{
+				id: "3896081B46CB7533"
+				type: "item"
+				item: "ars_nouveau:glyph_underfoot"
+			}]
+			rewards: [
+				{
+					id: "142C190426929037"
+					type: "item"
+					item: "minecraft:cooked_cod"
+					count: 4
+				}
+				{
+					id: "3D13F02D9A12BE4F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 13.6d
+			y: -9.100000000000001d
+			subtitle: "Craft a glyph of aquatic."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 slimeball, x1 xp level"
+			]
+			id: "44251F0DBC8A17E8"
+			tasks: [{
+				id: "7149C5299FF0BE31"
+				type: "item"
+				item: "ars_nouveau:glyph_aquatic"
+			}]
+			rewards: [
+				{
+					id: "2603B5943432FAC0"
+					type: "item"
+					item: "minecraft:slime_ball"
+				}
+				{
+					id: "04363BE66C04BBE6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 14.600000000000001d
+			y: -9.100000000000001d
+			subtitle: "Craft a glyph of bounce."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x2 iron ingot, x1 loot bag piece"
+			]
+			id: "3469AEA1AF3B02DD"
+			tasks: [{
+				id: "6E1D278E1064A4BB"
+				type: "item"
+				item: "ars_nouveau:glyph_bounce"
+			}]
+			rewards: [
+				{
+					id: "2185A8479F990778"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 2
+				}
+				{
+					id: "28E617B8FD65F183"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 15.600000000000001d
+			y: -9.100000000000001d
+			subtitle: "Craft a glyph of break. "
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 glass, x1 xp level"
+			]
+			id: "088B191112482B5B"
+			tasks: [{
+				id: "106A9BB62966B1CF"
+				type: "item"
+				item: "ars_nouveau:glyph_break"
+			}]
+			rewards: [
+				{
+					id: "353F3F93322EDD62"
+					type: "item"
+					item: "minecraft:glass"
+					count: 4
+				}
+				{
+					id: "6B98C0091816D05D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 16.6d
+			y: -9.100000000000001d
+			subtitle: "Craft a glpyh of conjure mageblock."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 torch, x1 xp level"
+			]
+			id: "05C804C355A74510"
+			tasks: [{
+				id: "6BCB17A33136DBE5"
+				type: "item"
+				item: "ars_nouveau:glyph_phantom_block"
+			}]
+			rewards: [
+				{
+					id: "4FC5EADF9A4DDDA5"
+					type: "item"
+					item: "minecraft:torch"
+					count: 8
+				}
+				{
+					id: "4FC8DBE593712A0F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 17.6d
+			y: -9.100000000000001d
+			subtitle: "Craft a glyph of conjure magelight."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 dirt, x1 loot bag piece"
+			]
+			id: "2625BE73349C396F"
+			tasks: [{
+				id: "34F124B6851D1D59"
+				type: "item"
+				item: "ars_nouveau:glyph_light"
+			}]
+			rewards: [
+				{
+					id: "5C0ADB080CB92DD7"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 8
+				}
+				{
+					id: "4C77678C627BA09E"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 18.6d
+			y: -9.100000000000001d
+			subtitle: "Craft a glyph of conjure."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 oak log, x1 xp level"
+			]
+			id: "5A2F7FA88EB43427"
+			tasks: [{
+				id: "713173B3CF42EDAD"
+				type: "item"
+				item: "ars_nouveau:glyph_conjure_dirt"
+			}]
+			rewards: [
+				{
+					id: "32F46F1EFE728B1C"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 4
+				}
+				{
+					id: "3230D7E7E1F1652F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 19.6d
+			y: -9.100000000000001d
+			subtitle: "Craft a glyph of craft. "
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 iron ingot, x1 loot bag piece"
+			]
+			id: "09151B9B3A0FE829"
+			tasks: [{
+				id: "2840A791656920E1"
+				type: "item"
+				item: "ars_nouveau:glyph_craft"
+			}]
+			rewards: [
+				{
+					id: "6F8B418A44FA1F6A"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+				{
+					id: "51AAF762BE4C89FD"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 20.6d
+			y: -9.100000000000001d
+			subtitle: "Craft of a glyph of cut."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 block of redstone, x1 xp level"
+			]
+			id: "65DFF0D649105973"
+			tasks: [{
+				id: "57FB10FA58DEDD44"
+				type: "item"
+				item: "ars_nouveau:glyph_cut"
+			}]
+			rewards: [
+				{
+					id: "319729376F9939E2"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "0ADFCE8728BA3A1D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 9.6d
+			y: -8.100000000000001d
+			subtitle: "Craft a glyph of delay."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 milk bucket, x1 loot bag piece"
+			]
+			id: "4AA155538EEE8A2A"
+			tasks: [{
+				id: "4FEBA80301616769"
+				type: "item"
+				item: "ars_nouveau:glyph_delay"
+			}]
+			rewards: [
+				{
+					id: "1EAE1AE3D244525E"
+					type: "item"
+					item: "minecraft:milk_bucket"
+				}
+				{
+					id: "4D01886FB4B2738F"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 10.6d
+			y: -8.100000000000001d
+			subtitle: "Craft a glyph of dispel."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 sponge, x1 xp level"
+			]
+			id: "0FD1FBDD924722B1"
+			tasks: [{
+				id: "3F4DAC6483ACBCC7"
+				type: "item"
+				item: "ars_nouveau:glyph_dispel"
+			}]
+			rewards: [
+				{
+					id: "085E7A941563B603"
+					type: "item"
+					item: "minecraft:sponge"
+				}
+				{
+					id: "0AA29D3D4CE7306B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 11.6d
+			y: -8.100000000000001d
+			subtitle: "Craft a glyph of evaporate."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 snow block, x1 loot bag piece"
+			]
+			id: "65971A6932410DF0"
+			tasks: [{
+				id: "4329FE5CB57F55E0"
+				type: "item"
+				item: "ars_nouveau:glyph_evaporate"
+			}]
+			rewards: [
+				{
+					id: "42BEAA46A93579FE"
+					type: "item"
+					item: "minecraft:snow_block"
+				}
+				{
+					id: "5FDF370BF328EDF8"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 12.6d
+			y: -8.100000000000001d
+			subtitle: "Craft a glyph of freeze."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 iron sword, x1 xp level"
+			]
+			id: "73E66B05192EB389"
+			tasks: [{
+				id: "5B693051B872B1AB"
+				type: "item"
+				item: "ars_nouveau:glyph_freeze"
+			}]
+			rewards: [
+				{
+					id: "326CA8CC92E47186"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73E27D86C3BA6BA2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 13.6d
+			y: -8.100000000000001d
+			subtitle: "Craft a glyph of harm."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 iron ingot, x1 loot bag piece"
+			]
+			id: "076C1CA7228E9300"
+			tasks: [{
+				id: "6F2FF46009DBBDF7"
+				type: "item"
+				item: "ars_nouveau:glyph_harm"
+			}]
+			rewards: [
+				{
+					id: "2BAA073CCE7C1BBF"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+				{
+					id: "0BF70544AAE057A2"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 14.600000000000001d
+			y: -8.100000000000001d
+			subtitle: "Craft a glyph of harvest."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 coal, x1 xp level"
+			]
+			id: "5408B401317E94E4"
+			tasks: [{
+				id: "76DC1725A4CCA837"
+				type: "item"
+				item: "ars_nouveau:glyph_harvest"
+			}]
+			rewards: [
+				{
+					id: "413258B4677A53F4"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8
+				}
+				{
+					id: "4ADEB257EB97F11C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 15.600000000000001d
+			y: -8.100000000000001d
+			subtitle: "Craft a glyph of ignite."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 oak log, x1 loot bag piece"
+			]
+			id: "7B387900365C5FAE"
+			tasks: [{
+				id: "23BA46E9410DCEE6"
+				type: "item"
+				item: "ars_nouveau:glyph_ignite"
+			}]
+			rewards: [
+				{
+					id: "6059988B45DEC773"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 4
+				}
+				{
+					id: "07A681BB7388C2B1"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 16.6d
+			y: -8.100000000000001d
+			subtitle: "Craft a glyph of interact."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 hopper, x1 xp level"
+			]
+			id: "4526D7B549A19F90"
+			tasks: [{
+				id: "5FF21A3248B29BBA"
+				type: "item"
+				item: "ars_nouveau:glyph_interact"
+			}]
+			rewards: [
+				{
+					id: "292CE42A003BBC3A"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "469A196E5205C52A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 17.6d
+			y: -8.100000000000001d
+			subtitle: "Craft a glyph of item pickup."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 piston, x1 loot bag piece"
+			]
+			id: "7E1FC2C96AC339F1"
+			tasks: [{
+				id: "6D1CB1D45FFD98C5"
+				type: "item"
+				item: "ars_nouveau:glyph_pickup"
+			}]
+			rewards: [
+				{
+					id: "3E1EBE2A3E913629"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "71FB6A915990DEC3"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 18.6d
+			y: -8.100000000000001d
+			subtitle: "Craft a glyph of knockback."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 rabbit hide, x1 xp level"
+			]
+			id: "259B65195D8B7095"
+			tasks: [{
+				id: "45A6C8BCE1131B04"
+				type: "item"
+				item: "ars_nouveau:glyph_gust"
+			}]
+			rewards: [
+				{
+					id: "724185C02C81EBF4"
+					type: "item"
+					item: "minecraft:rabbit_hide"
+				}
+				{
+					id: "00E981B7F8505920"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 20.6d
+			y: -8.100000000000001d
+			subtitle: "Craft a glyph of leap."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 cobblestone, x1 xp level"
+			]
+			id: "063BC2E76B0A8359"
+			tasks: [{
+				id: "5C3E3A27696A37B6"
+				type: "item"
+				item: "ars_nouveau:glyph_leap"
+			}]
+			rewards: [
+				{
+					id: "1A1475DAABB4BFEF"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 8
+				}
+				{
+					id: "3F25D6C7D57F4E01"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 19.6d
+			y: -8.100000000000001d
+			subtitle: "Craft a glyph of launch."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 wilden wing, x1 loot bag piece"
+			]
+			id: "5CC8D2E32DE9530E"
+			tasks: [{
+				id: "78D6E6884EBCAA70"
+				type: "item"
+				item: "ars_nouveau:glyph_launch"
+			}]
+			rewards: [
+				{
+					id: "395F3C9F20B56F81"
+					type: "item"
+					item: "ars_nouveau:wilden_wing"
+				}
+				{
+					id: "08D305588F02379F"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 9.6d
+			y: -7.0d
+			subtitle: "Craft a glyph of place block."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 oak log, x1 loot bag piece"
+			]
+			id: "76F5B3E168DE79E8"
+			tasks: [{
+				id: "33875CE48BCF6277"
+				type: "item"
+				item: "ars_nouveau:glyph_place_block"
+			}]
+			rewards: [
+				{
+					id: "7AB1E44A175E918A"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 4
+				}
+				{
+					id: "08D1382441DA53E6"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 10.6d
+			y: -7.0d
+			subtitle: "Craft a glyph of pull."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 block of redstone, x1 xp level"
+			]
+			id: "7162C07AAFA07F71"
+			tasks: [{
+				id: "1D9D89B92A9671E5"
+				type: "item"
+				item: "ars_nouveau:glyph_pull"
+			}]
+			rewards: [
+				{
+					id: "5279B403EBE85550"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "2AE4AB944859F3B8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 11.6d
+			y: -7.0d
+			subtitle: "Craft a glyph of redstone signal."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 bone meal, x1 xp level"
+			]
+			id: "26DE97137117C49A"
+			tasks: [{
+				id: "6485733967C07C5D"
+				type: "item"
+				item: "ars_nouveau:glyph_redstone_signal"
+			}]
+			rewards: [
+				{
+					id: "38BF1BB66AD53803"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 8
+				}
+				{
+					id: "501E6CFFC68A7FEF"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 12.6d
+			y: -7.0d
+			subtitle: "Craft a glyph of rune."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x2 cobweb, x1 xp level"
+			]
+			id: "1EC4A0C4594CCF1E"
+			tasks: [{
+				id: "724B1DF1B40013DB"
+				type: "item"
+				item: "ars_nouveau:glyph_rune"
+			}]
+			rewards: [
+				{
+					id: "3F46CF5C27530A10"
+					type: "item"
+					item: "minecraft:cobweb"
+					count: 2
+				}
+				{
+					id: "5A21CE5CFCBF3E88"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 13.6d
+			y: -7.0d
+			subtitle: "Craft a glyph of snare."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x2 leather, x1 loot bag piece"
+			]
+			id: "3B16820E7E9B4649"
+			tasks: [{
+				id: "7DF2035B57945282"
+				type: "item"
+				item: "ars_nouveau:glyph_snare"
+			}]
+			rewards: [
+				{
+					id: "175AFA6AFF8C248F"
+					type: "item"
+					item: "minecraft:leather"
+					count: 2
+				}
+				{
+					id: "6175AEFD4A48B633"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 14.600000000000001d
+			y: -7.0d
+			subtitle: "Craft a glyph of summon steed."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 bone, x1 xp level"
+			]
+			id: "02655CA9EBAAEE83"
+			tasks: [{
+				id: "0D4D55009C4591FB"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_steed"
+			}]
+			rewards: [
+				{
+					id: "21A4E2840BFDAC04"
+					type: "item"
+					item: "minecraft:bone"
+					count: 4
+				}
+				{
+					id: "5266DF4F4873BB74"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 16.6d
+			y: -7.0d
+			subtitle: "Craft a glyph of toss."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 diamond, x1 xp level"
+			]
+			id: "5DECB69D55C5394F"
+			tasks: [{
+				id: "791F1FB02318A753"
+				type: "item"
+				item: "ars_nouveau:glyph_toss"
+			}]
+			rewards: [
+				{
+					id: "23BEB61BB5EE53A2"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "5F03A4C14A1DF922"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 15.600000000000001d
+			y: -7.0d
+			subtitle: "Craft a glyph of summon wolves."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 cobblestone, x1 loot bag piece"
+			]
+			id: "691B6C38D9060F61"
+			tasks: [{
+				id: "3089A9DDA5AE777B"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_wolves"
+			}]
+			rewards: [
+				{
+					id: "3DEFC21E5FDC9713"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 8
+				}
+				{
+					id: "7B6314266085B1AC"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 17.6d
+			y: -7.0d
+			subtitle: "Craft a glyph of amplify."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 bamboo, x1 loot bag piece"
+			]
+			id: "7AE2F81BB9928931"
+			tasks: [{
+				id: "78464D5EE5E58FE9"
+				type: "item"
+				item: "ars_nouveau:glyph_amplify"
+			}]
+			rewards: [
+				{
+					id: "74B290E9258A7869"
+					type: "item"
+					item: "minecraft:bamboo"
+					count: 8
+				}
+				{
+					id: "5759CEBA40ADA7FB"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 18.6d
+			y: -7.0d
+			subtitle: "Craft a glyph of sensitive."
+			description: [
+				"Tier 1 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 source berry pie, x1 xp level"
+			]
+			id: "364DB45ADD134909"
+			tasks: [{
+				id: "6CAE9AA566B7BB82"
+				type: "item"
+				item: "ars_nouveau:glyph_sensitive"
+			}]
+			rewards: [
+				{
+					id: "281631A0639CA6CB"
+					type: "item"
+					item: "ars_nouveau:source_berry_pie"
+					count: 8
+				}
+				{
+					id: "766C2EA0447CC0E0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 9.6d
+			y: -5.5d
+			subtitle: "Craft a glyph of arc projectile."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 obsidian, x1 loot bag piece"
+			]
+			id: "5C01A230C9813B61"
+			tasks: [{
+				id: "61F99AE1A3C7C0FE"
+				type: "item"
+				item: "ars_nouveau:glyph_curved_projectile"
+			}]
+			rewards: [
+				{
+					id: "5A3EFF1790D600FE"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 8
+				}
+				{
+					id: "686E84218EDE4610"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.8999999999999986d
+			y: -1.3999999999999986d
+			subtitle: "Craft abjuration essence."
+			description: [
+				"Used in the creation of some glyphs."
+				"Rewards: x4 source gem, x1 loot bag"
+			]
+			dependencies: ["32E326DA9CA1BD82"]
+			id: "5BD728714FF71515"
+			tasks: [{
+				id: "49B543B0476A6E5B"
+				type: "item"
+				item: "ars_nouveau:abjuration_essence"
+			}]
+			rewards: [
+				{
+					id: "7B7E73A4A91A5566"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 4
+				}
+				{
+					id: "03F903FFD4D072D5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -0.3000000000000007d
+			subtitle: "Craft conjuration essence."
+			description: [
+				"Used in the creation of some glyphs."
+				"Rewards: x2 wither rose, 1 loot bag piece"
+			]
+			dependencies: ["32E326DA9CA1BD82"]
+			id: "33F69A0AEAD92288"
+			tasks: [{
+				id: "0C33730A51EEE561"
+				type: "item"
+				item: "ars_nouveau:conjuration_essence"
+			}]
+			rewards: [
+				{
+					id: "353E0CE9F01F383B"
+					type: "item"
+					item: "minecraft:wither_rose"
+					count: 2
+				}
+				{
+					id: "5C62428017512B15"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.6000000000000014d
+			subtitle: "Craft air essence."
+			description: [
+				"Used in the creation of some glyphs."
+				"Rewards: x8 grass block, x2 air essence"
+			]
+			dependencies: ["32E326DA9CA1BD82"]
+			id: "318FE863FFB73E69"
+			tasks: [{
+				id: "1D7E8BD66D199EF8"
+				type: "item"
+				item: "ars_nouveau:air_essence"
+			}]
+			rewards: [
+				{
+					id: "4BB10914197A8BD3"
+					type: "item"
+					item: "minecraft:grass_block"
+					count: 8
+				}
+				{
+					id: "5DA6486450DD03BB"
+					type: "item"
+					item: "ars_nouveau:air_essence"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.3999999999999986d
+			y: -2.1999999999999993d
+			subtitle: "Craft earth essence."
+			description: [
+				"Used in the creation of some glyphs."
+				"Rewards: x8 torch, x1 loot bag piece"
+			]
+			dependencies: ["32E326DA9CA1BD82"]
+			id: "37650DCA829B8E3F"
+			tasks: [{
+				id: "34685DB3FA7AAD17"
+				type: "item"
+				item: "ars_nouveau:earth_essence"
+			}]
+			rewards: [
+				{
+					id: "61D138192DE896C4"
+					type: "item"
+					item: "minecraft:torch"
+					count: 8
+				}
+				{
+					id: "43485A4648E93849"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.1999999999999993d
+			y: -1.1999999999999993d
+			subtitle: "Craft fire essence."
+			description: [
+				"Used in the creation of some glyphs."
+				"Rewards: x1 water bucket, x1 loot bag piece"
+			]
+			dependencies: ["32E326DA9CA1BD82"]
+			id: "26FEBCBBD9B6DB85"
+			tasks: [{
+				id: "3F316C6CE3DA2AA9"
+				type: "item"
+				item: "ars_nouveau:fire_essence"
+			}]
+			rewards: [
+				{
+					id: "5D01296CC65C202E"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "707E974E5FC75E62"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.1000000000000014d
+			y: -0.10000000000000142d
+			subtitle: "Craft manipulation essence."
+			description: [
+				"Used in the creation of some glyphs."
+				"Rewards: x2 manipulation essence, x1 loot bag piece"
+			]
+			dependencies: ["32E326DA9CA1BD82"]
+			id: "289D70C9F6BF3F7A"
+			tasks: [{
+				id: "3C8F23BF0FADA6AE"
+				type: "item"
+				item: "ars_nouveau:manipulation_essence"
+			}]
+			rewards: [
+				{
+					id: "26ABBDF6B15499C8"
+					type: "item"
+					item: "ars_nouveau:manipulation_essence"
+					count: 2
+				}
+				{
+					id: "0603A5A4624C067A"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.8999999999999986d
+			y: -0.3000000000000007d
+			subtitle: "Craft water essence."
+			description: [
+				"Used in the creation of some glyphs."
+				"Rewards: x1 block of redstone, x1 loot bag piece"
+			]
+			dependencies: ["32E326DA9CA1BD82"]
+			id: "0B3FA8F058B6FF71"
+			tasks: [{
+				id: "6459FE389E02806B"
+				type: "item"
+				item: "ars_nouveau:water_essence"
+			}]
+			rewards: [
+				{
+					id: "3352DB754C035818"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "491266A19051F92B"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 10.6d
+			y: -5.5d
+			subtitle: "Craft a glyph of access ender inventory."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Reward: x1 cake, x1 xp level"
+			]
+			id: "651B9BB9C3B5EE06"
+			tasks: [{
+				id: "7609D58EB2E0FFB7"
+				type: "item"
+				item: "ars_nouveau:glyph_ender_inventory"
+			}]
+			rewards: [
+				{
+					id: "1D5367BA1BE92F8B"
+					type: "item"
+					item: "minecraft:cake"
+				}
+				{
+					id: "518C19A59C88005C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 11.6d
+			y: -5.5d
+			subtitle: "Craft a glyph of charm."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 ice, 1 loot bag piece"
+			]
+			id: "2A632B615CBB4963"
+			tasks: [{
+				id: "12045C7FE32CABB3"
+				type: "item"
+				item: "ars_nouveau:glyph_charm"
+			}]
+			rewards: [
+				{
+					id: "476D81F5960E591D"
+					type: "item"
+					item: "minecraft:ice"
+					count: 8
+				}
+				{
+					id: "6FDA13BCA891C514"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 12.6d
+			y: -5.5d
+			subtitle: "Craft a glyph of cold snap."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 bucket, x1 xp level"
+			]
+			id: "6BEE04B1722353C7"
+			tasks: [{
+				id: "2C39327476C315CE"
+				type: "item"
+				item: "ars_nouveau:glyph_cold_snap"
+			}]
+			rewards: [
+				{
+					id: "237AC2FF7D726563"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+				{
+					id: "684382A245B7F9D8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 13.6d
+			y: -5.5d
+			subtitle: "Craft a glyph of conjure water."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 piston, x1 loot bag piece"
+			]
+			id: "51127252410BB7EF"
+			tasks: [{
+				id: "1447912A547AD9D7"
+				type: "item"
+				item: "ars_nouveau:glyph_conjure_water"
+			}]
+			rewards: [
+				{
+					id: "73DD11FD9A0796FB"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "28257027EF12012D"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 14.600000000000001d
+			y: -5.5d
+			subtitle: "Craft a glyph of crush."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 emerald, x1 xp level"
+			]
+			id: "59975BA101BAAD0D"
+			tasks: [{
+				id: "34E02C5D6AA292D3"
+				type: "item"
+				item: "ars_nouveau:glyph_crush"
+			}]
+			rewards: [
+				{
+					id: "3916B91BB76D7922"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+				{
+					id: "63EC8CCDD2A10530"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 15.600000000000001d
+			y: -5.5d
+			subtitle: "Craft a glyph of exchange. "
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x2 TNT, x1 loot bag piece"
+			]
+			id: "2DB7B095937D5FC5"
+			tasks: [{
+				id: "5401C9A14DE114A7"
+				type: "item"
+				item: "ars_nouveau:glyph_exchange"
+			}]
+			rewards: [
+				{
+					id: "3B604E041E630C44"
+					type: "item"
+					item: "minecraft:tnt"
+					count: 2
+				}
+				{
+					id: "63ADE184655BE74E"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 16.6d
+			y: -5.5d
+			subtitle: "Craft a glyph of explosion."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 diamond ore, x1 xp level"
+			]
+			id: "06AA0D77C69D7718"
+			tasks: [{
+				id: "0BBAF3D567E020F5"
+				type: "item"
+				item: "ars_nouveau:glyph_explosion"
+			}]
+			rewards: [
+				{
+					id: "50EBA18E45D93BE1"
+					type: "item"
+					item: "minecraft:diamond_ore"
+				}
+				{
+					id: "485E2926CCF7B2FF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 17.6d
+			y: -5.5d
+			subtitle: "Craft a glyph of fell."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x2 firework star, x1 loot bag piece"
+			]
+			id: "1A8283A8DED746F2"
+			tasks: [{
+				id: "70D89DF340FC9068"
+				type: "item"
+				item: "ars_nouveau:glyph_fell"
+			}]
+			rewards: [
+				{
+					id: "7CF23B2B7C5FB5DC"
+					type: "item"
+					item: "minecraft:firework_star"
+					count: 2
+				}
+				{
+					id: "44CD5E792E153449"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 9.6d
+			y: -4.5d
+			subtitle: "Craft a glyph of firework."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 fire charge, x1 xp level"
+			]
+			id: "09AC66864A75A78B"
+			tasks: [{
+				id: "4DACCBAB39D06783"
+				type: "item"
+				item: "ars_nouveau:glyph_firework"
+			}]
+			rewards: [
+				{
+					id: "0BB7939B252CA1FD"
+					type: "item"
+					item: "minecraft:fire_charge"
+					count: 4
+				}
+				{
+					id: "74C2985B2C50EBC8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 10.6d
+			y: -4.5d
+			subtitle: "Craft a glyph of flare."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 feather, x1 loot bag piece"
+			]
+			id: "43A59276AE751EF7"
+			tasks: [{
+				id: "0C1012D779B5C55F"
+				type: "item"
+				item: "ars_nouveau:glyph_flare"
+			}]
+			rewards: [
+				{
+					id: "0E49F864E19E9F91"
+					type: "item"
+					item: "minecraft:feather"
+					count: 8
+				}
+				{
+					id: "35873CB0B27096CA"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 11.6d
+			y: -4.5d
+			subtitle: "Craft a glyph of gravity."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 bone block, x1 xp level"
+			]
+			id: "3EF525875664C416"
+			tasks: [{
+				id: "704F48A9C7DB35D7"
+				type: "item"
+				item: "ars_nouveau:glyph_gravity"
+			}]
+			rewards: [
+				{
+					id: "04E42B6EF8226EAB"
+					type: "item"
+					item: "minecraft:bone_block"
+					count: 4
+				}
+				{
+					id: "2CD85CE5064291D1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 12.6d
+			y: -4.5d
+			subtitle: "Craft a glyph of grow."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 glistering melon slice, x1 loot bag piece"
+			]
+			id: "48976DF717E9AC5C"
+			tasks: [{
+				id: "460680A9667C07F2"
+				type: "item"
+				item: "ars_nouveau:glyph_grow"
+			}]
+			rewards: [
+				{
+					id: "20049D9D3752061B"
+					type: "item"
+					item: "minecraft:glistering_melon_slice"
+					count: 4
+				}
+				{
+					id: "0B08DD9B2CE8F4EB"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 13.6d
+			y: -4.5d
+			subtitle: "Craft a glyph of heal."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 fermented spider eye, x1 xp level"
+			]
+			id: "3F3BE70179C91BB8"
+			tasks: [{
+				id: "328A79F2ACD512AF"
+				type: "item"
+				item: "ars_nouveau:glyph_heal"
+			}]
+			rewards: [
+				{
+					id: "0DD5FDC3E5D4F443"
+					type: "item"
+					item: "minecraft:fermented_spider_eye"
+					count: 4
+				}
+				{
+					id: "5355B4DF69C2FB00"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 14.600000000000001d
+			y: -4.5d
+			subtitle: "Craft a glyph of invisibility."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 feather, x1 loot bag piece"
+			]
+			id: "7D1CF271733D6200"
+			tasks: [{
+				id: "1CDBCC6C19BE9084"
+				type: "item"
+				item: "ars_nouveau:glyph_invisibility"
+			}]
+			rewards: [
+				{
+					id: "3169206E789AE3E4"
+					type: "item"
+					item: "minecraft:feather"
+					count: 4
+				}
+				{
+					id: "0DBD49F1E3D2D750"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 15.600000000000001d
+			y: -4.5d
+			subtitle: "Craft a glyph of slowfall."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x2 blast furnace, x1 xp level"
+			]
+			id: "0C12758283CE109A"
+			tasks: [{
+				id: "2F17BD3A35A199DA"
+				type: "item"
+				item: "ars_nouveau:glyph_slowfall"
+			}]
+			rewards: [
+				{
+					id: "669EE9E5B56EEE26"
+					type: "item"
+					item: "minecraft:blast_furnace"
+					count: 2
+				}
+				{
+					id: "1F0B005AD7B39788"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 16.6d
+			y: -4.5d
+			subtitle: "Craft a glyph of smelt."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 prismarine shard, x1 loot bag piece"
+			]
+			id: "6AEF39CA78B3DA39"
+			tasks: [{
+				id: "507F23485EB26F8C"
+				type: "item"
+				item: "ars_nouveau:glyph_smelt"
+			}]
+			rewards: [
+				{
+					id: "05DF5022427BB439"
+					type: "item"
+					item: "minecraft:prismarine_shard"
+					count: 4
+				}
+				{
+					id: "7FE5D19C0B8F8DA1"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 17.6d
+			y: -4.5d
+			subtitle: "Craft a glyph of watery grave."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 iron ingot, x1 xp level"
+			]
+			id: "7956190A981F622A"
+			tasks: [{
+				id: "513AA43A6AC66A94"
+				type: "item"
+				item: "ars_nouveau:glyph_watery_grave"
+			}]
+			rewards: [
+				{
+					id: "3FB07E185D84CC67"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 8
+				}
+				{
+					id: "4BD690B40F700D61"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 9.6d
+			y: -3.5d
+			subtitle: "Craft a glyph of wind shear."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 firework star, x1 loot bag piece"
+			]
+			id: "66D1FDB9AEB749BD"
+			tasks: [{
+				id: "51994EA68CF5BCBF"
+				type: "item"
+				item: "ars_nouveau:glyph_wind_shear"
+			}]
+			rewards: [
+				{
+					id: "5D5BFE02B54CF6FF"
+					type: "item"
+					item: "minecraft:firework_star"
+				}
+				{
+					id: "297CE2610E48A627"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 10.6d
+			y: -3.5d
+			subtitle: "Craft a glyph of AOE."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 powered rail, x1 xp level"
+			]
+			id: "21F52C8ACDB851F4"
+			tasks: [{
+				id: "5F9A83211FE07EBC"
+				type: "item"
+				item: "ars_nouveau:glyph_aoe"
+			}]
+			rewards: [
+				{
+					id: "2B00CCFA2343DA7A"
+					type: "item"
+					item: "minecraft:powered_rail"
+					count: 4
+				}
+				{
+					id: "1ECC88D210DAC2E6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 11.6d
+			y: -3.5d
+			subtitle: "Craft a glyph of accelerate."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 netherrack, x1 loot bag piece"
+			]
+			id: "2AB3FD5DFB2E9CC9"
+			tasks: [{
+				id: "4FD3BBCF422018F0"
+				type: "item"
+				item: "ars_nouveau:glyph_accelerate"
+			}]
+			rewards: [
+				{
+					id: "42B9731DCF393010"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 8
+				}
+				{
+					id: "00C1D93E7FCD0D4E"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 12.6d
+			y: -3.5d
+			subtitle: "Craft a glyph of dampen."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 glowstone dust, x1 xp level"
+			]
+			id: "3870949C26B2FF79"
+			tasks: [{
+				id: "7E272AEC63D131A4"
+				type: "item"
+				item: "ars_nouveau:glyph_dampen"
+			}]
+			rewards: [
+				{
+					id: "6EAFFF726317D61A"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					count: 8
+				}
+				{
+					id: "45046CA3E58794CE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 13.6d
+			y: -3.5d
+			subtitle: "Craft a glyph of duration down."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 block of redstone, x1 loot bag piece"
+			]
+			id: "580EC4018175A296"
+			tasks: [{
+				id: "4EC94A30C979FB4B"
+				type: "item"
+				item: "ars_nouveau:glyph_duration_down"
+			}]
+			rewards: [
+				{
+					id: "5AD4EA2DF4851150"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "01E45A7426BDCC58"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 14.600000000000001d
+			y: -3.5d
+			subtitle: "Craft a glyph of extend time."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 emerald ore, x1 xp level"
+			]
+			id: "4F72B964080CC1D4"
+			tasks: [{
+				id: "677E0856D4AFB3DC"
+				type: "item"
+				item: "ars_nouveau:glyph_extend_time"
+			}]
+			rewards: [
+				{
+					id: "1EEB8244C28ECCF5"
+					type: "item"
+					item: "minecraft:emerald_ore"
+				}
+				{
+					id: "37BBB25578EB5BC1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 15.600000000000001d
+			y: -3.5d
+			subtitle: "Craft a glyph of extract."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 rabbit spawn egg, x1 loot bag piece"
+			]
+			id: "496A606649ADA6FB"
+			tasks: [{
+				id: "2BA45E54648CDCDC"
+				type: "item"
+				item: "ars_nouveau:glyph_extract"
+			}]
+			rewards: [
+				{
+					id: "5ADF3D17C518A421"
+					type: "item"
+					item: "minecraft:rabbit_spawn_egg"
+				}
+				{
+					id: "799EDAD90289A0D9"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 16.6d
+			y: -3.5d
+			subtitle: "Craft a glyph of fortune."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x8 arrow, x1 xp level"
+			]
+			id: "5F99C1C159284AEE"
+			tasks: [{
+				id: "37772EF128DCFFB5"
+				type: "item"
+				item: "ars_nouveau:glyph_fortune"
+			}]
+			rewards: [
+				{
+					id: "6962E56BA5B07CF3"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 8
+				}
+				{
+					id: "528DE22DC3149711"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 17.6d
+			y: -3.5d
+			subtitle: "Craft a glyph of pierce."
+			description: [
+				"Tier 2 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Reward: x1 loot bag"
+			]
+			id: "29E1D68E627AB828"
+			tasks: [{
+				id: "217444F2BA4AF394"
+				type: "item"
+				item: "ars_nouveau:glyph_pierce"
+			}]
+			rewards: [{
+				id: "280C4559191F455B"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 9.6d
+			y: -2.1000000000000014d
+			subtitle: "Craft a glyph of homing projectile."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x2 eye of ender, x1 loot bag piece"
+			]
+			id: "4098BC18477E5DBB"
+			tasks: [{
+				id: "18592A7DCD54C54C"
+				type: "item"
+				item: "ars_nouveau:glyph_homing_projectile"
+			}]
+			rewards: [
+				{
+					id: "2AAE0FBA784CFCF2"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 2
+				}
+				{
+					id: "515F1846009885F4"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 10.6d
+			y: -2.1000000000000014d
+			subtitle: "Craft a glyph of orbit."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x2 ender pearl, x1 xp level"
+			]
+			id: "214041FEC425B38F"
+			tasks: [{
+				id: "67A4DEC1BE540C1B"
+				type: "item"
+				item: "ars_nouveau:glyph_orbit"
+			}]
+			rewards: [
+				{
+					id: "78A57AA2AEA3EEBE"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 2
+				}
+				{
+					id: "50AB942F9DB12D12"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 11.6d
+			y: -2.1000000000000014d
+			subtitle: "Craft a glyph of blink."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 prismarine shard, x1 loot bag piece"
+			]
+			id: "7FB3CF462ECBDD75"
+			tasks: [{
+				id: "3DC5E3829D12C705"
+				type: "item"
+				item: "ars_nouveau:glyph_blink"
+			}]
+			rewards: [
+				{
+					id: "484725FAF96E7B7C"
+					type: "item"
+					item: "minecraft:prismarine_shard"
+					count: 4
+				}
+				{
+					id: "49270B02C265013D"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 12.6d
+			y: -2.1000000000000014d
+			subtitle: "Craft glyph of fangs."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 block of diamond, x1 xp level"
+			]
+			id: "3196780ADB0B167A"
+			tasks: [{
+				id: "757A6E6853805B62"
+				type: "item"
+				item: "ars_nouveau:glyph_fangs"
+			}]
+			rewards: [
+				{
+					id: "153BA4F5DA6E8B89"
+					type: "item"
+					item: "minecraft:diamond_block"
+				}
+				{
+					id: "5869395A97420608"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 13.6d
+			y: -2.1000000000000014d
+			subtitle: "Craft a glyph of glide."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 blaze rod, x1 loot bag piece"
+			]
+			id: "183BB5B7A0570329"
+			tasks: [{
+				id: "6E388A0272D6D866"
+				type: "item"
+				item: "ars_nouveau:glyph_glide"
+			}]
+			rewards: [
+				{
+					id: "36C66FB229FD0788"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 4
+				}
+				{
+					id: "4AE2D6088FC8D8B3"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 14.600000000000001d
+			y: -2.1000000000000014d
+			subtitle: "Craft a glyph of hex."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 ender pearl, x1 xp level"
+			]
+			id: "2921DF76E94CFF9F"
+			tasks: [{
+				id: "35926A34D56D11AC"
+				type: "item"
+				item: "ars_nouveau:glyph_hex"
+			}]
+			rewards: [
+				{
+					id: "04B8CD4096E70071"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 4
+				}
+				{
+					id: "527FEBDBD0A85D75"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 15.600000000000001d
+			y: -2.1000000000000014d
+			subtitle: "Craft of glyph of intangible."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 fermented spider eye, x1 loot bag piece"
+			]
+			id: "1C2E6547B8112D13"
+			tasks: [{
+				id: "32897CE1778965A8"
+				type: "item"
+				item: "ars_nouveau:glyph_intangible"
+			}]
+			rewards: [
+				{
+					id: "4FD54589BFE9844A"
+					type: "item"
+					item: "minecraft:fermented_spider_eye"
+					count: 4
+				}
+				{
+					id: "745AFE32C36B5425"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 16.6d
+			y: -2.1000000000000014d
+			subtitle: "Craft a glyph of life link."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x4 lightning rod, x1 xp level"
+			]
+			id: "7A6820523E1E6669"
+			tasks: [{
+				id: "4B6385C5D66FFBCB"
+				type: "item"
+				item: "ars_nouveau:glyph_life_link"
+			}]
+			rewards: [
+				{
+					id: "35C4BCF5ED2C22D7"
+					type: "item"
+					item: "minecraft:lightning_rod"
+					count: 4
+				}
+				{
+					id: "6E8CFB7306F2A543"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 17.6d
+			y: -2.1000000000000014d
+			subtitle: "Craft a glyph of lightning."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 block of diamond, x1 loot bag piece"
+			]
+			id: "63CC0DD01CAF8016"
+			tasks: [{
+				id: "4A77CEA42B5A1EF4"
+				type: "item"
+				item: "ars_nouveau:glyph_lightning"
+			}]
+			rewards: [
+				{
+					id: "13565B361355ED67"
+					type: "item"
+					item: "minecraft:diamond_block"
+				}
+				{
+					id: "52AD76709110249E"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 9.6d
+			y: -1.1000000000000014d
+			subtitle: "Craft a glyph of linger."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x2 armor stand, x1 xp level"
+			]
+			id: "73EBEFA70669B2AA"
+			tasks: [{
+				id: "12366CC7FE22D17A"
+				type: "item"
+				item: "ars_nouveau:glyph_linger"
+			}]
+			rewards: [
+				{
+					id: "38DD0CD56F5AD8A6"
+					type: "item"
+					item: "minecraft:armor_stand"
+					count: 2
+				}
+				{
+					id: "72872A818640C6BF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 10.6d
+			y: -1.1000000000000014d
+			subtitle: "Craft a glyph of summon decoy."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 loot bag"
+			]
+			id: "79A76D38C85342C8"
+			tasks: [{
+				id: "51F47AE16E6CAAE2"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_decoy"
+			}]
+			rewards: [{
+				id: "6A3005674A74CA49"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 11.6d
+			y: -1.1000000000000014d
+			subtitle: "Craft a glyph of summon vex."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 wither skeleton skull, x1 loot bag piece"
+			]
+			id: "3186452DAC00B2CB"
+			tasks: [{
+				id: "185B455F6268AB11"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_vex"
+			}]
+			rewards: [
+				{
+					id: "6DC2466FB3A7B139"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+				{
+					id: "6251ABD5661B5F80"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 12.6d
+			y: -1.1000000000000014d
+			subtitle: "Craft a glyph of wither."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 bench saw, x1 xp level"
+			]
+			id: "038E95A979639875"
+			tasks: [{
+				id: "372131A7E9D00C2A"
+				type: "item"
+				item: "ars_nouveau:glyph_wither"
+			}]
+			rewards: [
+				{
+					id: "53C400DEF869AA77"
+					type: "item"
+					item: "minecraft:stonecutter"
+				}
+				{
+					id: "183A46F83395557E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 13.6d
+			y: -1.1000000000000014d
+			subtitle: "Craft a glyph of split."
+			description: [
+				"Tier 3 glyph - Make this at the scribe's table. Refer to worn notebook for details."
+				"Rewards: x1 loot bag"
+			]
+			id: "4C4B4555BB513C81"
+			tasks: [{
+				id: "195CE1147F2145C2"
+				type: "item"
+				item: "ars_nouveau:glyph_split"
+			}]
+			rewards: [{
+				id: "0B1FADFC0EBDBB92"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -3.6999999999999993d
+			y: 2.3999999999999986d
+			subtitle: "Craft runic chalk."
+			description: [
+				"Used to create spells that can be placed on the ground to affect those walking over it. Refer to worn notebook for details."
+				"Rewards: x4 blank parchment, x1 xp level"
+			]
+			dependencies: ["7D748F298E1E9ACC"]
+			id: "5B89F945BA14F202"
+			tasks: [{
+				id: "2C4ACDF44BB73B64"
+				type: "item"
+				item: {
+					id: "ars_nouveau:runic_chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6FDA9EA7DAA5CE61"
+					type: "item"
+					item: "ars_nouveau:blank_parchment"
+					count: 4
+				}
+				{
+					id: "34F74B1B24DD09B4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.8999999999999986d
+			y: -4.600000000000001d
+			subtitle: "Create a jar of light."
+			description: [
+				"A magical light that follows you. Refer to worn notebook for details."
+				"Rewards: x8 source gem, x1 loot bag piece"
+			]
+			dependencies: ["19E590CFEBB55029"]
+			id: "1E5D996648134990"
+			tasks: [{
+				id: "3B72CF6CBF1B9AA9"
+				type: "item"
+				item: "ars_nouveau:jar_of_light"
+			}]
+			rewards: [
+				{
+					id: "38B91E5B113F82AA"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 8
+				}
+				{
+					id: "5DC549FBB489D6FB"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.1000000000000014d
+			y: -2.6000000000000014d
+			subtitle: "Craft a dowsing rod."
+			description: [
+				"This helps locate budding amethyst and magical creaturs within a 75 block radius. Refer to worn notebook for details."
+				"Reward: x4 block of amethyst"
+			]
+			dependencies: ["32E326DA9CA1BD82"]
+			id: "61FAD28793FDD30C"
+			tasks: [{
+				id: "436F65D3E10DFCF9"
+				type: "item"
+				item: {
+					id: "ars_nouveau:dowsing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2ACFF49F3F6FFF4F"
+				type: "item"
+				item: "minecraft:amethyst_block"
+				count: 4
+			}]
+		}
+		{
+			x: 4.0d
+			y: -9.799999999999997d
+			subtitle: "Create an amulet of mana boost."
+			description: [
+				"Provides a bit of a mana boost. Refer to worn notebook for details."
+				"Rewards: x4 source gem, x2 diamond"
+			]
+			dependencies: ["685FDD255FF32419"]
+			id: "4B6E70628E970A79"
+			tasks: [{
+				id: "67089D7931763EFE"
+				type: "item"
+				item: "ars_nouveau:amulet_of_mana_boost"
+			}]
+			rewards: [
+				{
+					id: "721C168FAFB10891"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 4
+				}
+				{
+					id: "66B3D612871C3445"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -8.899999999999999d
+			subtitle: "Create an amulet of mana boost."
+			description: [
+				"Increases max mana by a moderate amount. Refer to worn notebook for more details."
+				"Reward: x1 loot bag"
+			]
+			dependencies: ["685FDD255FF32419"]
+			id: "6E49B62B376EB692"
+			tasks: [{
+				id: "7530A46195F5CA41"
+				type: "item"
+				item: "ars_nouveau:amulet_of_mana_regen"
+			}]
+			rewards: [{
+				id: "6B320B1B87EA4E96"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.1999999999999993d
+			y: -9.200000000000003d
+			subtitle: "Create a belt of levitation."
+			description: [
+				"Used to levitate a moderate distance above the ground. Refer to worn notebook for more details."
+				"Rewards: x2 blaze rod, x1 xp level"
+			]
+			dependencies: ["76107859FBA6696E"]
+			id: "73095637499D89FE"
+			tasks: [{
+				id: "719DE565FC798A4E"
+				type: "item"
+				item: "ars_nouveau:belt_of_levitation"
+			}]
+			rewards: [
+				{
+					id: "76CA9444930985F6"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 2
+				}
+				{
+					id: "5952B3527B73210B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.8999999999999986d
+			y: -7.899999999999999d
+			subtitle: "Craft a mundane belt."
+			description: [
+				"You may need several of these to make magical belts. Refer to worn notebook for more details."
+				"Rewards: x4 leather, x1 xp level"
+			]
+			dependencies: ["19E590CFEBB55029"]
+			id: "76107859FBA6696E"
+			tasks: [{
+				id: "5E19A9F4FD4F4B58"
+				type: "item"
+				item: "ars_nouveau:mundane_belt"
+			}]
+			rewards: [
+				{
+					id: "3FAAF786B6043C15"
+					type: "item"
+					item: "minecraft:leather"
+					count: 4
+				}
+				{
+					id: "47F20A765B8D9663"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 3.8000000000000007d
+			y: -7.699999999999999d
+			subtitle: "Craft a dull trinket."
+			description: [
+				"Used to create magical trinketsk (you may need to make a couple). Refer to worn notebook for more details."
+				"Rewards: x1 block of gold, x1 xp level"
+			]
+			dependencies: ["19E590CFEBB55029"]
+			id: "685FDD255FF32419"
+			tasks: [{
+				id: "02E8D9BAD5E917C2"
+				type: "item"
+				item: "ars_nouveau:dull_trinket"
+			}]
+			rewards: [
+				{
+					id: "6CC5DD604CC4DE64"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+				{
+					id: "3069DC2E349F2EEE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.3000000000000007d
+			y: -9.0d
+			subtitle: "Create a belt of unstable gifts."
+			description: [
+				"Provides an occasional positive position effect that last a little bit. Refer to worn notebook for more details."
+				"Rewards: x4 source gem, x1 loot bag"
+			]
+			dependencies: ["76107859FBA6696E"]
+			id: "3F57F0B2DA4C5E35"
+			tasks: [{
+				id: "611BD1C66193185C"
+				type: "item"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+			}]
+			rewards: [
+				{
+					id: "7924426B8B4C8FA6"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 4
+				}
+				{
+					id: "02716A0530E87F6B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+		{
+			x: 3.6999999999999993d
+			y: -3.8000000000000007d
+			subtitle: "Create a casting wand."
+			description: [
+				"This magical wand holds 1 spell, but refer to worn notebook for more details on its use."
+				"Reward: x1 loot bag"
+			]
+			dependencies: ["19E590CFEBB55029"]
+			id: "786E0D21238E63B6"
+			tasks: [{
+				id: "50D8A0FD7A1E2564"
+				type: "item"
+				item: {
+					id: "ars_nouveau:wand"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5638B95BDD0172BA"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 5.199999999999999d
+			y: -4.600000000000001d
+			subtitle: "Create an echanter's bow."
+			description: [
+				"This magical bow can be inscribed with a spell. Refer to worn notebook for more details."
+				"Rewards: x1 source gem block, x2 xp levels"
+			]
+			dependencies: ["19E590CFEBB55029"]
+			id: "7271A76BE27B1997"
+			tasks: [{
+				id: "0D5C7D8EBA7049E0"
+				type: "item"
+				item: {
+					id: "ars_nouveau:spell_bow"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0BE48E8C15EDC57B"
+					type: "item"
+					item: "ars_nouveau:source_gem_block"
+				}
+				{
+					id: "762D3AA2073373B8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 4.300000000000001d
+			y: -4.600000000000001d
+			subtitle: "Create an enchanter's mirror."
+			description: [
+				"Used to cast a spell upon yourself. Refer to worn notebook for more details."
+				"Rewards: x1 block of gold, x2 source gem block"
+			]
+			dependencies: ["19E590CFEBB55029"]
+			id: "00C12B1F1C39E709"
+			tasks: [{
+				id: "785A3BF6A229A0E7"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_mirror"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "266C4ABBCAE46C70"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+				{
+					id: "572AE810708E3F90"
+					type: "item"
+					item: "ars_nouveau:source_gem_block"
+				}
+			]
+		}
+		{
+			x: 5.199999999999999d
+			y: -5.5d
+			subtitle: "Create an enchanter's shield."
+			description: [
+				"When used to block, you gain a small mana boost and spell damage. Refer to worn notebook for more details."
+				"Rewards: x1 block of gold, x1 source gem block"
+			]
+			dependencies: ["19E590CFEBB55029"]
+			id: "42FB644EC5B67CDA"
+			tasks: [{
+				id: "74BEC0512D10B41A"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4EE3D00B6FFC7871"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+				{
+					id: "630E72FACED09547"
+					type: "item"
+					item: "ars_nouveau:source_gem_block"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -6.399999999999999d
+			subtitle: "Create an enchanter's sword."
+			description: [
+				"Provides a touch spell before damaging an entity. Refer to worn notebook for more details."
+				"Reward: x1 loot bag"
+			]
+			dependencies: ["19E590CFEBB55029"]
+			id: "7B53E932D2E16475"
+			tasks: [{
+				id: "2D15C81BEBFEBE45"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F6AE5CE1BD5E9E1"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 0.6000000000000014d
+			y: -3.6999999999999993d
+			subtitle: "Create a focus of air."
+			description: [
+				"This spell focus is used with glyphs of the same school for a few bonuses. Refer to worn notebook for more details."
+				"Rewards: x2 earth essence, x1 block of amethyst"
+			]
+			dependencies: ["318FE863FFB73E69"]
+			id: "5E78D41B3E536F54"
+			tasks: [{
+				id: "73555504F77532DB"
+				type: "item"
+				item: "ars_elemental:air_focus"
+			}]
+			rewards: [
+				{
+					id: "1A4562FAF4E568ED"
+					type: "item"
+					item: "ars_nouveau:earth_essence"
+					count: 2
+				}
+				{
+					id: "5CCF30D4122AB863"
+					type: "item"
+					item: "minecraft:amethyst_block"
+				}
+			]
+		}
+		{
+			x: 2.1999999999999993d
+			y: -2.8999999999999986d
+			subtitle: "Create a focus of earth."
+			description: [
+				"This spell focus is used with glyphs of the same school for a few bonuses. Refer to worn notebook for more details."
+				"Rewards: x2 fire essence, x1 block of amethyst"
+			]
+			dependencies: ["37650DCA829B8E3F"]
+			id: "591CFF3E5EC66238"
+			tasks: [{
+				id: "5149B03ADEA0EE3B"
+				type: "item"
+				item: "ars_elemental:earth_focus"
+			}]
+			rewards: [
+				{
+					id: "48453DCFF4B9CFEF"
+					type: "item"
+					item: "ars_nouveau:fire_essence"
+					count: 2
+				}
+				{
+					id: "4538F6610F253B3A"
+					type: "item"
+					item: "minecraft:amethyst_block"
+				}
+			]
+		}
+		{
+			x: 2.3999999999999986d
+			y: -1.5d
+			subtitle: "Create a focus of fire."
+			description: [
+				"This spell focus is used with glyphs of the same school for a few bonuses. Refer to worn notebook for more details."
+				"Rewards: x2 water essence, x2 xp levels"
+			]
+			dependencies: ["26FEBCBBD9B6DB85"]
+			id: "31D487E347B8D5E4"
+			tasks: [{
+				id: "1BCB77D9FC958E73"
+				type: "item"
+				item: "ars_elemental:fire_focus"
+			}]
+			rewards: [
+				{
+					id: "23425023D5516AFB"
+					type: "item"
+					item: "ars_nouveau:water_essence"
+					count: 2
+				}
+				{
+					id: "5B339C3D148723D8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.1000000000000014d
+			y: -0.3000000000000007d
+			dependencies: ["0B3FA8F058B6FF71"]
+			id: "6B96CCCADF13BE7E"
+			tasks: [{
+				id: "5F0E9A69DFCC439D"
+				type: "item"
+				item: "ars_elemental:water_focus"
+			}]
+		}
+		{
+			x: -3.6000000000000014d
+			y: -0.6999999999999993d
+			subtitle: "Create a focus of necromancy."
+			description: [
+				"Used with the focus of summoning to corrupt its powers. Refer to worn notebook for more details."
+				"Rewards: x2 conjuration essence, x1 loot bag piece"
+			]
+			dependencies: ["33F69A0AEAD92288"]
+			id: "661864EAF1899C13"
+			tasks: [{
+				id: "0ED7CB62FA9D7A90"
+				type: "item"
+				item: "ars_elemental:necrotic_focus"
+			}]
+			rewards: [
+				{
+					id: "025535E216434ECB"
+					type: "item"
+					item: "ars_nouveau:conjuration_essence"
+					count: 2
+				}
+				{
+					id: "43B66A75D40FBBCB"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.6999999999999993d
+			y: 1.1000000000000014d
+			subtitle: "Defeat the Wilden Chimera."
+			description: [
+				"This is a challenging and destructive mob, be prepared. Refer to worn notebook for details."
+				"Rewards: x1 loot bag, x5 xp levels"
+			]
+			dependencies: ["0E20A46F7F8E1FFE"]
+			id: "2BD3FE2617B85D26"
+			tasks: [{
+				id: "486E9A6DB2B89FC5"
+				type: "item"
+				item: "ars_nouveau:wilden_tribute"
+			}]
+			rewards: [
+				{
+					id: "52021B3F920364DE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "091A9003FB9B362A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.3999999999999986d
+			subtitle: "Create a focus of summoning."
+			description: [
+				"Used to create focus of necromancy and also provided a few benefits. Refer to worn notebook for more details."
+				"Reward: x1 loot bag"
+			]
+			dependencies: ["33F69A0AEAD92288"]
+			id: "7595D44E3CA824E9"
+			tasks: [{
+				id: "2D7AD1F1C900E508"
+				type: "item"
+				item: "ars_nouveau:summon_focus"
+			}]
+			rewards: [{
+				id: "3AE20E47FBA089DF"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -5.300000000000001d
+			y: 1.8000000000000007d
+			subtitle: "Create a jar of voiding."
+			description: ["Voids an item that is picked up which then provides a small amount of mana. Refer to worn notebook for more details."]
+			dependencies: ["16BB2882C4FD3D85"]
+			id: "5560F5E3693E07B7"
+			tasks: [{
+				id: "2A55A8ED25F98D33"
+				type: "item"
+				item: "ars_nouveau:void_jar"
+			}]
+			rewards: [
+				{
+					id: "2A53DB06116A3744"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 8
+				}
+				{
+					id: "6D120A3B93508860"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.1999999999999993d
+			y: -1.8000000000000007d
+			subtitle: "Create a potion flask."
+			description: [
+				"Stores 8 charges of a potion. Refer to worn notebook for more details."
+				"Rewards: x1 potion of mana regen, x1 xp level"
+			]
+			dependencies: ["5BD728714FF71515"]
+			id: "76AFD59E30B8BA03"
+			tasks: [{
+				id: "6AFD422AA2777E85"
+				type: "item"
+				item: "ars_nouveau:potion_flask"
+			}]
+			rewards: [
+				{
+					id: "3EF269EE3A0037ED"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "ars_nouveau:mana_regen_potion"
+						}
+					}
+				}
+				{
+					id: "37F4EC1DC52133C8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.3000000000000007d
+			y: -6.899999999999999d
+			subtitle: "Craft a ring of potential."
+			description: [
+				"This is the base ring to create other magical rings. Refer to worn notebook for more details."
+				"Rewards: x1 block of diamond"
+			]
+			dependencies: ["19E590CFEBB55029"]
+			id: "40B0D07B6B7ED47E"
+			tasks: [{
+				id: "652CFBEBE44C396F"
+				type: "item"
+				item: "ars_nouveau:ring_of_potential"
+			}]
+			rewards: [{
+				id: "7955FA1DA93C416A"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
+		}
+		{
+			x: 1.1999999999999993d
+			y: -6.800000000000001d
+			subtitle: "Create a ring of lesser discount."
+			description: [
+				"Reduces cost of mana for a spell. Refer to worn notebook for more details."
+				"Rewards: x1 source gem block, x1 loot bag piece"
+			]
+			dependencies: ["40B0D07B6B7ED47E"]
+			id: "3AC265241AE9AD05"
+			tasks: [{
+				id: "2B9327341AC5270E"
+				type: "item"
+				item: "ars_nouveau:ring_of_lesser_discount"
+			}]
+			rewards: [
+				{
+					id: "23C415924D7F192D"
+					type: "item"
+					item: "ars_nouveau:source_gem_block"
+				}
+				{
+					id: "51AC4F22BD523F74"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.6000000000000014d
+			y: -7.899999999999999d
+			subtitle: "Create a ring of greater discount."
+			description: [
+				"Providers a little more benefit than the ring of lesser discount. Refer to worn notebook for more details."
+				"Rewards: x1 block of amethyst, x1 loot bag"
+			]
+			dependencies: ["40B0D07B6B7ED47E"]
+			id: "3CA4F8E794EE47B2"
+			tasks: [{
+				id: "3FCAC8444E9F08F7"
+				type: "item"
+				item: "ars_nouveau:ring_of_greater_discount"
+			}]
+			rewards: [
+				{
+					id: "6F1BECB88BEC4A06"
+					type: "item"
+					item: "minecraft:amethyst_block"
+				}
+				{
+					id: "396D583ACF1179E4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -9.399999999999999d
+			subtitle: "Craft a trinkets pouch."
+			description: [
+				"Used to store and carry around your magical ars nouveau items. Refer to worn notebook for more details."
+				"Rewards: x8 magebloom fiber, x1 loot bag piece"
+			]
+			dependencies: ["7521ACED546CC028"]
+			id: "7628DDB2D3E32F04"
+			tasks: [{
+				id: "7341B303006556CA"
+				type: "item"
+				item: "ars_elemental:curio_bag"
+			}]
+			rewards: [
+				{
+					id: "282EAFBE57CEE6B0"
+					type: "item"
+					item: "ars_nouveau:magebloom_fiber"
+					count: 8
+				}
+				{
+					id: "0DCBFE16889FE669"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 5.800000000000001d
+			subtitle: "Craft a warp scroll."
+			description: [
+				"Used for 1 time teleporation. Refer to worn notebook for more details."
+				"Rewards: x2 blank parchment, x1 loot bag piece"
+			]
+			dependencies: ["7D748F298E1E9ACC"]
+			id: "5A39A085322805C5"
+			tasks: [{
+				id: "07E06CFB6F7A5433"
+				type: "item"
+				item: {
+					id: "ars_nouveau:warp_scroll"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "11C038102273C14E"
+					type: "item"
+					item: "ars_nouveau:blank_parchment"
+					count: 2
+				}
+				{
+					id: "70CBE4108C57853F"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.3999999999999986d
+			y: 1.6999999999999993d
+			subtitle: "Craft a tablet of binding."
+			description: [
+				"Use this tablet to summon familiars. Refer to worn notebook for details."
+				"Rewards: x1 iron pickaxe, x1 loot bag piece"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "7CFD13EA2DDE2BD4"
+			tasks: [{
+				id: "20EC7CB9D9C0328E"
+				type: "item"
+				item: "ars_nouveau:ritual_binding"
+			}]
+			rewards: [
+				{
+					id: "75BC657500D62FFC"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D3381FB0A458908"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.1999999999999993d
+			y: 2.0d
+			subtitle: "Craft a tablet of summon wilden."
+			description: [
+				"Used to summon several forms of wilden including the Wilden Chimera. Refer to worn notebook for details."
+				"Rewards: x1 block of lapis lazuli, x1 xp level"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "0E20A46F7F8E1FFE"
+			tasks: [{
+				id: "10634AA136F4F169"
+				type: "item"
+				item: "ars_nouveau:ritual_wilden_summon"
+			}]
+			rewards: [
+				{
+					id: "64FD6DEAC34197ED"
+					type: "item"
+					item: "minecraft:lapis_block"
+				}
+				{
+					id: "03F559E6D7E660D3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 1.6000000000000014d
+			y: 1.5d
+			subtitle: "Craft a tablet of burrowing."
+			description: [
+				"Digs 4 surrounding holes to bedrock. Refer to worn notebook for details."
+				"Rewards: x1 block of emerald, x1 xp level"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "47356847F46611A8"
+			tasks: [{
+				id: "6EF3E29A41D94EFC"
+				type: "item"
+				item: "ars_nouveau:ritual_burrowing"
+			}]
+			rewards: [
+				{
+					id: "4430DDCE6F3A3017"
+					type: "item"
+					item: "minecraft:emerald_block"
+				}
+				{
+					id: "62D2C7CF48F9506D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 2.3999999999999986d
+			subtitle: "Craft a tablet of challenge."
+			description: [
+				"Used to bring an illager raid when used within a village."
+				"Rewards: x1 source gem block, x1 loot bag piece"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "0987AFDA8BC98D1A"
+			tasks: [{
+				id: "7BE9B045288644FE"
+				type: "item"
+				item: "ars_nouveau:ritual_challenge"
+			}]
+			rewards: [
+				{
+					id: "408036F56A5405A3"
+					type: "item"
+					item: "ars_nouveau:source_gem_block"
+				}
+				{
+					id: "05E294F48E4A9C68"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 2.3999999999999986d
+			y: 2.8000000000000007d
+			subtitle: "Craft a tablet of cloudshaping."
+			description: [
+				"Used to change the weather. Refer to worn notebook for details."
+				"Rewards: x2 gold sword, x1 xp level"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "2F264CC69B3D4BEC"
+			tasks: [{
+				id: "0E15EE83AABB4587"
+				type: "item"
+				item: "ars_nouveau:ritual_cloudshaping"
+			}]
+			rewards: [
+				{
+					id: "140E577638FDFD82"
+					type: "item"
+					item: {
+						id: "minecraft:golden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 2
+				}
+				{
+					id: "0384455EC54CB133"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 1.8000000000000007d
+			y: 3.5d
+			subtitle: "Craft a tablet of disintegration."
+			description: [
+				"Destroys nearby monsters providing you with twice as much experience. Refer to worn notebook for details."
+				"Rewards: x1 golden apple, x1 blaze rod"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "264AACA5A95D4302"
+			tasks: [{
+				id: "3CADE11CEDBA6AB1"
+				type: "item"
+				item: "ars_nouveau:ritual_disintegration"
+			}]
+			rewards: [
+				{
+					id: "4F4CFB4B8D3B9999"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "6C937B373B3819BC"
+					type: "item"
+					item: "minecraft:blaze_rod"
+				}
+			]
+		}
+		{
+			x: 2.3999999999999986d
+			y: 4.300000000000001d
+			subtitle: "Craft a tablet of fertility."
+			description: [
+				"Occasionally causes nearby animals to breed. Refer to worn notebook for details."
+				"Rewards: x3 wilden wing, x1 xp level"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "34574C1A8EBAE94F"
+			tasks: [{
+				id: "399A1E79E37AE6A9"
+				type: "item"
+				item: "ars_nouveau:ritual_fertility"
+			}]
+			rewards: [
+				{
+					id: "0506D8B890F9C66A"
+					type: "item"
+					item: "ars_nouveau:wilden_wing"
+					count: 3
+				}
+				{
+					id: "1ACBC480AD3F2F55"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.8000000000000007d
+			y: 5.199999999999999d
+			subtitle: "Craft a tablet of flight."
+			description: [
+				"Allows short-term creative flight. Refer to worn notebook for details."
+				"Rewards: x1 clock, x1 loot bag piece"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "700DD344A2DCABEA"
+			tasks: [{
+				id: "075CAD33B28DB0A4"
+				type: "item"
+				item: "ars_nouveau:ritual_flight"
+			}]
+			rewards: [
+				{
+					id: "40890FF2F197E336"
+					type: "item"
+					item: "minecraft:clock"
+				}
+				{
+					id: "2A63D70076071E5D"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.8999999999999986d
+			y: 5.399999999999999d
+			subtitle: "Craft a tablet of moonfall."
+			description: [
+				"Magically turn day into night. Refer to worn notebook for details."
+				"Rewards: x2 magebloom, x1 earth essence"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "7127E05E6D1D1074"
+			tasks: [{
+				id: "4E1296EAE9B7F873"
+				type: "item"
+				item: "ars_nouveau:ritual_moonfall"
+			}]
+			rewards: [
+				{
+					id: "7BEC263FFFA92F9A"
+					type: "item"
+					item: "ars_nouveau:magebloom"
+					count: 2
+				}
+				{
+					id: "494C4BAE81D2BBC2"
+					type: "item"
+					item: "ars_nouveau:earth_essence"
+				}
+			]
+		}
+		{
+			x: 0.8000000000000007d
+			y: 5.300000000000001d
+			subtitle: "Craft a tablet of overgrowth."
+			description: [
+				"This tablet occasionally bone meals nearby plants or causes baby animals to grow. Refer to worn notebook for details."
+				"Rewards: x2 abjuration essence, x1 xp level"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "120439731CD667E0"
+			tasks: [{
+				id: "136E9512E73C1A54"
+				type: "item"
+				item: "ars_nouveau:ritual_overgrowth"
+			}]
+			rewards: [
+				{
+					id: "7FDD8874937758FB"
+					type: "item"
+					item: "ars_nouveau:abjuration_essence"
+					count: 2
+				}
+				{
+					id: "7E3A4A47BE228A78"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 0.3000000000000007d
+			y: 6.199999999999999d
+			subtitle: "Craft a tablet of restoration."
+			description: [
+				"Used to heal or harm nearby entities. Also used to cure zombie villages. Refer to worn notebook for details."
+				"Rewards: x3 spider eye, x1 loot bag piece"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "4FBF5BB4443189E2"
+			tasks: [{
+				id: "3B8BEF963BB0E806"
+				type: "item"
+				item: "ars_nouveau:ritual_restoration"
+			}]
+			rewards: [
+				{
+					id: "6E36E6E0429D273B"
+					type: "item"
+					item: "minecraft:spider_eye"
+					count: 3
+				}
+				{
+					id: "44F3DB3FD3C00EFB"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.600000000000001d
+			subtitle: "Craft a tablet of scrying."
+			description: [
+				"Allows you to see a certain block for a period of time. Refer to worn notebook for details."
+				"Rewards: x8 blazing archwood log, x1 xp level"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "36448E5CA5AB47E8"
+			tasks: [{
+				id: "44A9490036C57FFC"
+				type: "item"
+				item: "ars_nouveau:ritual_scrying"
+			}]
+			rewards: [
+				{
+					id: "1D7EE10CB574192D"
+					type: "item"
+					item: "ars_nouveau:red_archwood_log"
+					count: 8
+				}
+				{
+					id: "31D5E2C5F6E99EF8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.3999999999999986d
+			y: 5.899999999999999d
+			subtitle: "Craft a tablet of sunrise."
+			description: [
+				"This tablet is used to create daytime. Refer to worn notebook for details."
+				"Rewards: x1 source gem block, x1 blank parchment"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "366807F27AC278CC"
+			tasks: [{
+				id: "1B7C4731648E3F5B"
+				type: "item"
+				item: "ars_nouveau:ritual_sunrise"
+			}]
+			rewards: [
+				{
+					id: "3B0E9D65F12CC446"
+					type: "item"
+					item: "ars_nouveau:source_gem_block"
+				}
+				{
+					id: "405C42B683E8DD95"
+					type: "item"
+					item: "ars_nouveau:blank_parchment"
+				}
+			]
+		}
+		{
+			x: -1.6000000000000014d
+			y: 4.5d
+			subtitle: "Craft a tablet of warping."
+			description: [
+				"A one-time warp to a specified location. Refer to worn notebook for details."
+				"Rewards: x1 tablet of warping, x1 loot bag piece"
+			]
+			dependencies: ["11A1C5F30AB821AB"]
+			id: "44C4550D05119C3B"
+			tasks: [{
+				id: "7BCB1902268C3E96"
+				type: "item"
+				item: "ars_nouveau:ritual_warping"
+			}]
+			rewards: [
+				{
+					id: "242A12B25B784E51"
+					type: "item"
+					item: "ars_nouveau:ritual_warping"
+				}
+				{
+					id: "2C3F760EDB76527A"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+			]
+		}
+	]
+}

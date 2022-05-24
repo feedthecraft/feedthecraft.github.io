@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "malum:soulstone_ore"
+  },
+  "result": {
+    "item": "tnp:soulstone_dust",
+    "count": 3
+  }
+}

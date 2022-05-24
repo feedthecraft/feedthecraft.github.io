@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "forge:ores/cobalt"
+  },
+  "result": {
+    "item": "tnp:cobalt_dust",
+    "count": 2
+  },
+  "crushing_time": 200
+}

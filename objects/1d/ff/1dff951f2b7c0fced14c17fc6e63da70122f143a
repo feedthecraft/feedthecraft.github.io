@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "item": "malum:cluster_of_brilliance"
+  },
+  "result": {
+    "item": "tnp:brilliance_dust",
+    "count": 2
+  },
+  "crushing_time": 200
+}

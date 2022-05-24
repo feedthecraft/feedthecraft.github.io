@@ -1,0 +1,13 @@
+{
+  "type": "thermal:smelter",
+  "ingredient": {
+    "tag": "forge:dusts/constantan"
+  },
+  "result": [
+    {
+      "item": "immersiveengineering:ingot_constantan",
+      "count": 1
+    }
+  ],
+  "energy_mod": 0.5
+}

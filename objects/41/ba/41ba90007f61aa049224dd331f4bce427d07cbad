@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 3,
+    "item": "mekanism:dust_lapis_lazuli"
+  },
+  "input": {
+    "tag": "forge:gems/lapis"
+  },
+  "energy": 3000
+}

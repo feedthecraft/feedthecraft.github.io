@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 2,
+    "item": "mekanism:dust_coal"
+  },
+  "input": {
+    "tag": "forge:ores/coal"
+  },
+  "energy": 3000
+}

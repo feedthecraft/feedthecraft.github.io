@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:lapis_lazuli_shield"
+  },
+  "results": [
+    {
+      "item": "minecraft:lapis_lazuli",
+      "count": 6
+    },
+    {
+      "item": "minecraft:shield"
+    }
+  ]
+}

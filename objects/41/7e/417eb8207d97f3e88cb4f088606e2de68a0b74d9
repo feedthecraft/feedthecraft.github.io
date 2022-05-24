@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "additionalstructures:spider_nest_1",
+      "weight": 0.85
+    },
+    {
+      "structure": "additionalstructures:spider_nest_2",
+      "weight": 0.85
+    },
+    {
+      "structure": "additionalstructures:spider_nest_3",
+      "weight": 0.85
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 15,
+    "salt": 9833253
+  }
+}
