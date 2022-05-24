@@ -4,15 +4,43 @@
     {
       "title" : "ATM Spellbound 2.2.7",
       "name" : "ATM Spellbound",
-      "version" : "2022-05-24-14-19-01",
+      "version" : "2022-05-24-15-13-40",
       "location" : "atm-spellbound.json",
       "priority" : 0
     },
     {
       "title" : "TNP Limitless 2.7.0",
       "name" : "TNP Limitless 5",
-      "version" : "2022-05-24-14-18-21",
+      "version" : "2022-05-24-15-10-14",
       "location" : "tnp-limitless-5.json",
+      "priority" : 0
+    },
+    {
+      "title" : "FTB Presents Direwolf20 1.18 1.2.0",
+      "name" : "Direwolf20 1.18",
+      "version" : "2022-05-24-15-13-25",
+      "location" : "direwolf20-1.18.json",
+      "priority" : 0
+    },
+    {
+      "title" : "Enigmatica 6 Expert 1.2.1",
+      "name" : "Enigmatica 6 Expert",
+      "version" : "2022-05-24-15-10-54",
+      "location" : "enigmatica-6-expert.json",
+      "priority" : 0
+    },
+    {
+      "title" : "Enigmatica 6 1.2.1",
+      "name" : "Enigmatica 6",
+      "version" : "2022-05-24-15-11-17",
+      "location" : "enigmatica-6.json",
+      "priority" : 0
+    },
+    {
+      "title" : "Not Too Complicated 2 1.4.6",
+      "name" : "Not Too Complicated 2",
+      "version" : "2022-05-24-15-10-34",
+      "location" : "not-too-complicated-2.json",
       "priority" : 0
     }
   ]
