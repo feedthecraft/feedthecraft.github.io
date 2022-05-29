@@ -4,14 +4,14 @@
     {
       "title" : "ATM Spellbound 2.2.7",
       "name" : "ATM Spellbound",
-      "version" : "2022-05-24-20-52-31",
+      "version" : "2022-05-28-20-47-35",
       "location" : "atm-spellbound.json",
       "priority" : 0
     },
     {
       "title" : "TNP Limitless 2.7.1",
       "name" : "TNP Limitless 5",
-      "version" : "2022-05-26-16-45-26",
+      "version" : "2022-05-28-20-52-37",
       "location" : "tnp-limitless-5.json",
       "priority" : 0
     },
@@ -23,23 +23,23 @@
       "priority" : 0
     },
     {
-      "title" : "Enigmatica 6 Expert 1.2.1",
+      "title" : "Enigmatica 6 Expert 1.3.0",
       "name" : "Enigmatica 6 Expert",
-      "version" : "2022-05-24-20-52-48",
+      "version" : "2022-05-28-20-48-56",
       "location" : "enigmatica-6-expert.json",
       "priority" : 0
     },
     {
-      "title" : "Enigmatica 6 1.2.1",
+      "title" : "Enigmatica 6 1.3.0",
       "name" : "Enigmatica 6",
-      "version" : "2022-05-24-20-52-43",
+      "version" : "2022-05-28-20-47-58",
       "location" : "enigmatica-6.json",
       "priority" : 0
     },
     {
       "title" : "Not Too Complicated 2 1.4.6",
       "name" : "Not Too Complicated 2",
-      "version" : "2022-05-24-20-52-54",
+      "version" : "2022-05-28-20-50-57",
       "location" : "not-too-complicated-2.json",
       "priority" : 0
     }
