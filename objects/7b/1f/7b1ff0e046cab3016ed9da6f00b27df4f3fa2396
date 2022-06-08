@@ -1,0 +1,16 @@
+{
+    "name": "Charged Certus Quartz",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "appliedenergistics2:64k_crafting_storage"
+    },
+    "color": "d6eefe",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "crux": "appliedenergistics2:64k_crafting_storage"
+  }
+  
