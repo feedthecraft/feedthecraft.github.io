@@ -1,0 +1,3359 @@
+{
+	id: "00000000000002A1"
+	group: "74CE4A09AC5F3CF1"
+	order_index: 12
+	filename: "industrialforegoing"
+	title: "Industrial Foregoing"
+	icon: "industrialforegoing:block_placer"
+	subtitle: ["A collection of machines to make your life easier to automate!"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -5.52d
+		width: 0.6d
+		height: 0.6d
+		rotation: 0.0d
+		image: "kubejs:textures/other/quest-tnp.png"
+		hover: ["Questline by: TNP Team, Gbergz."]
+		click: "https://www.curseforge.com/members/nexusproject/projects"
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "Craft a Pity Machine Frame"
+			description: [
+				"A Pity Machine Frame used in almost every IF machine."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			size: 1.5d
+			id: "00000000000002A6"
+			tasks: [{
+				id: "00000000000002A7"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			rewards: [
+				{
+					id: "00000000000008CB"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "62D87AB544C233A3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			subtitle: "Craft an Animal Rancher"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002AC"
+			tasks: [{
+				id: "00000000000002AD"
+				type: "item"
+				item: "industrialforegoing:animal_rancher"
+			}]
+			rewards: [
+				{
+					id: "00000000000008CC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "726CCBA21304C903"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Craft a Plant Gatherer"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002AE"
+			tasks: [{
+				id: "00000000000002AF"
+				type: "item"
+				item: "industrialforegoing:plant_gatherer"
+			}]
+			rewards: [
+				{
+					id: "00000000000008CD"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "75E534F771153AB0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			subtitle: "Craft a Plant Fertilizer"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000319"]
+			id: "00000000000002B0"
+			tasks: [{
+				id: "00000000000002B1"
+				type: "item"
+				item: "industrialforegoing:plant_fertilizer"
+			}]
+			rewards: [
+				{
+					id: "00000000000008CE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "133DEA1CF76D041A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			subtitle: "Craft a Plant Sower"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002B2"
+			tasks: [{
+				id: "00000000000002B3"
+				type: "item"
+				item: "industrialforegoing:plant_sower"
+			}]
+			rewards: [
+				{
+					id: "00000000000008CF"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "726A7C0855A327E6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			subtitle: "Craft an Animal Feeder"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002B4"
+			tasks: [{
+				id: "00000000000002B5"
+				type: "item"
+				item: "industrialforegoing:animal_feeder"
+			}]
+			rewards: [
+				{
+					id: "00000000000008D0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "379947688273F3CE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			subtitle: "Craft a Mob Slaughter Factory"
+			description: [
+				"Can be used to produce Pink Slime \\& Liquid Meat."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002B6"
+			tasks: [{
+				id: "00000000000002B7"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+			rewards: [
+				{
+					id: "00000000000008D1"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1D625A125E58DC71"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Craft a Sewer"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002B8"
+			tasks: [{
+				id: "00000000000002B9"
+				type: "item"
+				item: "industrialforegoing:sewer"
+			}]
+			rewards: [
+				{
+					id: "00000000000008D2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5995D92EE245F25D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			subtitle: "Craft a Sewage Composter"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002BA"
+			tasks: [{
+				id: "00000000000002BB"
+				type: "item"
+				item: "industrialforegoing:sewage_composter"
+			}]
+			rewards: [
+				{
+					id: "00000000000008D3"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "22E6E8E1D9C0FD1D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			subtitle: "Craft an Animal Baby Separator"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002BC"
+			tasks: [{
+				id: "00000000000002BD"
+				type: "item"
+				item: "industrialforegoing:animal_baby_separator"
+			}]
+			rewards: [
+				{
+					id: "00000000000008D4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "668762394DB8C59C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			subtitle: "Craft a Latex Processing Unit"
+			description: [
+				"Used to create Tiny Dry Rubber by pumping in Latex \\& Water into the Latex Processing Unit."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: [
+				"00000000000002A6"
+				"00000000000002C0"
+			]
+			id: "00000000000002BE"
+			tasks: [{
+				id: "00000000000002BF"
+				type: "item"
+				item: "industrialforegoing:latex_processing_unit"
+			}]
+			rewards: [
+				{
+					id: "00000000000008D5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7820D316F15E8EE2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			subtitle: "Craft a Fluid Extractor"
+			description: [
+				"Used to produce Latex by placing Logs infront of the Fluid Extractor."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["00000000000002A6"]
+			id: "00000000000002C0"
+			tasks: [{
+				id: "00000000000002C1"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+			rewards: [
+				{
+					id: "00000000000008D6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "50B0E6EAE95E949B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "Craft a Dissolution Chamber"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002C2"
+			tasks: [{
+				id: "00000000000002C3"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [
+				{
+					id: "00000000000008D7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "60C1FB63446818EB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Craft a Block Breaker"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002C4"
+			tasks: [{
+				id: "00000000000002C5"
+				type: "item"
+				item: "industrialforegoing:block_breaker"
+			}]
+			rewards: [
+				{
+					id: "00000000000008D8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "39E12E7F991851A1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "Craft a Biofuel Generator"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002C6"
+			tasks: [{
+				id: "00000000000002C7"
+				type: "item"
+				item: "industrialforegoing:biofuel_generator"
+			}]
+			rewards: [
+				{
+					id: "00000000000008D9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "732AA0C6C85EC80E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			subtitle: "Craft a Bioreactor"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002C8"
+			tasks: [{
+				id: "00000000000002C9"
+				type: "item"
+				item: "industrialforegoing:bioreactor"
+			}]
+			rewards: [
+				{
+					id: "00000000000008DA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "16BD11DA37EA0A97"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			subtitle: "Craft a Spores Recreator"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002CA"
+			tasks: [{
+				id: "00000000000002CB"
+				type: "item"
+				item: "industrialforegoing:spores_recreator"
+			}]
+			rewards: [
+				{
+					id: "00000000000008DB"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "573DA3E3CE14F384"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 10.5d
+			subtitle: "Craft a Material StoneWork Factory"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["000000000000104D"]
+			id: "00000000000002CC"
+			tasks: [{
+				id: "00000000000002CD"
+				type: "item"
+				item: "industrialforegoing:material_stonework_factory"
+			}]
+			rewards: [
+				{
+					id: "00000000000008DC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "160DD67A34E6E6E0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "Craft a Sludge Refiner"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002CE"
+			tasks: [{
+				id: "00000000000002CF"
+				type: "item"
+				item: "industrialforegoing:sludge_refiner"
+			}]
+			rewards: [
+				{
+					id: "00000000000008DD"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "256D3CFE626A704B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Craft a Water Condensator"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002D0"
+			tasks: [{
+				id: "00000000000002D1"
+				type: "item"
+				item: "industrialforegoing:water_condensator"
+			}]
+			rewards: [
+				{
+					id: "00000000000008DE"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "77A475CA7EF37C21"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			subtitle: "Craft Mechanical Dirt"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: [
+				"00000000000002A6"
+				"00000000000002C2"
+			]
+			id: "00000000000002D2"
+			tasks: [{
+				id: "00000000000002D3"
+				type: "item"
+				item: "industrialforegoing:mechanical_dirt"
+			}]
+			rewards: [
+				{
+					id: "00000000000008DF"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "55512584F59F1260"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "Craft a Dye Mixer"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002D6"
+			tasks: [{
+				id: "00000000000002D7"
+				type: "item"
+				item: "industrialforegoing:dye_mixer"
+			}]
+			rewards: [
+				{
+					id: "00000000000008E0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "36D4E872A0CFB6B4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "Craft a Fluid Placer"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002D8"
+			tasks: [{
+				id: "00000000000002D9"
+				type: "item"
+				item: "industrialforegoing:fluid_placer"
+			}]
+			rewards: [
+				{
+					id: "00000000000008E1"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "304E8F8207E662DC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			subtitle: "Craft a Resourceful Furnace"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002DA"
+			tasks: [{
+				id: "00000000000002DB"
+				type: "item"
+				item: "industrialforegoing:resourceful_furnace"
+			}]
+			rewards: [
+				{
+					id: "00000000000008E2"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6AF334FF7D90FD4B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			subtitle: "Craft a Mob Detector"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000319"]
+			id: "00000000000002DC"
+			tasks: [{
+				id: "00000000000002DD"
+				type: "item"
+				item: "industrialforegoing:mob_detector"
+			}]
+			rewards: [
+				{
+					id: "00000000000008E3"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "736C023A10C64686"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			subtitle: "Craft a Marine Fisher"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000319"]
+			id: "00000000000002DE"
+			tasks: [{
+				id: "00000000000002DF"
+				type: "item"
+				item: "industrialforegoing:marine_fisher"
+			}]
+			rewards: [
+				{
+					id: "00000000000008E4"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "14BFF81083EAA1EE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 11.5d
+			subtitle: "Craft a Stasis Chamber"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["000000000000104D"]
+			id: "00000000000002E0"
+			tasks: [{
+				id: "00000000000002E1"
+				type: "item"
+				item: "industrialforegoing:stasis_chamber"
+			}]
+			rewards: [
+				{
+					id: "00000000000008E5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4D0A3B29B4F9A385"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			shape: "pentagon"
+			subtitle: "Craft a Simple Machine Frame"
+			description: [
+				"An Upgrade to the Pity Machine frame, used to create higher tiered machines."
+				" "
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000321"]
+			id: "0000000000000319"
+			tasks: [{
+				id: "000000000000031A"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+			rewards: [
+				{
+					id: "00000000000008E6"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "58F0ACBF052E0DA8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Acquire 9x Tiny Dry Rubber"
+			description: [
+				"Tiny Dry Rubber is acquired by putting Latex \\& Water in a Latex Processing Unit."
+				" "
+				"Latex is produced by placing a Log infront of a Fluid Extractor. It'll slowly produce Latex."
+				" "
+				"&7Reward: 5 EXP Levels"
+			]
+			dependencies: ["00000000000002BE"]
+			id: "000000000000031D"
+			tasks: [{
+				id: "000000000000031E"
+				type: "item"
+				item: "industrialforegoing:tinydryrubber"
+				count: 9L
+			}]
+			rewards: [
+				{
+					id: "00000000000008EE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "29BF0928840CBAD9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Craft some Dry Rubber"
+			description: [
+				"Crafted by using the Tiny Dry Rubber produced in the Latex Processing Unit."
+				" "
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000031D"]
+			id: "000000000000031F"
+			tasks: [{
+				id: "0000000000000320"
+				type: "item"
+				item: "industrialforegoing:dryrubber"
+			}]
+			rewards: [
+				{
+					id: "00000000000008E7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "0C5D2722C7C33AC9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			title: "Plastic"
+			x: 0.0d
+			y: 2.5d
+			subtitle: "Craft some Plastic"
+			description: [
+				"Crafted by putting Dry Rubber in a Furnace."
+				" "
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000031F"]
+			dependency_requirement: "all_started"
+			id: "0000000000000321"
+			tasks: [{
+				id: "0000000000000322"
+				type: "item"
+				title: "Any Plastic"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:plastic"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000008E8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "533E2E2D4CC56065"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			shape: "circle"
+			subtitle: "Acquired by piping out Pink Slime to any Tank by using Mechanical Pipes from Mekanism or anything similar."
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["00000000000002B6"]
+			optional: true
+			id: "0000000000000325"
+			tasks: [{
+				id: "0000000000000326"
+				type: "item"
+				item: "industrialforegoing:pink_slime_bucket"
+			}]
+			rewards: [
+				{
+					id: "00000000000008E9"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "196F7F8199DA5BA1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			subtitle: "Acquire Pink Slime"
+			description: [
+				"Pink Slime is acquired by putting the bucket of Pink Slime into the Dissolution Chamber and then putting in 1 Glass Pane."
+				""
+				"&o(Click the Pink Slime to see the recipe.)"
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: [
+				"00000000000002C2"
+				"0000000000000325"
+			]
+			dependency_requirement: "one_completed"
+			id: "0000000000000327"
+			tasks: [{
+				id: "0000000000000328"
+				type: "item"
+				item: "industrialforegoing:pink_slime"
+			}]
+			rewards: [
+				{
+					id: "00000000000008EA"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "781B0507DA214504"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.88d
+			y: 1.52d
+			subtitle: "Craft a Mob Imprisonment Tool"
+			description: [
+				"Can be used to capture any Mob, useful for many things."
+				""
+				"The Mob Imprisonment Tool can be used as many times as you like."
+				" "
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000321"]
+			size: 0.8d
+			optional: true
+			id: "000000000000045A"
+			tasks: [{
+				id: "000000000000045B"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+			rewards: [
+				{
+					id: "00000000000008EB"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "318E34C9F33EA4E7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Craft a Pitiful Generator"
+			description: [
+				"A low-tiered generator that produces a low amount of FE at a pretty slow rate."
+				""
+				"&o(Can store up to 100,000 FE internally.)"
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["00000000000002A6"]
+			id: "000000000000045C"
+			tasks: [{
+				id: "000000000000045D"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+			rewards: [
+				{
+					id: "00000000000008EC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1C99455AA2A0AD45"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			subtitle: "Construct an Infinity Drill"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["00000000000002C2"]
+			id: "0000000000000786"
+			tasks: [{
+				id: "0000000000000787"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						Special: 0
+						Selected: "POOR"
+						Energy: 0
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000008ED"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7BE4AA0E48BF1B5C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			subtitle: "Craft an Infinity Saw"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["00000000000002C2"]
+			id: "0000000000000BEF"
+			tasks: [{
+				id: "0000000000000BF0"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						CanCharge: 1
+						Special: 0
+						Selected: "POOR"
+						Energy: 0
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000D85"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5AF6741A77A63D91"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 12.5d
+			shape: "pentagon"
+			subtitle: "Craft an Advanced Machine Frame"
+			description: [
+				"An Upgrade to the Simple Machine frame, used to create even higher tiered machines."
+				" "
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000319"]
+			id: "000000000000104D"
+			tasks: [{
+				id: "000000000000104E"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			rewards: [
+				{
+					id: "000000000000104F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "60D4DE504A63DED9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			subtitle: "Craft an Infinity Hammer"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["00000000000002C2"]
+			id: "0000000000001050"
+			tasks: [{
+				id: "0000000000001051"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						CanCharge: 1
+						Energy: 0
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0
+						Selected: "POOR"
+						Beheading: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000001052"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4AC2351D22493392"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 14.5d
+			subtitle: "Craft an Enchantment Extractor"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001053"
+			tasks: [{
+				id: "0000000000001054"
+				type: "item"
+				item: "industrialforegoing:enchantment_extractor"
+			}]
+			rewards: [
+				{
+					id: "0000000000001055"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5AA191F4A77DDCB0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 13.5d
+			subtitle: "Craft an Enchantment Factory"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001056"
+			tasks: [{
+				id: "0000000000001057"
+				type: "item"
+				item: "industrialforegoing:enchantment_factory"
+			}]
+			rewards: [
+				{
+					id: "0000000000001058"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7F8C5320578222CB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 15.0d
+			subtitle: "Craft an Enchantment Applicator"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001059"
+			tasks: [{
+				id: "000000000000105A"
+				type: "item"
+				item: "industrialforegoing:enchantment_applicator"
+			}]
+			rewards: [
+				{
+					id: "000000000000105B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6AD7A97371B6F04C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 12.5d
+			subtitle: "Craft an Enchantment Sorter"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["000000000000104D"]
+			id: "000000000000105C"
+			tasks: [{
+				id: "000000000000105D"
+				type: "item"
+				item: "industrialforegoing:enchantment_sorter"
+			}]
+			rewards: [
+				{
+					id: "000000000000105E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1D866434799D502B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 10.0d
+			subtitle: "Craft a Mob Crusher"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["000000000000104D"]
+			id: "000000000000105F"
+			tasks: [{
+				id: "0000000000001060"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+			rewards: [
+				{
+					id: "0000000000001061"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6A983017E5F31F5C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			subtitle: "Craft a Potion Brewer"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001062"
+			tasks: [{
+				id: "0000000000001063"
+				type: "item"
+				item: "industrialforegoing:potion_brewer"
+			}]
+			rewards: [
+				{
+					id: "0000000000001064"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "18D45AE7FE234837"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -0.95d
+			y: 0.5d
+			subtitle: "Acquire a Latex Bucket"
+			description: [
+				"Right click a 'Fluid Extractor' with a bucket when it's at 1,000mb to get a Latex Bucket."
+				""
+				"&7- Optional."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["00000000000002C0"]
+			optional: true
+			id: "00000000000002A3"
+			tasks: [{
+				id: "00000000000002A4"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+			rewards: [
+				{
+					id: "00000000000002A5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "221F8950404E2B49"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			subtitle: "Craft a Hydroponic Bed"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["0000000000000319"]
+			id: "00000000000012FD"
+			tasks: [{
+				id: "00000000000012FE"
+				type: "item"
+				item: "industrialforegoing:hydroponic_bed"
+			}]
+			rewards: [
+				{
+					id: "0000000000001327"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "69F951A8563ADDC6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			subtitle: "Craft a Furnace Mycelial Generator"
+			description: [
+				"Generates FE from items burnable items like coal."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000319"]
+			id: "00000000000012FF"
+			tasks: [{
+				id: "0000000000001300"
+				type: "item"
+				item: "industrialforegoing:mycelial_furnace"
+			}]
+			rewards: [
+				{
+					id: "000000000000132A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5D3DB5159100FDF9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			subtitle: "Craft a Culinary Mycelial Generator"
+			description: [
+				"Generates FE from most food items."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000319"]
+			id: "0000000000001303"
+			tasks: [{
+				id: "0000000000001304"
+				type: "item"
+				item: "industrialforegoing:mycelial_culinary"
+			}]
+			rewards: [
+				{
+					id: "0000000000001329"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "78C14F9F2CE93AB0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			subtitle: "Craft a Pink Mycelial Generator"
+			description: [
+				"Generates FE from &dPink &fitems."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000319"]
+			id: "0000000000001305"
+			tasks: [{
+				id: "0000000000001306"
+				type: "item"
+				item: "industrialforegoing:mycelial_pink"
+			}]
+			rewards: [
+				{
+					id: "000000000000132B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5CA3F77AD8289CEE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 7.0d
+			subtitle: "Craft a Frosty Mycelial Generator"
+			description: [
+				"Generates FE from &bIcy &fitems."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000319"]
+			id: "0000000000001307"
+			tasks: [{
+				id: "0000000000001308"
+				type: "item"
+				item: "industrialforegoing:mycelial_frosty"
+			}]
+			rewards: [
+				{
+					id: "0000000000001328"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1227FD76B8A15018"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 16.2d
+			subtitle: "Craft a Death Mycelial Generator"
+			description: [
+				"Generates FE from deathly like mob drops / items."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001309"
+			tasks: [{
+				id: "000000000000130A"
+				type: "item"
+				item: "industrialforegoing:mycelial_death"
+			}]
+			rewards: [
+				{
+					id: "000000000000132E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "14481645CCB8A7D6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 15.5d
+			subtitle: "Craft a Rocket Mycelial Generator"
+			description: [
+				"Generates FE from Firework Rockets."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "000000000000130B"
+			tasks: [{
+				id: "000000000000130C"
+				type: "item"
+				item: "industrialforegoing:mycelial_rocket"
+			}]
+			rewards: [
+				{
+					id: "000000000000132D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "070B0D8D6AB984E4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 15.0d
+			subtitle: "Craft a Potion Mycelial Generator"
+			description: [
+				"Generates FE from Potions."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "000000000000130D"
+			tasks: [{
+				id: "000000000000130E"
+				type: "item"
+				item: "industrialforegoing:mycelial_potion"
+			}]
+			rewards: [
+				{
+					id: "000000000000132F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "763308F62A4A0232"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 14.5d
+			subtitle: "Craft a Crimed Mycelial Generator"
+			description: [
+				"Generates FE from Crimson / Warped blocks, items."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "000000000000130F"
+			tasks: [{
+				id: "0000000000001310"
+				type: "item"
+				item: "industrialforegoing:mycelial_crimed"
+			}]
+			rewards: [
+				{
+					id: "0000000000001330"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3E358B06516C717D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 13.5d
+			subtitle: "Craft an Ender Mycelial Generator"
+			description: [
+				"Generates FE from &9Ender Pearls &f\\& &3Ender Eyes."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001311"
+			tasks: [{
+				id: "0000000000001312"
+				type: "item"
+				item: "industrialforegoing:mycelial_ender"
+			}]
+			rewards: [
+				{
+					id: "0000000000001331"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5825367A25E32886"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 12.5d
+			subtitle: "Craft a Disenchantment Mycelial Generator"
+			description: [
+				"Generates FE from &dEnchanted Books&f."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001313"
+			tasks: [{
+				id: "0000000000001314"
+				type: "item"
+				item: "industrialforegoing:mycelial_disenchantment"
+			}]
+			rewards: [
+				{
+					id: "0000000000001332"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4615356E9F0C8EE1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 11.5d
+			subtitle: "Craft a Magma Mycelial Generator"
+			description: [
+				"Generates FE with Lava + Redstone."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001315"
+			tasks: [{
+				id: "0000000000001316"
+				type: "item"
+				item: "industrialforegoing:mycelial_magma"
+			}]
+			rewards: [
+				{
+					id: "0000000000001333"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "70EDF6BEB7155461"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 10.0d
+			subtitle: "Craft an Infinity Charger"
+			description: [
+				"Used to charge Infinity items."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001317"
+			tasks: [{
+				id: "0000000000001318"
+				type: "item"
+				item: "industrialforegoing:infinity_charger"
+			}]
+			rewards: [
+				{
+					id: "000000000000132C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "1E12CE715159DD02"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 10.5d
+			subtitle: "Craft an Explosive Mycelial Generator"
+			description: [
+				"Generates FE with &4T&fN&4T &f\\& &7Gunpowder&f."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001319"
+			tasks: [{
+				id: "000000000000131A"
+				type: "item"
+				item: "industrialforegoing:mycelial_explosive"
+			}]
+			rewards: [
+				{
+					id: "0000000000001334"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4A3EE674B006A366"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 19.205d
+			shape: "gear"
+			subtitle: "Craft a Supreme Machine Frame"
+			description: [
+				"An Upgrade to the Advanced Machine frame, used to create even higher tiered machines."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			size: 1.15d
+			id: "000000000000131B"
+			tasks: [{
+				id: "000000000000131C"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+			rewards: [
+				{
+					id: "0000000000001323"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "482FC6F5773E669D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			x: 1.8d
+			y: 19.4d
+			subtitle: "Craft a Meatallurgic Mycelial Generator"
+			description: [
+				"Generates FE with &6Liquid Meat&f \\& &7Ingots."
+				""
+				"&7Reward: 2x Loot Bag"
+			]
+			dependencies: ["000000000000131B"]
+			id: "000000000000131D"
+			tasks: [{
+				id: "000000000000131E"
+				type: "item"
+				item: "industrialforegoing:mycelial_meatallurgic"
+			}]
+			rewards: [
+				{
+					id: "0000000000001326"
+					type: "item"
+					item: "lootbagmod:lootbag"
+					count: 2
+				}
+				{
+					id: "025D868913E3D5DB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 1.1d
+			y: 20.5d
+			subtitle: "Craft a Netherstar Mycelial Generator"
+			description: [
+				"Generates FE with &bNether Stars&f."
+				""
+				"&7Reward: 2x Loot Bag"
+			]
+			dependencies: ["000000000000131B"]
+			id: "000000000000131F"
+			tasks: [{
+				id: "0000000000001320"
+				type: "item"
+				item: "industrialforegoing:mycelial_netherstar"
+			}]
+			rewards: [
+				{
+					id: "0000000000001324"
+					type: "item"
+					item: "lootbagmod:lootbag"
+					count: 2
+				}
+				{
+					id: "222E3E6634B6726E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 21.1d
+			subtitle: "Craft a Halitotis Mycelial Generator"
+			description: [
+				"Generates FE from &dDragon's Breath&7."
+				""
+				"&7Reward: 2x Loot Bag"
+			]
+			dependencies: ["000000000000131B"]
+			id: "0000000000001321"
+			tasks: [{
+				id: "0000000000001322"
+				type: "item"
+				item: "industrialforegoing:mycelial_halitosis"
+			}]
+			rewards: [
+				{
+					id: "0000000000001325"
+					type: "item"
+					item: "lootbagmod:lootbag"
+					count: 2
+				}
+				{
+					id: "68754AA4441C3763"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			subtitle: "Craft a Block Placer"
+			description: [
+				"Places blocks."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000321"]
+			id: "0000000000001335"
+			tasks: [{
+				id: "0000000000001336"
+				type: "item"
+				item: "industrialforegoing:block_placer"
+			}]
+			rewards: [
+				{
+					id: "0000000000001337"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "3E9F74BAE2FFE792"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			subtitle: "Craft a Fluid Collector"
+			description: [
+				"Collects fluids."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000321"]
+			id: "0000000000001338"
+			tasks: [{
+				id: "0000000000001339"
+				type: "item"
+				item: "industrialforegoing:fluid_collector"
+			}]
+			rewards: [
+				{
+					id: "000000000000133B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "68F8A696DC5B0807"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			subtitle: "Construct an Infinity Trident"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["00000000000002C2"]
+			id: "000000000000133C"
+			tasks: [{
+				id: "000000000000133D"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Riptide: 0
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Loyalty: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6EB36EDEA5555E41"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "15400E4B2F20828E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			subtitle: "Construct an Infinity Backpack"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["00000000000002C2"]
+			id: "000000000000133E"
+			tasks: [{
+				id: "000000000000133F"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_backpack"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "537074B9CE702C0A"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "16150D3A9D70A887"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -1.7d
+			y: 19.4d
+			subtitle: "Craft a Supreme Black Hole Tank"
+			description: [
+				"It is used to store large quantities of fluid, with an internal tank size of 2,147,483,647mb."
+				""
+				"Fluid can be added to the tank by right clicking with a filled Bucket, placing a Bucket in the internal inventory slot, or by piping in directly."
+				""
+				"&7Reward: 2x Loot Bag"
+			]
+			dependencies: ["000000000000131B"]
+			id: "7AF42C0D038D18B1"
+			tasks: [{
+				id: "155202D2072571FE"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_tank"
+			}]
+			rewards: [
+				{
+					id: "617945AEB0548180"
+					type: "item"
+					item: "lootbagmod:lootbag"
+					count: 2
+				}
+				{
+					id: "4FFF4F766B6B9792"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -1.1d
+			y: 20.5d
+			subtitle: "Craft a Supreme Black Hole Unit"
+			description: [
+				"It is used to store large quantities of items, with an internal inventory capable of holding 2,147,483,647 of a single item."
+				""
+				"&7Reward: 2x Loot Bag"
+			]
+			dependencies: ["000000000000131B"]
+			id: "4DFA12CC86C3BA2E"
+			tasks: [{
+				id: "5222F8E77891DB1A"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "64A956F8D96BDFCD"
+					type: "item"
+					item: "lootbagmod:lootbag"
+					count: 2
+				}
+				{
+					id: "3E816C456EAC07CC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -1.2d
+			y: 18.3d
+			subtitle: "Craft a Black Hole Controller"
+			description: [
+				"Each unit will accept items from the inventory slot directly above it and keep a full stack of items in the inventory slot directly below it."
+				""
+				"&7Reward: 2x Loot Bag"
+			]
+			dependencies: ["000000000000131B"]
+			id: "0D5AA9D81026A33E"
+			tasks: [{
+				id: "0241F234B9F01738"
+				type: "item"
+				item: "industrialforegoing:black_hole_controller"
+			}]
+			rewards: [
+				{
+					id: "612964584B7E7974"
+					type: "item"
+					item: "lootbagmod:lootbag"
+					count: 2
+				}
+				{
+					id: "66AEE341ED164A3C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 1.3d
+			y: 18.3d
+			subtitle: "Craft a Wither Builder"
+			description: [
+				"Automatically places Soul Sand and Wither Skeleton Skulls needed to summon The Wither Boss."
+				""
+				"&7Reward: 2x Loot Bag"
+			]
+			dependencies: ["000000000000131B"]
+			id: "1D7CE32932188142"
+			tasks: [{
+				id: "189EB244B535A4F5"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+			rewards: [
+				{
+					id: "07A5E655002BF8CC"
+					type: "item"
+					item: "lootbagmod:lootbag"
+					count: 2
+				}
+				{
+					id: "5546C0BF23BE54C9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 15.8d
+			subtitle: "Craft a Slimey Mycelial Generator"
+			description: [
+				"Generates FE from Slime Balls."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "2D8F3050061CC656"
+			tasks: [{
+				id: "77EDFE92B40AFF47"
+				type: "item"
+				item: "industrialforegoing:mycelial_slimey"
+			}]
+			rewards: [{
+				id: "2A5110E9C183C957"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 15.8d
+			subtitle: "Craft an Advanced Black Hole Unit."
+			description: [
+				"It is used to store large quantities of items, with an internal inventory capable of holding 67,108.864 of a single item."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "41B1442728463154"
+			tasks: [{
+				id: "52B1F5570C7D518B"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "0962FF0C6B909D28"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5F6C9D7F974E05E8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 15.5d
+			subtitle: "Craft an Advanced Black Hole Tank."
+			description: [
+				"It is used to store large quantities of fluid, with an internal tank size of 65,536,000mb."
+				""
+				"Fluid can be added to the tank by right clicking with a filled Bucket, placing a Bucket in the internal inventory slot, or by piping in directly."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "48C48CD81B86EF91"
+			tasks: [{
+				id: "7D4722D320169219"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_tank"
+			}]
+			rewards: [
+				{
+					id: "0C2636C251E09EF8"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7C500101505731FA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 9.4d
+			subtitle: "Craft a Washing Factory."
+			description: [
+				"Used to Wash Ores."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "1345DB1E4A6C8EA4"
+			tasks: [{
+				id: "6BFD19C647BDDC99"
+				type: "item"
+				item: "industrialforegoing:washing_factory"
+			}]
+			rewards: [
+				{
+					id: "6158645B48A5FC63"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6F05E7BF8DE9DAC4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.1d
+			y: 9.5d
+			subtitle: "Craft a Fluid Sieving Machine"
+			description: [
+				"Turns Fermented Ore Meats to Dusts."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "3FD00F6C59E723EC"
+			tasks: [{
+				id: "66A73338DF226996"
+				type: "item"
+				item: "industrialforegoing:fluid_sieving_machine"
+			}]
+			rewards: [
+				{
+					id: "0F52923E58DF6CB5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5E82D15A91124FCB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 16.2d
+			subtitle: "Craft a Mob Duplicator."
+			description: [
+				"It is used to spawn mobs based on the type of mob trapped in a Mob Imprisonment Tool."
+				""
+				"&7Reward: 1x Loot Bag \\& 2x Mob Imprisonment Tool."
+			]
+			dependencies: ["000000000000104D"]
+			id: "3679D2B4129E78E3"
+			tasks: [{
+				id: "5531646454E9D3F5"
+				type: "item"
+				item: "industrialforegoing:mob_duplicator"
+			}]
+			rewards: [
+				{
+					id: "1781FB4F45C95600"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "47FA3E84624E4AAA"
+					type: "item"
+					item: "industrialforegoing:mob_imprisonment_tool"
+					count: 2
+				}
+				{
+					id: "59C2D7B8233E77A3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 9.2d
+			subtitle: "Craft a Ore Laser Base."
+			description: [
+				"It is used with one to four Laser Drills to produce ores."
+				""
+				"Laser Lenses can be used to increase or decrease the chances of specific ores."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["000000000000104D"]
+			id: "5963B8D1FB6DB6D1"
+			tasks: [{
+				id: "1D9768092B2CA2B7"
+				type: "item"
+				item: "industrialforegoing:ore_laser_base"
+			}]
+			rewards: [
+				{
+					id: "10547325EDD75BD1"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "2274AF734127246D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 9.2d
+			subtitle: "Craft a Fluid Laser Base"
+			description: ["It is used with one to four Laser Drills to produce some fluids."]
+			dependencies: ["000000000000104D"]
+			id: "60C674C7CA804B1B"
+			tasks: [{
+				id: "2E2521425BDBB744"
+				type: "item"
+				item: "industrialforegoing:fluid_laser_base"
+			}]
+			rewards: [
+				{
+					id: "24304F7FEA58061F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "78B0D8C224217F15"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 7.7d
+			subtitle: "Craft a Simple Black Hole Tank"
+			description: [
+				"It is used to store large quantities of fluid, with an internal tank size of 1,024,000mb."
+				""
+				"Fluid can be added to the tank by right clicking with a filled Bucket, placing a Bucket in the internal inventory slot, or by piping in directly."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000319"]
+			id: "35E6DC0C52DD961B"
+			tasks: [{
+				id: "2694D9F069FE6FF8"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_tank"
+			}]
+			rewards: [
+				{
+					id: "0990FC6B5200652C"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "44CC99E8753C40DF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 7.7d
+			subtitle: "Craft a Simple Black Hole Unit"
+			description: [
+				"Used to store large quantities of items, with an internal inventory capable of holding 524,288 of a single item."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000319"]
+			id: "6CC1F037AEB47E28"
+			tasks: [{
+				id: "78366101AC695ABD"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "33AE3ED50A3B604B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "5ABF5F357D3B6D0F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.1d
+			y: 3.8d
+			subtitle: "Craft a Laser Drill"
+			description: [
+				"Used to convert power into Work for the Laser Base."
+				""
+				"The Laser Drill must be placed one block away from the Laser Base with the back of the machine facing the Laser Base. "
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000319"]
+			id: "3420A93B38701FDD"
+			tasks: [{
+				id: "621F6FA73F545AA6"
+				type: "item"
+				item: "industrialforegoing:laser_drill"
+			}]
+			rewards: [
+				{
+					id: "290FA27EE627951B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "498B0D35F6E72EE2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.1d
+			y: 3.8d
+			subtitle: "Craft a Fermentation Station"
+			description: [
+				"Turns Raw Ore Meat to Fermented Ore Meat."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["0000000000000319"]
+			id: "56B7840A55ABDFC0"
+			tasks: [{
+				id: "496947FA603EE689"
+				type: "item"
+				item: "industrialforegoing:fermentation_station"
+			}]
+			rewards: [
+				{
+					id: "611E8D1683E1A635"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "7C112D89B53A16EC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -5.1d
+			subtitle: "Craft a Pity Black Hole Tank"
+			description: [
+				"It is used to store large quantities of fluid, with an internal tank size of 64,000mb."
+				""
+				"Fluid can be added to the tank by right clicking with a filled Bucket, placing a Bucket in the internal inventory slot, or by piping in directly."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: [
+				"00000000000002A6"
+				"0000000000000321"
+			]
+			id: "5E37D53E28F15E46"
+			tasks: [{
+				id: "53073A470D6B62A6"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_tank"
+			}]
+			rewards: [
+				{
+					id: "3D7702AFCB4BD1B7"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "28DE04A89F03B8C9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.1d
+			subtitle: "Craft a Pity Black Hole Unit"
+			description: [
+				"Used to store large quantities of items, with an internal inventory capable of holding 16,384 of a single item."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: [
+				"00000000000002A6"
+				"0000000000000321"
+			]
+			id: "34141E33D603C821"
+			tasks: [{
+				id: "34C682EC74EA8BA3"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "68E00EA72AF9FB9F"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "6135160FF1CBEFD9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -4.1d
+			subtitle: "Craft a Common Black Hole Tank"
+			description: [
+				"It is used to store large quantities of fluid, with an internal tank size of 16,000mb."
+				""
+				"Fluid can be added to the tank by right clicking with a filled Bucket, placing a Bucket in the internal inventory slot, or by piping in directly."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["00000000000002A6"]
+			id: "48ED535D758C4BFB"
+			tasks: [{
+				id: "3325B7FD8292511C"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_tank"
+			}]
+			rewards: [
+				{
+					id: "634EA21CE472E36D"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "4716B21DD1F1B1C4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -4.1d
+			subtitle: "Craft a Common Black Hole Unit"
+			description: [
+				"Used to store large quantities of items, with an internal inventory capable of holding 2,048 of a single item."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["00000000000002A6"]
+			id: "6BE9FC7D2A2AF058"
+			tasks: [{
+				id: "714729604DC089ED"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_unit"
+			}]
+			rewards: [
+				{
+					id: "6BE65ED5E5F4C41E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "525C55385D353E57"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 17.7d
+			subtitle: "Craft a Mycelial Reactor"
+			dependencies: ["000000000000131B"]
+			id: "0626D36F7E71D1D2"
+			tasks: [{
+				id: "533DABA006160189"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+			rewards: [{
+				id: "598C8E2824394FFD"
+				type: "item"
+				item: "lootbagmod:lootbag"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			subtitle: "Craft an Infinity Launcher"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["00000000000002C2"]
+			id: "16D20DA80B805541"
+			tasks: [{
+				id: "69FE28B44278ED27"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_launcher"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Plunger: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5EEA7940CFAAEBB0"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "766DF3C3F1C0BF32"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "Construct an Infinity Nuke"
+			description: ["&7Reward: 1x Loot Bag"]
+			dependencies: ["00000000000002C2"]
+			optional: true
+			id: "4CF8978D24909515"
+			tasks: [{
+				id: "0E0088030FC42089"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_nuke"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0D8DE4D65CE0A25B"
+					type: "item"
+					item: "lootbagmod:lootbag"
+				}
+				{
+					id: "79AB1E2328899EF5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -6.9d
+			y: 1.1d
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 1"
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "2EB4BB8EF7F8B85B"
+			tasks: [{
+				id: "67323CC48DDD1EFF"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon0"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3A72F7DACB19A743"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "43F16F62DFE3C383"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -5.9d
+			y: 1.1d
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 2"
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "3F74BBBF7382D628"
+			tasks: [{
+				id: "25F125BC838301E7"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 1.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "085B28794378BF01"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "1384D3276C1D259B"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -4.9d
+			y: 1.1d
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 3"
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "76D2A6DA60C02025"
+			tasks: [{
+				id: "53F84BA49B7B3598"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 2.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7E444F809E79750B"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "1C4D20BACD86EA1F"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -6.9d
+			y: 2.1d
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 4"
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "0132924983FB7CBE"
+			tasks: [{
+				id: "0BC499C020339C55"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon3"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 3.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "69365CAACEDADFE5"
+					type: "item"
+					icon: "tnp:lootbag_piece"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "26238F227654130F"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -5.9d
+			y: 2.1d
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 5"
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "7D5A64090FE22393"
+			tasks: [{
+				id: "768BAD14484B8952"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon4"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 4.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "25290D62BDD2018A"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "793347FAD902A9BC"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -4.9d
+			y: 2.1d
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 6"
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "42A6D196948BFABF"
+			tasks: [{
+				id: "735F67B2ACC3C650"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon5"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 5.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7D826E0D2AD7FA4B"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "01A09BC8EFC7ABD2"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -6.9d
+			y: 3.1d
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 7"
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "7FA9D928D8503D71"
+			tasks: [{
+				id: "2F274E305C68602F"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon6"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 6.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "406B6E1E15162E9D"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "349298A27A9D22CE"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -5.9d
+			y: 3.1d
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 8"
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "49A1A4CE69E7D48A"
+			tasks: [{
+				id: "7C0A1D6A09217170"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon7"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 7.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "640F61CAC249D00C"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "78A0D19CE47A8134"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -4.9d
+			y: 3.1d
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 9"
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "070A43B8BF8F9CC8"
+			tasks: [{
+				id: "0585E944C81DDDCD"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon8"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 8.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "25BC48A8FA9FD939"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "7BE9EEDDAC03D694"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -6.9d
+			y: 4.1d
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 10"
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "7153D825FEB8107B"
+			tasks: [{
+				id: "334C3DAB2D9E066A"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon9"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 9.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4DF18BB5695C7562"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "35BE2014C5033C40"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -5.9d
+			y: 4.1d
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 11"
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "44CD87753BB31D51"
+			tasks: [{
+				id: "27BBC6187A1981E5"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon10"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 10.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3983076C43C677D2"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "5658394352BC537D"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -4.9d
+			y: 4.1d
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 12"
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "5E918FF395C75770"
+			tasks: [{
+				id: "61DD46579BB0060D"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon11"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 11.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A3D9AA262B69FA2"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "3694B69A30176D4B"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -6.4d
+			y: 1.6d
+			shape: "diamond"
+			subtitle: "Craft a Speed Addon Tier 1"
+			description: [
+				"Used to increase the processing speeds of some machines."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "2F6C6DCCE5D0CAF6"
+			tasks: [{
+				id: "69107E40CF352D1C"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 2.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "658A3C55CABDC0F2"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "072404AA3E6EC70D"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -5.4d
+			y: 2.6d
+			shape: "diamond"
+			subtitle: "Craft an Efficiency Addon Tier 2"
+			description: [
+				"Reduce progress amount to complete a task."
+				""
+				"&7Rewards: 6x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "3B6A6A20DEB07551"
+			tasks: [{
+				id: "5F212D7FDC6E2FC8"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.8f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2A935EEBF15D368E"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 6
+				}
+				{
+					id: "7F5C8F81804DF932"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -5.4d
+			y: 1.6d
+			shape: "diamond"
+			subtitle: "Craft a Speed Addon Tier 2"
+			description: [
+				"Used to increase the processing speeds of some machines."
+				""
+				"&7Rewards: 6x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "51955482DA277822"
+			tasks: [{
+				id: "7613D59BA3507453"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "75D98762822045F7"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 6
+				}
+				{
+					id: "279513A7AD59B55A"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -6.4d
+			y: 2.6d
+			shape: "diamond"
+			subtitle: "Craft an Efficiency Addon Tier 1"
+			description: [
+				"Reduce progress amount to complete a task."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "0DFCC2761639B120"
+			tasks: [{
+				id: "686FAABC1D0E1065"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.9f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "26960816C0000CB2"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "515799E3E0D25103"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -6.4d
+			y: 3.6d
+			shape: "diamond"
+			subtitle: "Craft a Processing Addon Tier 1"
+			description: [
+				"Machines do more operations per completed task."
+				""
+				"&7Rewards: 3x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "4FE531E7897BBDD5"
+			tasks: [{
+				id: "599610ADFF7CFF6F"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 2.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "457E594027EDAE8E"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 3
+				}
+				{
+					id: "28CD5F8274553861"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: -5.4d
+			y: 3.6d
+			shape: "diamond"
+			subtitle: "Craft a Processing Addon Tier 2"
+			description: [
+				"Machines do more operations per completed task."
+				""
+				"&7Rewards: 6x Loot Bag Piece \\& 4 EXP Levels."
+			]
+			dependencies: ["00000000000002C2"]
+			id: "6A924768A56D34F1"
+			tasks: [{
+				id: "35BC87D44C062821"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 3.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6F65D096EBFD3C52"
+					type: "item"
+					item: "tnp:lootbag_piece"
+					count: 6
+				}
+				{
+					id: "5DB53BA1C03EF266"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+	]
+}

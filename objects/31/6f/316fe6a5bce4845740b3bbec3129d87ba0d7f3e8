@@ -1,0 +1,5 @@
+["!local"]
+rockTexture = "minecraft:block/netherrack"
+
+[":cobalt_ore"]
+oreTexture = ":block/cobalt_ore"

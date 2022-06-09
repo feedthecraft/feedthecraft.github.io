@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 3,
+    "item": "rftoolsbase:dimensionalshard"
+  },
+  "input": {
+    "tag": "forge:ores/dimensional_shard"
+  },
+  "energy": 3000
+}

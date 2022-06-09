@@ -1,0 +1,16 @@
+{
+	id: "1BDC998989320709"
+	order_index: 8
+	title: "Friendly Drops"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "minecraft:rabbit_hide", count: 16 }
+		{ item: "minecraft:rabbit_foot", count: 3 }
+		{ item: "minecraft:leather", count: 12 }
+		{ item: "minecraft:white_wool", count: 16 }
+		{ item: "minecraft:feather", count: 24 }
+		{ item: "minecraft:ink_sac", count: 12 }
+		{ item: "minecraft:glow_ink_sac", count: 8 }
+	]
+}

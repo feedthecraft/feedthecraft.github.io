@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+    "ingredients": [
+    {
+      "item": "oreberriesreplanted:gold_oreberry"
+    }
+  ],
+  "results": [
+    {
+	  "item": "minecraft:gold_nugget"
+	},
+	{
+      "fluid": "oreberriesreplanted:gold_oreberry_juice",
+	  "amount": 150
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "forge:ores/dimensional_shard"
+  },
+  "result": {
+    "item": "rftoolsbase:dimensionalshard",
+    "count": 3
+  },
+  "crushing_time": 200
+}

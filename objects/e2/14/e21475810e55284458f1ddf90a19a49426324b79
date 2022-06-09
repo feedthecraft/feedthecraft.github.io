@@ -1,0 +1,12 @@
+{
+	id: "28E0C73C73AD115D"
+	order_index: 6
+	title: "Buddy Card Packs"
+	icon: "buddycards:buddycard_pack_mystery"
+	loot_size: 1
+	rewards: [
+		{ item: "buddycards:buddycard_pack_base" }
+		{ item: "buddycards:buddycard_pack_nether" }
+		{ item: "buddycards:buddycard_pack_end" }
+	]
+}

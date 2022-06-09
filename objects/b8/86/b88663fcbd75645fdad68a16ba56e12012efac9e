@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "oreberriesreplanted:tin_oreberry"
+    }
+  ],
+  "results": [
+    {
+	  "item": "mekanism:nugget_tin"
+	},
+	{
+      "fluid": "oreberriesreplanted:tin_oreberry_juice"
+	  "amount": 150
+    }
+  ]
+}

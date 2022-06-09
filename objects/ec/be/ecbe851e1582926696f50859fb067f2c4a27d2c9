@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Gbergz",
+      "uniqueId": "ec3fbd50-08b1-441b-b457-99f13a711017"
+    },
+    "time": 1654263017066,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/m67Up9pz1z"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Gbergz",
+      "uniqueId": "ec3fbd50-08b1-441b-b457-99f13a711017"
+    },
+    "time": 1654262608323,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/sDG39Tswjl"
+    }
+  }
+]

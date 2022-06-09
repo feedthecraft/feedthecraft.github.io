@@ -1,0 +1,19 @@
+{
+	id: "1254C1F4175E69BC"
+	order_index: 9
+	title: "Some Common Ores"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "minecraft:raw_iron", count: 8 }
+		{ item: "minecraft:raw_copper", count: 16 }
+		{ item: "minecraft:raw_gold", count: 6 }
+		{ item: "immersiveengineering:raw_aluminum", count: 8 }
+		{ item: "immersiveengineering:raw_silver", count: 6 }
+		{ item: "immersiveengineering:raw_uranium", count: 6 }
+		{ item: "immersiveengineering:raw_lead", count: 6 }
+		{ item: "mekanism:raw_tin", count: 6 }
+		{ item: "create:raw_zinc", count: 8 }
+		{ item: "immersiveengineering:raw_nickel", count: 8 }
+	]
+}

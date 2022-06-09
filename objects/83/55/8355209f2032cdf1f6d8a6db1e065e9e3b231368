@@ -1,0 +1,6 @@
+
+["Config category"]
+	#Sets the UI scale of menus/screens. 0 is Auto: default:0
+	#Range: 0 ~ 8
+	menuScale = 4
+

@@ -1,0 +1,23 @@
+{
+	id: "44B9842033E184DF"
+	order_index: 11
+	title: "Rarer Ores"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "minecraft:diamond", count: 3 }
+		{ item: "minecraft:emerald", count: 5 }
+		{ item: "minecraft:lapis_lazuli", count: 16 }
+		{ item: "minecraft:quartz", count: 24 }
+		{ item: "minecraft:amethyst_shard", count: 4 }
+		{ item: "minecraft:prismarine_crystals", count: 4 }
+		{ item: "blue_skies:moonstone_shard", count: 3 }
+		{ item: "blue_skies:moonstone_shard", count: 3 }
+		{ item: "blue_skies:pyrope_gem", count: 3 }
+		{ item: "blue_skies:aquite", count: 3 }
+		{ item: "mekanism:fluorite_gem", count: 16 }
+		{ item: "blue_skies:moonstone", count: 2 }
+		{ item: "blue_skies:charoite", count: 3 }
+		{ item: "blue_skies:diopside_gem", count: 3 }
+	]
+}

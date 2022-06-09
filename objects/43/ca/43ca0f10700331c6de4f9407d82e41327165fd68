@@ -1,0 +1,16 @@
+["!local"]
+rockTexture = "byg:block/blue_netherrack"
+
+[":blue_nether_gold_ore"]
+oreTexture = ":block/blue_nether_gold_ore"
+
+[":blue_nether_quartz_ore"]
+oreTexture = ":block/blue_nether_quartz_ore"
+
+[":brimstone_nether_gold_ore"]
+oreTexture = ":block/brimstone_nether_gold_ore"
+rockTexture = "byg:block/brimstone"
+
+[":brimstone_nether_quartz_ore"]
+oreTexture = ":block/brimstone_nether_quartz_ore"
+rockTexture = "byg:block/brimstone"

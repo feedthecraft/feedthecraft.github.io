@@ -1,0 +1,6 @@
+{
+  "cooldownTimeInSeconds": 10,
+  "timedoorPlacementOffsetInBlocks": 3,
+  "timedoorCloseWaitingTimeInTicks": 90,
+  "onEntityThroughDoorAdditionalTimeInTicks": 40
+}

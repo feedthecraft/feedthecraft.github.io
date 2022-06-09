@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+    "ingredients": [
+    {
+      "item": "oreberriesreplanted:silver_oreberry"
+    }
+  ],
+  "results": [
+    {
+	  "item": "immersiveengineering:nugget_silver"
+	},
+	{
+      "fluid": "oreberriesreplanted:silver_oreberry_juice",
+	  "amount": 150
+    }
+  ]
+}

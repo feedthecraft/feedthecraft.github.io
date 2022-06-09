@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+    "ingredients": [
+    {
+      "item": "oreberriesreplanted:essence_berry"
+    }
+  ],
+  "results": [
+    {
+	  "item": "ars_nouveau:greater_experience_gem"
+	},
+	{
+      "fluid": "mob_grinding_utils:fluid_xp",
+	  "amount": 1000
+    }
+  ]
+}

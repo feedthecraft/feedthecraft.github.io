@@ -1,0 +1,16 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "forge:ores/dimensional_shard"
+	},
+	"output": [
+		{
+			"item": "rftoolsbase:dimensionalshard",
+			"count": 3
+		},
+		{
+			"item": "cobblestone",
+			"count": 1
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+    "ingredients": [
+    {
+      "item": "oreberriesreplanted:nickel_oreberry"
+    }
+  ],
+  "results": [
+    {
+	  "item": "immersiveengineering:nugget_nickel"
+	},
+	{
+      "fluid": "oreberriesreplanted:nickel_oreberry_juice",
+	  "amount": 150
+    }
+  ]
+}
