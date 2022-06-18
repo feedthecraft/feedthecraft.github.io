@@ -1,9 +1,0 @@
-{
-  "type": "immersiveengineering:hammer_crushing",
-  "result": {
-    "tag": "forge:dusts/crimson_steel"
-  },
-  "input": {
-    "tag": "forge:ingots/crimson_steel"
-  }
-}

@@ -1,9 +1,0 @@
-["!local"]
-rockTexture = "minecraft:block/stone"
-
-[":iridium_ore"]
-oreTexture = ":block/ore_overlays/iridium"
-
-[":deepslate_iridium_ore"]
-oreTexture = ":block/ore_overlays/iridium"
-rockTexture = "minecraft:block/deepslate"

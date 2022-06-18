@@ -1,9 +1,0 @@
-{
-  "type": "immersiveengineering:hammer_crushing",
-  "result": {
-    "tag": "forge:dusts/azure_electrum"
-  },
-  "input": {
-    "tag": "forge:ingots/azure_electrum"
-  }
-}

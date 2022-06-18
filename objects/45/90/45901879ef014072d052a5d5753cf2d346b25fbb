@@ -1,8 +1,0 @@
-{
-	"type": "crossroads:fluid_cooling",
-	"fluid": "oreberriesreplanted:zinc_oreberry_juice",
-	"fluid_amount": 90,
-	"item": "create:zinc_ingot",
-	"max_temp": 1500,
-	"temp_change": 100
-}

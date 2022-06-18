@@ -1,7 +1,0 @@
-{
-	chapter_groups: [
-		{ id: "6CE549B787DF03B5", title: "Starter" }
-		{ id: "6819E53F96F4C429", title: "Vanilla+" }
-		{ id: "74CE4A09AC5F3CF1", title: "Modded" }
-	]
-}

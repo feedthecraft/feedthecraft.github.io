@@ -1,9 +1,0 @@
-{
-  "type": "immersiveengineering:hammer_crushing",
-  "result": {
-    "tag": "forge:dusts/ludicrite"
-  },
-  "input": {
-    "tag": "forge:ingots/ludicrite"
-  }
-}

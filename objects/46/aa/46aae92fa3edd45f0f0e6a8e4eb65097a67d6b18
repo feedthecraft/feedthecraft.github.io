@@ -1,7 +1,0 @@
-{
-  "eu-to-rf": 4,
-  "lv-transformer-max": 128,
-  "mv-transformer-max": 512,
-  "hv-transformer-max": 2048,
-  "ev-transformer-max": 8192
-}

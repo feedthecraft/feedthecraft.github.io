@@ -1,9 +1,0 @@
-{
-  "type": "immersiveengineering:hammer_crushing",
-  "result": {
-    "tag": "forge:dusts/graphite"
-  },
-  "input": {
-    "tag": "forge:ingots/graphite"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "type": "immersiveengineering:hammer_crushing",
-  "result": {
-    "item": "ftbic:iridium_dust"
-  },
-  "input": {
-    "item": "ftbic:iridium_alloy"
-  }
-}

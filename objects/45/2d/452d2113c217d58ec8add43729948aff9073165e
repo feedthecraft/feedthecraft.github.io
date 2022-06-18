@@ -1,8 +1,0 @@
-{
-	"type": "crossroads:fluid_cooling",
-	"fluid": "oreberriesreplanted:uranium_oreberry_juice",
-	"fluid_amount": 90,
-	"item": "immersiveengineering:ingot_uranium",
-	"max_temp": 1500,
-	"temp_change": 100
-}

@@ -1,9 +1,0 @@
-{
-  "type": "immersiveengineering:hammer_crushing",
-  "result": {
-    "tag": "forge:dusts/blaze_gold"
-  },
-  "input": {
-    "tag": "forge:ingots/blaze_gold"
-  }
-}

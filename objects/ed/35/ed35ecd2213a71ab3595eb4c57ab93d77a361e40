@@ -1,9 +1,0 @@
-{
-  "type": "immersiveengineering:hammer_crushing",
-  "result": {
-    "item": "immersiveengineering:dust_constantan"
-  },
-  "input": {
-    "item": "immersiveengineering:ingot_constantan"
-  }
-}
