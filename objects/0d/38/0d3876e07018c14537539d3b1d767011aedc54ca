@@ -1,0 +1,13 @@
+{
+  "type": "thermal:smelter_recycle",
+  "ingredient": {
+    "tag": "forge:armor/nickel"
+  },
+  "result": [
+    {
+      "item": "immersiveengineering:ingot_nickel",
+      "count": 3
+    }
+  ],
+  "experience": 1.2
+}

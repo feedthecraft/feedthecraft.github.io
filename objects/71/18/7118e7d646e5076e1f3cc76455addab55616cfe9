@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "blue_skies:charoite_sword"
+  },
+  "results": [
+    {
+      "item": "blue_skies:charoite",
+      "count": 2
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ]
+}

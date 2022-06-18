@@ -1,0 +1,18 @@
+{
+  "modId": "ars_elemental",
+  "group": {
+    "name": "Ars Elemental Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:iron_ingot"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "ars_elemental:yellow_archwood_sapling"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance": 0.33333334,
+      "output": {
+        "tag": "forge:dusts/brilliance"
+      }
+    }
+  ],
+  "result": {
+    "count": 2,
+    "tag": "forge:dusts/brilliance"
+  },
+  "input": {
+    "item": "malum:cluster_of_brilliance"
+  },
+  "energy": 6000
+}

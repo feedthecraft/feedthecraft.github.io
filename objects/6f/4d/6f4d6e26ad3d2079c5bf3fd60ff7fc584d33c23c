@@ -1,0 +1,13 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:ingots/bronze"
+  },
+  "result": [
+    {
+      "item": "mekanism:dust_bronze",
+      "count": 1
+    }
+  ],
+  "energy_mod": 0.5
+}

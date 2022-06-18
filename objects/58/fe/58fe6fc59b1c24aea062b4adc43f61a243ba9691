@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/graphite"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "biggerreactors:graphite_dust"
+    }
+  ]
+}

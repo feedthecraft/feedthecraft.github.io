@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "biggerreactors:cyanite_ingot"
+  },
+  "result": {
+    "item": "biggerreactors:cyanite_dust",
+    "count": 1
+  }
+}

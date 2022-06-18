@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mekanism:ingot_bronze"
+    },
+    {
+      "item": "mekanism:ingot_bronze"
+    },
+    {
+      "item": "immersiveengineering:hammer"
+    }
+  ],
+  "result": {
+    "item": "thermal:bronze_plate"
+  }
+}

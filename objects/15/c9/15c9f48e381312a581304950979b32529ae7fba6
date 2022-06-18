@@ -1,0 +1,16 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "blue_skies:ores/charoite"
+	},
+	"output": [
+		{
+			"item": "blue_skies:charoite",
+			"count": 3
+		},
+		{
+			"item": "sand",
+			"count": 1
+		}
+	]
+}

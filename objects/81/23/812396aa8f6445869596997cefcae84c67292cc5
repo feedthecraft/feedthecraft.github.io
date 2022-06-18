@@ -1,0 +1,10 @@
+{
+	"type": "crossroads:crucible",
+	"input": {
+		"tag": "forge:ores/cobalt"
+	},
+	"output": {
+		"fluid": "tconstruct:molten_cobalt",
+		"amount": 288
+	}
+}

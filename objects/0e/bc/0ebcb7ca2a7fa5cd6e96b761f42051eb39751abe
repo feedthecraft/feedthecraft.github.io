@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "biggerreactors:blutonium_ingot"
+  },
+  "result": {
+    "item": "biggerreactors:blutonium_dust",
+    "count": 1
+  }
+}

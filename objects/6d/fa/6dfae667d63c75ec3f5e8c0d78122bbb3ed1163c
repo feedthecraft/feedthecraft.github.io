@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": "immersiveengineering:mold_rod",
+  "result": {
+    "item": "ftbic:uranium_rod",
+    "count": 2
+  },
+  "input": {
+    "item": "immersiveengineering:ingot_uranium"
+  },
+  "energy": 2400
+}

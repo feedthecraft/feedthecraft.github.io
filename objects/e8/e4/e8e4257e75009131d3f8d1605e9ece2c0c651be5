@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "occultism:raw_iesnium"
+  },
+  "result": {
+    "item": "occultism:iesnium_dust",
+    "count": 2
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "silentgear:azure_silver_ore"
+  },
+  "result": {
+    "item": "silentgear:azure_silver_dust",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [],
+      "recipe": {
+        "type": "oreberriesreplanted:vat",
+        "ingredient": {
+          "item": "oreberriesreplanted:tin_oreberry"
+        },
+        "fluid": "oreberriesreplanted:tin_oreberry_juice",
+        "result": {
+          "item": "mekanism:nugget_tin"
+        },
+        "evaporationtime": 100
+      }
+    }
+  ]
+}

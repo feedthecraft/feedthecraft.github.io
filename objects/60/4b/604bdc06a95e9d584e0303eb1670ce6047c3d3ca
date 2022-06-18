@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "silentgear:crimson_iron_ingot"
+  },
+  "result": {
+    "item": "silentgear:crimson_iron_dust",
+    "count": 1
+  }
+}

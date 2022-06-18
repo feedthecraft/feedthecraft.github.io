@@ -1,0 +1,10 @@
+{
+	"type": "crossroads:crucible",
+	"input": {
+		"tag": "forge:ingots/nickel"
+	},
+	"output": {
+		"fluid": "oreberriesreplanted:nickel_oreberry_juice",
+		"amount": 144
+	}
+}

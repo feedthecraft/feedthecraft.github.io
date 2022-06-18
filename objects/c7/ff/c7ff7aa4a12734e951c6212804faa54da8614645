@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/iesnium"
+  },
+  "result": {
+    "item": "occultism:iesnium_dust",
+    "count": 2
+  }
+}

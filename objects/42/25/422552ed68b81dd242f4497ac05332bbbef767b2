@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "tnp:crushed_pyrope_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "tnp:pyrope_shard",
+      "count": 9
+    }
+  ]
+}

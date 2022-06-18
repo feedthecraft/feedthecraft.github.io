@@ -1,0 +1,11 @@
+{
+	"type": "beyond_earth_giselle_addon:rolling",
+   "input": {
+      "item": "ftbic:carbon_fiber_mesh"
+   },
+   "output": {
+      "item": "ftbic:carbon_plate",
+      "count": 1
+   },
+   "cookTime": 200
+}

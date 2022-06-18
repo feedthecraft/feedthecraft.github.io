@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:ingot_steel"
+    },
+    {
+      "item": "immersiveengineering:ingot_steel"
+    },
+    {
+      "item": "immersiveengineering:hammer"
+    }
+  ],
+  "result": {
+    "item": "immersiveengineering:plate_steel"
+  }
+}

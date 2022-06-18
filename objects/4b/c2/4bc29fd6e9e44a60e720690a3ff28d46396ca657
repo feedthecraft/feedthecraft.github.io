@@ -1,0 +1,18 @@
+{
+    "type": "crossroads:centrifuge",
+    "active": true,
+    "input": {
+        "fluid": "oreberriesreplanted:copper_oreberry_juice",
+        "amount": 50
+    },
+    "output_fluid": {
+        "fluid": "minecraft:water",
+        "amount": 20
+    },
+    "output": [
+        {
+            "item": "immersiveengineering:nugget_copper",
+            "count": 1
+        }
+    ]
+}

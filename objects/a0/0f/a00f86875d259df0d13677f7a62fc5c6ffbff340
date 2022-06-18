@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "forge:ores/soulstone"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "tnp:soulstone_dust",
+      "count": 3
+    }
+  ]
+}

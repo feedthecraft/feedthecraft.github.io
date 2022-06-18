@@ -1,0 +1,11 @@
+{
+	"type": "beyond_earth_giselle_addon:rolling",
+   "input": {
+      "item": "thermal:invar_ingot"
+   },
+   "output": {
+      "item": "thermal:invar_plate",
+      "count": 1
+   },
+   "cookTime": 200
+}

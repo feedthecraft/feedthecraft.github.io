@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "ae2:all_certus_quartz"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "ae2:certus_quartz_dust"
+    }
+  ]
+}

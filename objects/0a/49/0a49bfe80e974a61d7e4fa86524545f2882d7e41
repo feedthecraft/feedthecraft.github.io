@@ -1,0 +1,12 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "forge:raw_materials/nickel"
+	},
+	"output": [
+		{
+			"item": "immersiveengineering:dust_nickel",
+			"count": 2
+		}
+	]
+}

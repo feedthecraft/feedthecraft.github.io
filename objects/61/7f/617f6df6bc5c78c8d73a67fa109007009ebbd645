@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "byg:ametrine_horse_armor"
+  },
+  "results": [
+    {
+      "item": "byg:ametrine_gems",
+      "count": 7
+    }
+  ]
+}

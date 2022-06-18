@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "blue_skies:ores/moonstone"
+  },
+  "result": {
+    "item": "tnp:moonstone_dust",
+    "count": 2
+  },
+  "crushing_time": 200
+}

@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mcwpaths"
+    }
+  ],
+  "type": "corail_woodcutter:woodcutting",
+  "ingredient": {
+    "item": "minecraft:warped_slab"
+  },
+  "result": "mcwpaths:warped_planks_path",
+  "count": 3
+}

@@ -1,0 +1,27 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mekanism:raw_osmium"
+    }
+  ],
+  "results": [
+    {
+      "item": "tnp:crushed_osmium_ore",
+      "count": 2
+    },
+    {
+      "item": "tnp:crushed_osmium_ore",
+      "chance": 0.25
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 250
+}

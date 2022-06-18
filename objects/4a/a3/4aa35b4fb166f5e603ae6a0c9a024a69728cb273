@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "tnp:crushed_charoite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "tnp:charoite_shard",
+      "count": 9
+    }
+  ]
+}

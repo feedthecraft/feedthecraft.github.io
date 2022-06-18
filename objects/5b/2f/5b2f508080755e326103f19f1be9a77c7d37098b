@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "blue_skies:gems/pyrope"
+    }
+  },
+  "output": {
+    "item": "tnp:pyrope_dust"
+  }
+}

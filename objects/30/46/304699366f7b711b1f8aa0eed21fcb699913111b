@@ -1,0 +1,22 @@
+  {
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "item": "ftbic:iridium_ingot"
+    }
+  ],
+  "additives": [],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "ftbic:iridium_ingot"
+      }
+    }
+  ],
+  "input": {
+    "item": "ftbic:iridium_chunk"
+  },
+  "time": 100,
+  "energy": 25600
+}

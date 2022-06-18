@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "immersiveengineering:ingot_constantan"
+  },
+  "result": {
+    "item": "immersiveengineering:dust_constantan",
+    "count": 1
+  }
+}

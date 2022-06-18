@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:charcoal"
+  },
+  "result": {
+    "item": "mekanism:dust_charcoal",
+    "count": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "blue_skies:raw_materials/falsite"
+	},
+	"output": [
+		{
+			"item": "tnp:falsite_dust",
+			"count": 2
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "forge:ores/azure_silver"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "silentgear:azure_silver_dust",
+      "count": 2
+    }
+  ]
+}

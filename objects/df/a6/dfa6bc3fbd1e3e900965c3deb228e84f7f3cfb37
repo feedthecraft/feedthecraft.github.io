@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "blue_skies:ingots/horizonite"
+  },
+  "result": {
+    "item": "tnp:horizonite_dust",
+    "count": 1
+  }
+}

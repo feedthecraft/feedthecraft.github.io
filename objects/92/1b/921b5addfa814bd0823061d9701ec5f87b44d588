@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "forge:ingots/ostrum"
+    }
+  },
+  "output": {
+    "item": "tnp:ostrum_dust"
+  }
+}

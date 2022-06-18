@@ -1,0 +1,167 @@
+{
+	id: "5595564AF51C2F91"
+	order_index: 3
+	title: "Lootbagparts"
+	icon: "cyclic:dice"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ title: "SECRET", item: "minecraft:emerald", count: 8, weight: 750 }
+		{ title: "SECRET", item: "minecraft:diamond", count: 6, weight: 750 }
+		{ title: "SECRET", item: "minecraft:gold_ingot", count: 16, weight: 750 }
+		{ title: "SECRET", item: "minecraft:iron_ingot", count: 12, weight: 750 }
+		{ title: "SECRET", item: "minecraft:copper_ingot", count: 12, weight: 750 }
+		{ title: "SECRET", item: "immersiveengineering:ingot_electrum", count: 12, weight: 750 }
+		{ title: "SECRET", item: "minecraft:netherite_ingot", count: 3, weight: 450 }
+		{ title: "SECRET", item: "enigmaticlegacy:etherium_ingot", count: 2, weight: 385 }
+		{
+			title: "SECRET"
+			item: {
+				id: "minecraft:netherite_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 86
+		}
+		{
+			title: "SECRET"
+			item: {
+				id: "minecraft:netherite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 86
+		}
+		{
+			title: "SECRET"
+			item: {
+				id: "minecraft:netherite_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 86
+		}
+		{
+			title: "SECRET"
+			item: {
+				id: "minecraft:netherite_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 86
+		}
+		{
+			title: "SECRET"
+			item: {
+				id: "minecraft:netherite_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 86
+		}
+		{
+			title: "SECRET"
+			item: {
+				id: "minecraft:netherite_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 86
+		}
+		{
+			title: "SECRET"
+			item: {
+				id: "minecraft:netherite_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 86
+		}
+		{
+			title: "SECRET"
+			item: {
+				id: "minecraft:netherite_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 86
+		}
+		{ title: "SECRET", item: "tnp:lootbag_piece", count: 2, weight: 6890 }
+		{ title: "SECRET", item: "tnp:lootbag_piece", count: 3, weight: 6890 }
+		{ title: "SECRET", item: "tnp:lootbag_piece", count: 4, weight: 6890 }
+		{ title: "SECRET", item: "tnp:lootbag_piece", count: 5, weight: 6890 }
+		{ title: "SECRET", item: "lootbagmod:lootbag", weight: 955 }
+		{ title: "SECRET", item: "tnp:lootbag_piece", count: 6, weight: 5515 }
+		{ title: "SECRET", item: "tnp:golden_berries", count: 5, weight: 550 }
+		{ title: "SECRET", icon: "tnp:golden_melon", item: "tnp:golden_melon", count: 6, weight: 550 }
+		{ title: "SECRET", item: "minecraft:golden_apple", count: 4, weight: 550 }
+		{
+			title: "SECRET"
+			item: {
+				id: "constructionwand:diamond_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+			weight: 395
+		}
+		{
+			title: "SECRET"
+			item: {
+				id: "travellersboots:travellersbootmkii"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 395
+		}
+		{
+			title: "SECRET"
+			item: {
+				id: "travellersboots:travellersbootmkiii"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 395
+		}
+		{
+			title: "SECRET"
+			item: {
+				id: "mysticalagradditions:inferium_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 339
+		}
+		{
+			title: "SECRET"
+			command: "/me just got unlucky with their quest reward.. (1% chance.)"
+			player_command: true
+			type: "command"
+			weight: 450
+		}
+	]
+}

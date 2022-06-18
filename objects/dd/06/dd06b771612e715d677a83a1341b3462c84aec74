@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "silentgear:tyrian_steel_dust"
+  },
+  "input": {
+    "item": "silentgear:tyrian_steel_ingot"
+  }
+}

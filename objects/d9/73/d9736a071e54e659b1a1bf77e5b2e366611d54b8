@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "mekanism:ingot_bronze"
+	},
+	"result": {
+		"item": "ftbic:bronze_rod",
+		"count": 2
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "blue_skies:horizonite_hoe"
+  },
+  "results": [
+    {
+      "item": "blue_skies:horizonite_ingot",
+      "count": 2
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}

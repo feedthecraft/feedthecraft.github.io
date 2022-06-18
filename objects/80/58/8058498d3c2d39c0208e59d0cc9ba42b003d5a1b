@@ -1,0 +1,8 @@
+{
+	"type": "crossroads:fluid_cooling",
+	"fluid": "oreberriesreplanted:nickel_oreberry_juice",
+	"fluid_amount": 90,
+	"item": "immersiveengineering:ingot_nickel",
+	"max_temp": 1500,
+	"temp_change": 100
+}

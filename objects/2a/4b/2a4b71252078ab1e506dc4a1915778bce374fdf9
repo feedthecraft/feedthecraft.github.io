@@ -1,0 +1,29 @@
+{
+	"type": "cyclic:crusher",
+	"input": {
+		"tag": "forge:raw_ores/nickel"
+	},
+	"energy": {
+		"ticks": 600,
+		"rfpertick": 60
+	},
+	"result": {
+		"item": "immersiveengineering:dust_nickel",
+		"count": 2
+	},
+	"conditions": [
+		{
+			"values": [
+				{
+					"modid": "cyclic",
+					"type": "forge:mod_loaded"
+				},
+				{
+					"item": "cyclic:crusher",
+					"type": "forge:item_exists"
+				}
+			],
+			"type": "forge:and"
+		}
+	]
+}

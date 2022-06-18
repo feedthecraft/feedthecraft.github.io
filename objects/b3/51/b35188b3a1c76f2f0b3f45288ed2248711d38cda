@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:rolling",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/constantan"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "immersiveengineering:plate_constantan",
+      "count": 1
+    }
+  ]
+}

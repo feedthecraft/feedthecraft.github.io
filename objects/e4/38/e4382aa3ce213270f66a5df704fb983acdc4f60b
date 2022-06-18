@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "blue_skies:raw_materials/aquite"
+  },
+  "result": {
+    "item": "tnp:aquite_dust",
+    "count": 2
+  }
+}

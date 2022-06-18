@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+	"ingredients": [
+    {
+      "item": "oreberriesreplanted:iron_oreberry"
+    }
+  ],
+  "results": [
+    {
+	  "item": "minecraft:iron_nugget"
+	},
+	{
+      "fluid": "oreberriesreplanted:iron_oreberry_juice",
+	  "amount": 150
+    }
+  ]
+}

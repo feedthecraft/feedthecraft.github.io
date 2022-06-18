@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "amount": 12,
+    "ingredient": {
+      "item": "malum:cluster_of_brilliance"
+    }
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  },
+  "output": {
+    "item": "malum:brilliant_deepslate"
+  }
+}

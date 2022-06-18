@@ -1,0 +1,13 @@
+{
+  "type": "thermal:smelter_recycle",
+  "ingredient": {
+    "tag": "forge:armor/tin"
+  },
+  "result": [
+    {
+      "item": "mekanism:ingot_tin",
+      "count": 3
+    }
+  ],
+  "experience": 0.6
+}

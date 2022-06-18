@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance": 0.04,
+      "output": {
+        "tag": "forge:dusts/azure_silver"
+      },
+      "conditions": [
+        {
+          "value": {
+            "tag": "forge:dusts/azure_silver",
+            "type": "forge:tag_empty"
+          },
+          "type": "forge:not"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "count": 2,
+    "base_ingredient": {
+      "item": "silentgear:azure_silver_dust"
+    }
+  },
+  "input": {
+    "tag": "forge:ores/azure_silver"
+  },
+  "energy": 6000
+}

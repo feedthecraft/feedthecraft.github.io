@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "tnp:desh_dust"
+  },
+  "input": {
+    "item": "beyond_earth:desh_ingot"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "thermal:press",
+  "ingredient": {
+    "item": "ftbic:carbon_plate"
+  },
+  "result": [
+    {
+      "item": "ftbic:carbon_plate"
+    }
+  ]
+}

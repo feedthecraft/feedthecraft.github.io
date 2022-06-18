@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "amount": 24,
+    "ingredient": {
+      "item": "rftoolsbase:dimensionalshard"
+    }
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "output": {
+    "item": "rftoolsbase:dimensionalshard_end"
+  }
+}

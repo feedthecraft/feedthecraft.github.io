@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "ftbic:iridium_alloy"
+	},
+	"result": {
+		"item": "ftbic:iridium_rod",
+		"count": 2
+	}
+}

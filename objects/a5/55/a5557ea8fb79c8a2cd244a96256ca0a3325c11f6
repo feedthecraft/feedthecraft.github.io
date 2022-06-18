@@ -1,0 +1,872 @@
+{
+	id: "000000000000102A"
+	group: "6819E53F96F4C429"
+	order_index: 0
+	filename: "vanillaquests"
+	title: "Minecraft"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Getting Wood"
+			icon: "minecraft:oak_log"
+			x: -2.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Punch a tree until a block of wood pops out."
+			description: ["&7Reward: 1x Apple."]
+			id: "000000000000102B"
+			tasks: [{
+				id: "000000000000102C"
+				type: "item"
+				title: "Any minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4819CE54EE174ED3"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Acquire cobblestone."
+			description: ["&7Reward: 16x Cobblestone"]
+			id: "000000000000102E"
+			tasks: [{
+				id: "000000000000102F"
+				type: "advancement"
+				title: "Stone Age"
+				icon: "minecraft:cobblestone"
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0000000000000B50"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Construct a Stone Pickaxe."
+			description: [
+				"The good old Stone Pickaxe."
+				""
+				"&7Reward: 8x Torch \\& 1 EXP Level"
+			]
+			optional: true
+			id: "0000000000001030"
+			tasks: [{
+				id: "0000000000001031"
+				type: "advancement"
+				title: "Getting an Upgrade"
+				icon: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:story/upgrade_tools"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2BFF17C835B24B9B"
+					type: "item"
+					item: "minecraft:torch"
+					count: 8
+				}
+				{
+					id: "4B108C057EAFFE4A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Smelt an iron ingot."
+			description: ["&7Reward: 1 EXP Level"]
+			id: "0000000000001032"
+			tasks: [{
+				id: "0000000000001033"
+				type: "advancement"
+				title: "Acquire Hardware"
+				icon: "minecraft:iron_ingot"
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0000000000000B5B"
+					type: "xp_levels"
+					auto: "no_toast"
+					xp_levels: 1
+				}
+				{
+					id: "025F269D86E87401"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			shape: "rsquare"
+			subtitle: "Construct an Iron Pickaxe. - Upgrade your pickaxe."
+			description: ["&7Reward: 2x Treasure Chest"]
+			optional: true
+			id: "0000000000001034"
+			tasks: [{
+				id: "0000000000001035"
+				type: "advancement"
+				title: "Isn't It Iron Pick"
+				icon: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0000000000000BAF"
+				type: "item"
+				team_reward: true
+				item: "aquaculture:treasure_chest"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			shape: "rsquare"
+			subtitle: "Fill a bucket with lava."
+			description: ["&7Reward: Potion of Fire Resistance (3 &7Mins) \\& 1 EXP Level."]
+			id: "0000000000001036"
+			tasks: [{
+				id: "0000000000001037"
+				type: "advancement"
+				title: "Hot Stuff"
+				icon: "minecraft:lava_bucket"
+				advancement: "minecraft:story/lava_bucket"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0000000000000B5A"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+				}
+				{
+					id: "7B583E6222B26A2F"
+					type: "xp_levels"
+					auto: "no_toast"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			shape: "rsquare"
+			subtitle: "Acquire some shiny diamonds."
+			description: ["&7Rewards: 5 EXP Levels \\& 1x Diamond Apple."]
+			id: "0000000000001038"
+			tasks: [{
+				id: "0000000000000028"
+				type: "advancement"
+				title: "Diamonds!"
+				icon: "minecraft:diamond"
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0000000000000B53"
+					type: "xp_levels"
+					auto: "no_toast"
+					xp_levels: 5
+				}
+				{
+					id: "1DDABCD2FFDFBD98"
+					type: "item"
+					item: "pickletweaks:diamond_apple"
+				}
+			]
+		}
+		{
+			title: "Enchanter"
+			x: 5.0d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "Enchant an item at an Enchanting Table."
+			description: ["&7Rewards: 1x Treasure Chest \\& 1x &7Lapis Lazuli Block"]
+			id: "0000000000001039"
+			tasks: [{
+				id: "000000000000103A"
+				type: "advancement"
+				title: "Enchanter"
+				icon: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0000000000000B55"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "0000000000000BAE"
+					type: "item"
+					item: "minecraft:lapis_block"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			shape: "rsquare"
+			subtitle: "Deflect a projectile with a shield."
+			description: ["&7Reward: 16x Arrow"]
+			id: "000000000000002F"
+			tasks: [{
+				id: "000000000000103B"
+				type: "advancement"
+				title: "Not Today, Thank You"
+				icon: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:story/deflect_arrow"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0000000000000B4D"
+				type: "item"
+				item: "minecraft:arrow"
+				count: 16
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			shape: "rsquare"
+			subtitle: "Obtain a block of obsidian."
+			description: ["&7Reward: 1 EXP Level \\& 1x Potion of Lava Vision (8 Min)."]
+			id: "000000000000103C"
+			tasks: [{
+				id: "000000000000103D"
+				type: "advancement"
+				title: "Ice Bucket Challenge"
+				icon: "minecraft:obsidian"
+				advancement: "minecraft:story/form_obsidian"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0000000000000BB4"
+					type: "xp_levels"
+					auto: "enabled"
+					xp_levels: 1
+				}
+				{
+					id: "11DE89F7FD62806C"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "alexsmobs:long_lava_vision"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			shape: "rsquare"
+			subtitle: "Build, light, and enter a Nether Portal."
+			description: ["&7Reward: 4x Fire Charge \\& 3 EXP Levels"]
+			id: "000000000000103E"
+			tasks: [{
+				id: "000000000000103F"
+				type: "advancement"
+				title: "We Need to Go Deeper"
+				icon: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0000000000000B4E"
+					type: "item"
+					auto: "disabled"
+					item: "minecraft:fire_charge"
+					count: 4
+				}
+				{
+					id: "6FD9A3915329D296"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "Weaken and then cure a Zombie Villager."
+			description: ["&7Reward: 5x Emerald"]
+			id: "0000000000001040"
+			tasks: [{
+				id: "0000000000001041"
+				type: "advancement"
+				title: "Zombie Doctor"
+				icon: "minecraft:golden_apple"
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "52A7BBD577DDF20F"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "Follow an Eye of Ender."
+			description: ["&7Rewards: 3x Emerald \\& 1x Ender Eye"]
+			id: "0000000000001043"
+			tasks: [{
+				id: "0000000000001044"
+				type: "advancement"
+				title: "Eye Spy"
+				icon: "minecraft:ender_eye"
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0000000000000BB3"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 3
+				}
+				{
+					id: "0000000000000BFD"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			shape: "hexagon"
+			subtitle: "Enter the End portal."
+			description: ["&7Reward: 1x Ender Pearl \\& 5 EXP Levels."]
+			id: "0000000000001045"
+			tasks: [{
+				id: "0000000000001046"
+				type: "advancement"
+				title: "The End?"
+				icon: "minecraft:end_stone"
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3C262B0BB7A80F84"
+					type: "xp_levels"
+					auto: "no_toast"
+					xp_levels: 5
+				}
+				{
+					id: "35A8D674CE74EF8D"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+			]
+		}
+		{
+			title: "Hot Topic"
+			icon: "minecraft:furnace"
+			x: -1.0d
+			y: -1.0d
+			shape: "rsquare"
+			subtitle: "Construct a Furnace, a really hot topic!"
+			description: ["&7Reward: 1 EXP Level \\& 8x Coal"]
+			id: "0000000000000100"
+			tasks: [{
+				id: "0000000000000101"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [
+				{
+					id: "0000000000000B57"
+					type: "xp_levels"
+					auto: "no_toast"
+					xp_levels: 1
+				}
+				{
+					id: "0000000000000C02"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "It Is A Diamond Pick"
+			x: 3.0d
+			y: 1.0d
+			shape: "rsquare"
+			subtitle: "Construct a Diamond Pickaxe. - Upgrade your Pickaxe once again."
+			description: ["&7Rewards: 5 EXP Levels \\& 3x Treasure Chest."]
+			optional: true
+			id: "000000000000010D"
+			tasks: [{
+				id: "000000000000010E"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "23503720DEA6B01D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "628532D62B23324B"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			shape: "rsquare"
+			subtitle: "Acquire an Ender Pearl."
+			description: ["&7Rewards: 1 EXP Levels \\& 1x Iron Block"]
+			id: "0000000000000140"
+			tasks: [{
+				id: "0000000000000141"
+				type: "item"
+				title: "Road to the End"
+				icon: "minecraft:ender_pearl"
+				item: "minecraft:ender_pearl"
+			}]
+			rewards: [
+				{
+					id: "0000000000000BB0"
+					type: "xp_levels"
+					auto: "invisible"
+					xp_levels: 1
+				}
+				{
+					id: "0000000000000BFA"
+					type: "item"
+					item: "minecraft:iron_block"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			shape: "rsquare"
+			subtitle: "Construct a Crafting Table."
+			description: ["&7Reward: 1 EXP Level"]
+			id: "0000000000000142"
+			tasks: [{
+				id: "0000000000000143"
+				type: "item"
+				title: "Benchmarking"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "0000000000000B56"
+				type: "xp_levels"
+				auto: "no_toast"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Iron Man"
+			x: 1.0d
+			y: 2.0d
+			shape: "rsquare"
+			subtitle: "Construct a full set of Iron Armor."
+			description: ["&7Rewards: 4x 'Protection I' Enchanted &7Book."]
+			optional: true
+			id: "0000000000000147"
+			tasks: [
+				{
+					id: "0000000000000148"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000149"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000014A"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000014B"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6596C4A00C464A56"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "Shiny Jewelry"
+			x: 4.0d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "Construct a full set of Diamond Armor."
+			description: [
+				"Diamond armor saves lives. ..Atleast in Vanilla.."
+				" "
+				"&7Rewards: 1 'Protection IV' enchanted &7book \\& 1x Gold Block"
+			]
+			optional: true
+			id: "000000000000014C"
+			tasks: [
+				{
+					id: "000000000000014D"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000014E"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000014F"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000150"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000B5D"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "0000000000000BAD"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+			]
+		}
+		{
+			title: "Blasting"
+			x: -1.0d
+			y: -2.0d
+			shape: "rsquare"
+			subtitle: "Construct a Blast Furnace."
+			description: [
+				"This is an upgrade to the furnace, it smelts items twice as fast."
+				" "
+				"However it'll only smelt Ores \\& some other items."
+				" "
+				"&7Rewards: 1 EXP Level \\& 2x Iron Ingot"
+			]
+			id: "0000000000000151"
+			tasks: [{
+				id: "0000000000000152"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [
+				{
+					id: "0000000000000B58"
+					type: "xp_levels"
+					auto: "no_toast"
+					xp_levels: 1
+				}
+				{
+					id: "0000000000000BFF"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Smoking"
+			x: -2.0d
+			y: -1.0d
+			shape: "rsquare"
+			subtitle: "Construct a Smoker. An upgrade to the Furnace, cooks food twice as fast."
+			description: ["&7Rewards: 1 EXP Level \\& 2x Banana Nut Bread."]
+			id: "0000000000000153"
+			tasks: [{
+				id: "0000000000000154"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+			rewards: [
+				{
+					id: "0000000000000B59"
+					type: "xp_levels"
+					auto: "no_toast"
+					xp_levels: 1
+				}
+				{
+					id: "338DB723D5AC79DF"
+					type: "item"
+					item: "croptopia:banana_nut_bread"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "The Secrets of Enchanting"
+			x: 4.0d
+			y: 1.5d
+			subtitle: "Obtain an enchanting table, and begin to unveil the mystery."
+			description: ["&7Reward: 16x Bottle o' Enchanting."]
+			id: "49DEF5EC79FEC30C"
+			tasks: [{
+				id: "61DCD2059F721472"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [{
+				id: "1833F18A05ADA9FD"
+				type: "item"
+				item: "minecraft:experience_bottle"
+				count: 16
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			subtitle: "An upgrade to the Enchanting Table, choose your own enchantments."
+			description: [
+				"&7Note: This version of the Enchantment Table won't have any of Apotheosis's features."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["49DEF5EC79FEC30C"]
+			optional: true
+			id: "5B598BB19C766C3A"
+			tasks: [{
+				id: "227DB2E549C6BA2D"
+				type: "item"
+				item: "enchantinginfuser:enchanting_infuser"
+			}]
+			rewards: [{
+				id: "431E6485FB82EFB5"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			subtitle: "An upgrade to the Basic Enchanting Infuser, cheaper enchantment cost and more powerful."
+			description: [
+				"&7Note: This version of the Enchantment Table won't have any of Apotheosis's features."
+				""
+				"&7Reward: 1x Loot Bag"
+			]
+			dependencies: ["5B598BB19C766C3A"]
+			optional: true
+			id: "6A821BA2F15F9AD6"
+			tasks: [{
+				id: "30D791CB14CAB09D"
+				type: "item"
+				item: "enchantinginfuser:advanced_enchanting_infuser"
+			}]
+			rewards: [{
+				id: "4D8BF7774AD4EF12"
+				type: "item"
+				item: "lootbagmod:lootbag"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			subtitle: "Construct a Furnace Mk2"
+			description: [
+				"A *fairly* simple extension of the vanilla furnace."
+				""
+				"The Furnace Mk2 intends to stay within a defined design scope and prioritizes quality over quantity."
+				""
+				"Features include increasing the speed, fuel efficiency, and experience output of the furnace, and an item to manage the experience produced (and player's experience)."
+				""
+				"&7Reward: 2x EXP Level \\\\& 1x Attuned Crystal."
+			]
+			dependencies: [
+				"0000000000000100"
+				"0000000000000151"
+			]
+			optional: true
+			id: "225A91ECD5CBDB92"
+			tasks: [{
+				id: "5BCBDEA66C0A728B"
+				type: "item"
+				item: "furnacemk2:furnacemk2"
+			}]
+			rewards: [
+				{
+					id: "32BB75B9EF46CF0A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "296138E570F7CB22"
+					type: "item"
+					item: {
+						id: "furnacemk2:crystal_gem_item"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "thermal:smelter_recycle",
+  "ingredient": {
+    "tag": "forge:armor/electrum"
+  },
+  "result": [
+    {
+      "item": "immersiveengineering:ingot_electrum",
+      "count": 3
+    }
+  ],
+  "experience": 1.2
+}

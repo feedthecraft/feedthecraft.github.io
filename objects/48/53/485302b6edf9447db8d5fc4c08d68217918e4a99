@@ -1,0 +1,11 @@
+{
+	"type": "beyond_earth_giselle_addon:rolling",
+   "input": {
+      "item": "immersiveengineering:ingot_constantan"
+   },
+   "output": {
+      "item": "immersiveengineering:plate_constantan",
+      "count": 1
+   },
+   "cookTime": 200
+}

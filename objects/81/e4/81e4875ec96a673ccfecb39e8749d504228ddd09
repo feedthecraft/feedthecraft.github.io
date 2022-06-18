@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance": 0.33333334,
+      "output": {
+        "tag": "forge:dusts/tin"
+      }
+    }
+  ],
+  "result": {
+    "tag": "forge:dusts/tin"
+  },
+  "input": {
+    "tag": "forge:raw_materials/tin"
+  },
+  "energy": 6000
+}

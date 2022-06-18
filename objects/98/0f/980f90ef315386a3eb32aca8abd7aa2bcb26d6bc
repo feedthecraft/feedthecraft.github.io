@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "fff",
+    "fgf",
+    "gag"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:glowstone"
+    },
+    "f": {
+      "item": "minecraft:purple_wool"
+    },
+    "a": {
+      "tag": "comforts:sleeping_bag"
+    }
+  },
+  "result": {
+    "item": "cyclic:charm_invisible"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "blue_skies:gems/aquite"
+  },
+  "result": {
+    "item": "tnp:aquite_dust",
+    "count": 1
+  }
+}

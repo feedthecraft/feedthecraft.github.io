@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance": 0.04,
+      "output": {
+        "tag": "forge:dusts/quartz"
+      },
+      "conditions": [
+        {
+          "value": {
+            "tag": "forge:dusts/quartz",
+            "type": "forge:tag_empty"
+          },
+          "type": "forge:not"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "count": 4,
+    "base_ingredient": {
+      "tag": "forge:dusts/quartz"
+    }
+  },
+  "input": {
+    "tag": "forge:ores/quartz"
+  },
+  "energy": 6000
+}

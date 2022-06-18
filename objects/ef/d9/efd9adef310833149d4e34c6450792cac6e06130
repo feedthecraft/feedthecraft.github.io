@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "item": "ae2:fluix_crystal"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "ae2:fluix_dust"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "enigmaticlegacy:etherium_shovel"
+  },
+  "results": [
+    {
+      "item": "enigmaticlegacy:etherium_ingot",
+      "count": 1
+    },
+    {
+      "item": "enigmaticlegacy:ender_rod",
+      "count": 2
+    }
+  ]
+}

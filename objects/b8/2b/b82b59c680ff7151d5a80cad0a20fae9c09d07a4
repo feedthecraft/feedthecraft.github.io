@@ -1,0 +1,13 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:raw_materials/brilliant"
+  },
+  "result": [
+    {
+      "item": "tnp:brilliance_dust",
+      "count": 2
+    }
+  ],
+  "experience": 0.1
+}

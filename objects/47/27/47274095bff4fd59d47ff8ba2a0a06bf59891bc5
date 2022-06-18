@@ -1,0 +1,12 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "blue_skies:gems/aquite"
+	},
+	"output": [
+		{
+			"item": "tnp:aquite_dust",
+			"count": 1
+		}
+	]
+}

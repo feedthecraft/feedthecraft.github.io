@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RDR",
+    "ECE",
+    "RDR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "E": {
+      "item": "glassential:glass_ethereal"
+    },
+    "C": {
+      "item": "chunkloaders:advanced_chunk_loader"
+    }
+  },
+  "result": {
+    "item": "chunkloaders:ultimate_chunk_loader"
+  }
+}

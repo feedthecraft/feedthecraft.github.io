@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": "immersiveengineering:mold_plate",
+  "result": {
+    "item": "ftbic:carbon_plate"
+  },
+  "input": {
+    "item": "ftbic:carbon_fiber_mesh"
+  },
+  "energy": 2400
+}

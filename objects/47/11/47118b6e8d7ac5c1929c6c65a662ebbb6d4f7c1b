@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:raw_materials/tin"
+  },
+  "result": {
+    "item": "mekanism:dust_tin",
+    "count": 2
+  }
+}

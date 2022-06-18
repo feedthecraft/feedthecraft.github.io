@@ -1,0 +1,29 @@
+{
+	"type": "cyclic:crusher",
+	"input": {
+		"tag": "forge:ingots/uranium"
+	},
+	"energy": {
+		"ticks": 300,
+		"rfpertick": 30
+	},
+	"result": {
+		"item": "immersiveengineering:dust_uranium",
+		"count": 1
+	},
+	"conditions": [
+		{
+			"values": [
+				{
+					"modid": "cyclic",
+					"type": "forge:mod_loaded"
+				},
+				{
+					"item": "cyclic:crusher",
+					"type": "forge:item_exists"
+				}
+			],
+			"type": "forge:and"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:rolling",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/polarium"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "thermal_extra:polarium_plate",
+      "count": 1
+    }
+  ]
+}

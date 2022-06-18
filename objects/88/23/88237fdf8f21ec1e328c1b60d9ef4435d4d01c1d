@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:ancient_debris"
+  },
+  "result": {
+    "item": "minecraft:netherite_scrap",
+    "count": 2
+  }
+}

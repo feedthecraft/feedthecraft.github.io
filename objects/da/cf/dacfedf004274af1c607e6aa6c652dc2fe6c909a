@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal_extra:nectium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal_extra:nectium_plate"
+    }
+  ]
+}

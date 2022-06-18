@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+	"ingredients": [
+    {
+      "item": "oreberriesreplanted:zinc_oreberry"
+    }
+  ],
+  "results": [
+    {
+	  "item": "create:zinc_nugget"
+	},
+	{
+      "fluid": "oreberriesreplanted:zinc_oreberry_juice",
+	  "amount": 150
+    }
+  ]
+}

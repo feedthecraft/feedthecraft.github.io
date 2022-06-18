@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "count": 2,
+    "item": "silentgear:azure_silver_dust"
+  },
+  "input": {
+    "tag": "forge:ores/azure_silver"
+  }
+}

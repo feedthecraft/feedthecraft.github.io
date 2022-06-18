@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "count": 2,
+    "item": "immersiveengineering:dust_lead"
+  },
+  "input": {
+    "tag": "forge:ores/lead"
+  }
+}

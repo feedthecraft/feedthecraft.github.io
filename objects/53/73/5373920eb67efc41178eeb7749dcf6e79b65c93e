@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "everythingcopper:copper_shears"
+  },
+  "results": [
+    {
+      "item": "minecraft:copper_ingot",
+      "count": 6
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "blue_skies:pyrope_pickaxe"
+  },
+  "results": [
+    {
+      "item": "blue_skies:pyrope_gem",
+      "count": 3
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}

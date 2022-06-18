@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "pickletweaks:flint_shovel"
+  },
+  "results": [
+    {
+      "item": "minecraft:flint",
+      "count": 1
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}

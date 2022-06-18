@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "minecraft:iron_ingot"
+	},
+	"result": {
+		"item": "immersiveengineering:stick_iron",
+		"count": 2
+	}
+}

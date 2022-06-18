@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "immersiveengineering:armor_faraday_head"
+  },
+  "results": [
+    {
+      "item": "immersiveengineering:plate_aluminum",
+      "count": 5
+    }
+  ]
+}

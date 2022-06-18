@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance": 0.33333334,
+      "output": {
+        "tag": "forge:dusts/calorite"
+      }
+    }
+  ],
+  "result": {
+    "tag": "forge:dusts/calorite"
+  },
+  "input": {
+    "tag": "forge:raw_materials/calorite"
+  },
+  "energy": 6000
+}

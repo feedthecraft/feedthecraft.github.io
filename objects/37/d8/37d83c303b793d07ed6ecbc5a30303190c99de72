@@ -1,0 +1,10 @@
+{
+	"type": "crossroads:stamp_mill",
+	"output": {
+		"item": "tnp:raw_lead_grit",
+		"count": 3
+	},
+	"ingredient": {
+		"tag": "forge:raw_materials/lead"
+	}
+}

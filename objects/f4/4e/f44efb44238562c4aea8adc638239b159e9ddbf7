@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "EEE",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:rubber_essence"
+    }
+  },
+  "result": {
+    "item": "thermal:rubber",
+    "count": 8
+  }
+}

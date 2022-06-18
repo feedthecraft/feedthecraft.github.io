@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "blue_skies:ingots/falsite"
+    }
+  },
+  "output": {
+    "item": "tnp:falsite_dust"
+  }
+}

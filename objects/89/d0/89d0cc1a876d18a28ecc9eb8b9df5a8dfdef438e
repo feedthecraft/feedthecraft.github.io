@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+    "ingredients": [
+    {
+      "item": "oreberriesreplanted:lead_oreberry"
+    }
+  ],
+  "results": [
+    {
+	  "item": "immersiveengineering:nugget_lead"
+	},
+	{
+      "fluid": "oreberriesreplanted:lead_oreberry_juice",
+	  "amount": 150
+    }
+  ]
+}

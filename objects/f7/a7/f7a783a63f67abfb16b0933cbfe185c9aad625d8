@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "forge:ingots/electrum"
+  },
+  "result": {
+    "item": "immersiveengineering:dust_electrum",
+    "count": 2
+  },
+  "crushing_time": 100,
+}

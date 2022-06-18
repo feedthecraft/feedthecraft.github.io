@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "blue_skies:raw_materials/charoite"
+  },
+  "result": {
+    "item": "tnp:charoite_dust",
+    "count": 2
+  }
+}

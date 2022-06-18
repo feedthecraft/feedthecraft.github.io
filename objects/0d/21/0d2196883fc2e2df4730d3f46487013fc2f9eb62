@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "tag": "forge:dusts/certus_quartz"
+  },
+  "input": {
+    "item": "ae2:certus_quartz_crystal"
+  },
+  "energy": 3000
+}

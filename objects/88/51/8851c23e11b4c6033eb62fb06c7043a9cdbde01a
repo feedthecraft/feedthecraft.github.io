@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "create:zinc_ingot",
+  "result": {
+    "item": "create:zinc_ingot"
+  },
+  "pattern": [
+    "###",
+    "#*#",
+    "###"
+  ],
+  "key": {
+    "*": {
+      "item": "create:zinc_nugget"
+    },
+    "#": {
+      "tag": "forge:nuggets/zinc"
+    }
+  }
+}

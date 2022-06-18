@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "malum:soulstone_ore"
+    }
+  },
+  "output": {
+    "item": "tnp:soulstone_dust",
+    "count": 3
+  }
+}

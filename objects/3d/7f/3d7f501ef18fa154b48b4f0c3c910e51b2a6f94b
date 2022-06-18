@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "tnp:crushed_diopside_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "tnp:diopside_shard",
+      "count": 9
+    }
+  ]
+}

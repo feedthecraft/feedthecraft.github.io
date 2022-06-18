@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "botania:manasteel_sword"
+  },
+  "results": [
+    {
+      "item": "botania:manasteel_ingot",
+      "count": 2
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ]
+}

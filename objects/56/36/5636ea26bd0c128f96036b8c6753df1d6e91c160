@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "minecraft:emerald"
+  },
+  "result": {
+    "item": "mekanism:dust_emerald",
+    "count": 1
+  }
+}

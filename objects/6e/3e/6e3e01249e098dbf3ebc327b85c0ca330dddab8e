@@ -1,0 +1,11 @@
+{
+	"type": "beyond_earth:compressor",
+	"input": {
+		"tag": "forge:ingots/steel"
+	},
+	"output": {
+		"item": "immersiveengineering:plate_steel",
+		"count": 1
+	},
+	"cookTime": 200
+}

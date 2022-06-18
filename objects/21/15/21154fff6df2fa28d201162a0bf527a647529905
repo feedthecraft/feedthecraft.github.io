@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "tag": "blue_skies:ores/horizonite"
+    }
+  },
+  "output": {
+    "item": "tnp:horizonite_dust",
+    "count": 2
+  }
+}

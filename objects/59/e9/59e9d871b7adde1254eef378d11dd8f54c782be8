@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 3,
+    "base_ingredient": {
+    "tag": "forge:dusts/brilliance"
+    }
+  },
+  "input": {
+    "item": "malum:brilliant_deepslate"
+  },
+  "energy": 6000
+}

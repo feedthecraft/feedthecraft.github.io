@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [
+    {
+      "chance": 0.33333334,
+      "output": {
+        "tag": "forge:dusts/ventium"
+      }
+    }
+  ],
+  "result": {
+    "tag": "forge:dusts/ventium"
+  },
+  "input": {
+    "tag": "blue_skies:raw_materials/ventium"
+  },
+  "energy": 6000
+}

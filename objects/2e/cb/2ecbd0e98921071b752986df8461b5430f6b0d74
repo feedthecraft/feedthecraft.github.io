@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "undergarden:forgotten_battleaxe"
+  },
+  "results": [
+    {
+      "item": "undergarden:forgotten_ingot",
+      "count": 1
+    },
+    {
+      "item": "undergarden:cloggrum_battleaxe"
+    }
+  ]
+}

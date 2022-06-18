@@ -1,0 +1,11 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "byg:ametrine_leggings"
+  },
+  "results": [
+    {
+      "item": "byg:ametrine_block"
+    }
+  ]
+}

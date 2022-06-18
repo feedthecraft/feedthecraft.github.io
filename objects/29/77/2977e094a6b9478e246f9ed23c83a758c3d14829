@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "bno:nether_uranium_ore"
+  },
+  "result": {
+    "item": "immersiveengineering:dust_uranium",
+    "count": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"type": "cyclic:crusher",
+	"input": {
+		"item": "mekanism:ingot_refined_obsidian"
+	},
+	"energy": {
+		"ticks": 300,
+		"rfpertick": 30
+	},
+	"result": {
+		"item": "mekanism:dust_refined_obsidian",
+		"count": 1
+	},
+	"conditions": [
+		{
+			"values": [
+				{
+					"modid": "cyclic",
+					"type": "forge:mod_loaded"
+				},
+				{
+					"item": "cyclic:crusher",
+					"type": "forge:item_exists"
+				}
+			],
+			"type": "forge:and"
+		}
+	]
+}

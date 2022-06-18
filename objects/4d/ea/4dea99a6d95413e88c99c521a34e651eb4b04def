@@ -1,0 +1,11 @@
+{
+	"type": "beyond_earth_giselle_addon:rolling",
+   "input": {
+      "item": "create:zinc_ingot"
+   },
+   "output": {
+      "item": "createaddition:zinc_sheet",
+      "count": 1
+   },
+   "cookTime": 200
+}

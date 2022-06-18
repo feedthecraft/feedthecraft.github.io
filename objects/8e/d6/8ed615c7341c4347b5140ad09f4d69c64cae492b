@@ -1,0 +1,17 @@
+{
+    "primaryColor": "#e4ff95",
+    "secondaryColor": "#c9ab4b",
+    "particleColor": "#f1f372",
+    "createComb": false,
+    "renderer": "default_crystal",
+    "flowerBlock": "emendatusenigmatica:sulfur_block",
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:dusts/sulfur"
+            }
+        }
+    ]
+}

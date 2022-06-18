@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "blue_skies:raw_materials/charoite"
+  },
+  "result": {
+    "item": "tnp:charoite_dust",
+    "count": 2
+  },
+  "crushing_time": 200
+}

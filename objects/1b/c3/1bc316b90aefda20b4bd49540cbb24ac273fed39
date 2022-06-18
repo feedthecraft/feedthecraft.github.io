@@ -1,0 +1,11 @@
+{
+	id: "01EE52C261E94FB5"
+	order_index: 5
+	title: "lootbagpieces"
+	loot_size: 1
+	rewards: [
+		{ item: "tnp:lootbag_piece", count: 4, weight: 3 }
+		{ item: "tnp:lootbag_piece", count: 5 }
+		{ item: "tnp:lootbag_piece", count: 3, weight: 2 }
+	]
+}

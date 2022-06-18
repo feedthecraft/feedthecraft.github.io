@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "croptopia:broccoli",
+      "count": 2
+    },
+    {
+      "item": "croptopia:broccoli_seed",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "croptopia:broccoli_seed"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "croptopia:broccoli_crop"
+  }
+}

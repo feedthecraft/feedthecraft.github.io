@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 2,
+    "base_ingredient": {
+    "tag": "forge:dusts/osmium"
+    }
+  },
+  "input": {
+    "tag": "forge:ores/osmium"
+  },
+  "energy": 6000
+}

@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "tnp:cobalt_dust"
+  },
+  "input": {
+    "item": "tconstruct:cobalt_ingot"
+  }
+}

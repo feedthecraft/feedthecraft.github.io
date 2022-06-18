@@ -1,0 +1,16 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/crimson_steel"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "silentgear:crimson_steel_dust"
+    }
+  ]
+}

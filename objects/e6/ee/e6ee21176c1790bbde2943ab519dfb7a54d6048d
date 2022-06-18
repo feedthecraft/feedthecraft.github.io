@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mcwpaths"
+    }
+  ],
+  "type": "corail_woodcutter:woodcutting",
+  "ingredient": {
+    "item": "minecraft:dark_oak_slab"
+  },
+  "result": "mcwpaths:dark_oak_planks_path",
+  "count": 3
+}

@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:raw_materials/desh"
+  },
+  "result": {
+    "item": "tnp:desh_dust",
+    "count": 2
+  }
+}

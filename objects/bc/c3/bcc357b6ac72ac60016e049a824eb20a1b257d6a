@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal:enderium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:enderium_plate"
+    }
+  ]
+}

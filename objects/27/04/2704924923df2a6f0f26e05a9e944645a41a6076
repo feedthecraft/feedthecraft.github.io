@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "blue_skies:pyrope_chestplate"
+  },
+  "results": [
+    {
+      "item": "blue_skies:pyrope_gem",
+      "count": 8
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "forge:raw_materials/aluminum"
+	},
+	"output": [
+		{
+			"item": "immersiveengineering:dust_aluminum",
+			"count": 2
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "botania:manasteel_helmet"
+  },
+  "results": [
+    {
+      "item": "botania:manasteel_ingot",
+      "count": 5
+    }
+  ]
+}

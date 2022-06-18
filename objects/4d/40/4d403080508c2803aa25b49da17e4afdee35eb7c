@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:bronze_boots"
+  },
+  "results": [
+    {
+      "item": "mekanism:ingot_bronze",
+      "count": 4
+    }
+  ]
+}

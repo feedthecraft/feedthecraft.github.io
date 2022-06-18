@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "occultism:iesnium_dust"
+  },
+  "input": {
+    "item": "occultism:iesnium_ingot"
+  }
+}

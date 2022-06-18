@@ -1,0 +1,17 @@
+{
+  "type": "ftbic:macerating",
+  "inputItems": [
+    {
+      "ingredient": {
+        "tag": "forge:ores/iesnium"
+      },
+      "count": 1
+    }
+  ],
+  "outputItems": [
+    {
+      "item": "occultism:iesnium_dust",
+      "count": 2
+    }
+  ]
+}

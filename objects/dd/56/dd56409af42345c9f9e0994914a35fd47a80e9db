@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mcwpaths"
+    }
+  ],
+  "type": "corail_woodcutter:woodcutting",
+  "ingredient": {
+    "item": "minecraft:jungle_slab"
+  },
+  "result": "mcwpaths:jungle_planks_path",
+  "count": 3
+}

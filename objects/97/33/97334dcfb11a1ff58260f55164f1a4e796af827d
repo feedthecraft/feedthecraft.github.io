@@ -1,0 +1,10 @@
+{
+  "name": "Universal Mass",
+  "colors": [
+    "ebb4de",
+    "ebb4de"
+  ],
+  "ingredient": {
+    "item": "kubejs:uu_matter_2"
+  }
+}

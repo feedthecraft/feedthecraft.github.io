@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal_extra:nebulium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal_extra:nebulium_plate"
+    }
+  ]
+}

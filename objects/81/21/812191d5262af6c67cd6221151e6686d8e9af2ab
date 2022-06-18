@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "count": 2,
+    "item": "mekanism:dust_diamond"
+  },
+  "input": {
+    "tag": "forge:ores/diamond"
+  }
+}

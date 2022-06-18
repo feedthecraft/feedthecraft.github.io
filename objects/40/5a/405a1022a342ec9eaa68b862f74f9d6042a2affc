@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:osmium_pickaxe"
+  },
+  "results": [
+    {
+      "item": "mekanism:ingot_osmium",
+      "count": 3
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}

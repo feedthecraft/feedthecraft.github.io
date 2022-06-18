@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "immersiveengineering:raw_nickel"
+  },
+  "result": {
+    "item": "immersiveengineering:dust_nickel",
+    "count": 2
+  }
+}

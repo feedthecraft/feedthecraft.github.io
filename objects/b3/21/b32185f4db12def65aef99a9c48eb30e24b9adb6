@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:refined_obsidian_leggings"
+  },
+  "results": [
+    {
+      "item": "mekanism:ingot_refined_obsidian",
+      "count": 7
+    }
+  ]
+}

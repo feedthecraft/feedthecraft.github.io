@@ -1,0 +1,37 @@
+["!local"]
+rockTexture = "minecraft:block/stone"
+
+[":ore_aluminum"]
+oreTexture = ":block/metal/ore_aluminum"
+
+[":ore_lead"]
+oreTexture = ":block/metal/ore_lead"
+
+[":ore_silver"]
+oreTexture = ":block/metal/ore_silver"
+
+[":ore_nickel"]
+oreTexture = ":block/metal/ore_nickel"
+
+[":ore_uranium"]
+oreTexture = ":block/metal/ore_uranium"
+
+[":deepslate_ore_aluminum"]
+oreTexture = ":block/metal/deepslate_ore_aluminum"
+rockTexture = ":block/deepslate"
+
+[":deepslate_ore_lead"]
+oreTexture = ":block/metal/deepslate_ore_lead"
+rockTexture = "minecraft:block/deepslate"
+
+[":deepslate_ore_silver"]
+oreTexture = ":block/metal/deepslate_ore_silver"
+rockTexture = "minecraft:block/deepslate"
+
+[":deepslate_ore_nickel"]
+oreTexture = ":block/metal/deepslate_ore_nickel"
+rockTexture = "minecraft:block/deepslate"
+
+[":deepslate_ore_uranium"]
+oreTexture = ":block/metal/deepslate_ore_uranium"
+rockTexture = "minecraft:block/deepslate"

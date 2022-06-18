@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/fluorite"
+  },
+  "result": {
+    "item": "mekanism:dust_fluorite",
+    "count": 2
+  }
+}

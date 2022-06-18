@@ -1,0 +1,10 @@
+{
+	"type": "crossroads:stamp_mill",
+	"output": {
+		"item": "tnp:raw_nickel_grit",
+		"count": 3
+	},
+	"ingredient": {
+		"tag": "forge:ores/nickel"
+	}
+}

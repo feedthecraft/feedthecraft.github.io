@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:raw_materials/iridium"
+  },
+  "result": {
+    "item": "ftbic:iridium_dust",
+    "count": 2
+  }
+}

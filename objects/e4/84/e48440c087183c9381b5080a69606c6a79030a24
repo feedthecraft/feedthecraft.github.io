@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/silver"
+  },
+  "result": {
+    "item": "immersiveengineering:dust_silver",
+    "count": 2
+  }
+}

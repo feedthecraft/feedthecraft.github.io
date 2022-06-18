@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "immersiveengineering:raw_aluminum"
+  },
+  "result": {
+    "item": "immersiveengineering:dust_aluminum",
+    "count": 2
+  }
+}

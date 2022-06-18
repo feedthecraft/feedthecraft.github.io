@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "tag": "blue_skies:ingots/horizonite"
+    }
+  },
+  "output": {
+    "item": "tnp:horizonite_dust"
+  }
+}

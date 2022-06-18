@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "everythingcopper:copper_leggings"
+  },
+  "results": [
+    {
+      "item": "minecraft:copper_ingot",
+      "count": 7
+    }
+  ]
+}

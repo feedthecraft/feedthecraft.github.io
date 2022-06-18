@@ -1,0 +1,14 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "tnp:crushed_iesnium_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "occultism:iesnium_nugget",
+      "count": 9
+    }
+  ]
+}

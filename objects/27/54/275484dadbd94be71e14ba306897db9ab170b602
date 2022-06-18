@@ -1,0 +1,16 @@
+{
+	"type": "crossroads:mill",
+	"input": {
+		"tag": "blue_skies:ores/falsite"
+	},
+	"output": [
+		{
+			"item": "blue_skies:raw_falsite",
+			"count": 3
+		},
+		{
+			"item": "sand",
+			"count": 1
+		}
+	]
+}

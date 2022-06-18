@@ -1,0 +1,19 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "enigmaticlegacy:etherium_sword"
+  },
+  "results": [
+    {
+      "item": "enigmaticlegacy:etherium_ingot",
+      "count": 2
+    },
+    {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    {
+      "item": "minecraft:diamond",
+      "count": 2
+    }
+  ]
+}

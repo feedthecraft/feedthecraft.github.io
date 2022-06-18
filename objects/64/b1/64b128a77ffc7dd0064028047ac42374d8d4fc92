@@ -1,0 +1,17 @@
+
+[soaring_island_separation]
+	#The higher the value the rarer the islands appear
+	#	
+	#	3 - very often
+	#	
+	#	34 - 40 - normal value
+	#
+	#	100+  -  very rare
+	#Range: 3 ~ 1000
+	separation = 100
+
+[soaring_island_height]
+	#Height of the islands above the ground
+	#Range: 1 ~ 120
+	height = 75
+

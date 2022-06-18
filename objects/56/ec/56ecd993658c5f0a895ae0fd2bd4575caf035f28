@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:steel_shield"
+  },
+  "results": [
+    {
+      "item": "immersiveengineering:ingot_steel",
+      "count": 6
+    },
+    {
+      "item": "minecraft:shield"
+    }
+  ]
+}

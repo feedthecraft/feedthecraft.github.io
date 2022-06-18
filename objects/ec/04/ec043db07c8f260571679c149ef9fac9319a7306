@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "ae2:sky_stone_block"
+  },
+  "result": {
+    "item": "ae2:sky_dust",
+    "count": 2
+  }
+}

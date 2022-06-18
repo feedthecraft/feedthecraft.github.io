@@ -1,0 +1,42 @@
+{
+  "group": "irongenerators",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ingots/invar"
+    },
+    "1": {
+      "tag": "forge:storage_blocks/invar"
+    },
+    "2": {
+      "tag": "forge:ingots/invar"
+    },
+    "3": {
+      "tag": "forge:storage_blocks/invar"
+    },
+    "4": {
+      "item": "irongenerators:stone_generator"
+    },
+    "5": {
+      "tag": "forge:storage_blocks/invar"
+    },
+    "6": {
+      "tag": "forge:ingots/invar"
+    },
+    "7": {
+      "tag": "forge:storage_blocks/invar"
+    },
+    "8": {
+      "tag": "forge:ingots/invar"
+    }
+  },
+  "result": {
+    "item": "irongenerators:invar_generator",
+    "count": 1
+  }
+}

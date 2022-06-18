@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [
+    {
+      "tag": "forge:ingots/osmium"
+    }
+  ],
+  "additives": [],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:ingots/osmium"
+      }
+    }
+  ],
+  "input": {
+    "tag": "forge:raw_materials/osmium"
+  },
+  "time": 100,
+  "energy": 25600
+}

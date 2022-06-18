@@ -1,0 +1,18 @@
+{
+    "type": "crossroads:centrifuge",
+    "active": true,
+    "input": {
+        "fluid": "oreberriesreplanted:osmium_oreberry_juice",
+        "amount": 50
+    },
+    "output_fluid": {
+        "fluid": "minecraft:water",
+        "amount": 20
+    },
+    "output": [
+        {
+            "item": "mekanism:nugget_osmium",
+            "count": 1
+        }
+    ]
+}

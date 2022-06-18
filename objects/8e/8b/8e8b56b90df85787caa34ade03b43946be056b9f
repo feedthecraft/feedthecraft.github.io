@@ -1,0 +1,11 @@
+{
+	"type": "beyond_earth_giselle_addon:rolling",
+   "input": {
+      "item": "mekanism:ingot_tin"
+   },
+   "output": {
+      "item": "thermal:tin_plate",
+      "count": 1
+   },
+   "cookTime": 200
+}

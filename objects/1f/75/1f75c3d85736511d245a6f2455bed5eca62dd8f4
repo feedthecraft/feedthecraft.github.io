@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "malum:brilliant_deepslate"
+  },
+  "result": {
+    "item": "tnp:brilliance_dust",
+    "count": 3
+  }
+}
